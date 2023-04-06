@@ -1674,6 +1674,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 江南大学
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/jiangnanedu/yz/sszs" path="/jiangnanedu/yz/:type" :paramsDesc="['分类，见下表']">
+
+| sszs     | bszs     | gatzs      | xzzq     |
+| -------- | -------- | ---------- | -------- |
+| 硕士招生 | 博士招生 | 港澳台招生 | 下载专区 |
+
+</Route>
+
 ### 教务处通知
 
 <Route author="Chingyat" example="/ju/jwc/all" path="/ju/jwc/:type?" :paramsDesc="['默认为 `all`']">
@@ -2702,6 +2712,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="nczitzk" example="/scvtc/xygg" path="/scvtc/xygg" />
 
+## 苏州大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sudaedu/yjs/8365" path="/sudaedu/yjs/:type?" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 招生工作 | 博士招生 | 硕士招生 | 港澳台研究生招生 |
+| -------- | -------- | -------- | ---------------- |
+| 8365     | 8385     | 8386     | 8387             |
+
+</Route>
+
 ## 苏州科技大学
 
 ### 教务处
@@ -3681,6 +3703,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="shengmaosu" example="/cauele" path="/cauele" />
 
 ## 中国人民大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/ruc/pgs/sszs" path="/ruc/pgs/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生 | 博士招生 | 港澳台生 | 国际学生 |
+| -------- | -------- | -------- | -------- |
+| sszs     | bszs     | gats     | gjxs     |
+
+</Route>
 
 ### 人事处
 
