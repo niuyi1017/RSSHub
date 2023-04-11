@@ -995,6 +995,19 @@ pageClass: routes
 
 </Route>
 
+## 东北师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/nenu/yjsy/z_s1-s_s-j_z" path="/nenu/yjsy/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
+
+| Id           | 名称         |
+| ------------ | ------------ |
+| z_s1-s_s-j_z | 招生硕士简章 |
+| z_s1-s_s-b_m | 招生硕士报名 |
+
+</Route>
+
 ## 东莞理工学院
 
 ### 教务处通知
@@ -2011,6 +2024,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 南京医科大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/njmu/yjszs/10166" path="/njmu/yjszs/:type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1">
+
+| 硕士招生 | 硕士招生动态 | 硕士招生简章 | 硕士招生政策 | 硕士信息公开 | 硕士历年情况 | 硕士有关下载 |
+| -------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 10166    | 10193        | 10194        | 10195        | 10196        | 10197        | 10198        |
+
+</Route>
+
 ## 南京理工大学
 
 ### 教务处
@@ -2434,6 +2459,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 山东财经大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/sdufe/yjszs/tzgg" path="/sdufe/yjszs/:type" :paramsDesc="['专栏名称，见下表，也可在对应页面的URL中找到']" radar="1" rssbud="1">
+
+| 通知公告 | 招生简章 | 专业目录 | 硕士历年分数线 | 博士历年分数线 |
+| -------- | -------- | -------- | -------------- | -------------- |
+| tzgg     | zsjz     | zyml     | sslnfsx        | bslnfsx        |
+
+</Route>
+
 ## 上海大学
 
 ### 上海大学官网信息
@@ -2660,6 +2697,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 首都医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ccmu/yjsh/8365" path="/ccmu/yjsh/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 硕士招生  | 博士招生  | 政策法规  | 港澳台招生 | 下载园地  | 招生简章  | 历年情况  |
+| --------- | --------- | --------- | ---------- | --------- | --------- | --------- |
+| zsgz-sszs | zsgz-bszs | zsgz-zcfg | zsgz-gatzs | zsgz-xzyd | zsgz-zsjz | zsgz-lnqk |
+
+</Route>
+
 ## 四川大学
 
 ### 教务处通知公告
@@ -2736,7 +2785,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/sudaedu/yjs/8365" path="/sudaedu/yjs/:type?" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+<Route author="yanbot-team" example="/sudaedu/yjs/8365" path="/sudaedu/yjs/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
 
 | 招生工作 | 博士招生 | 硕士招生 | 港澳台研究生招生 |
 | -------- | -------- | -------- | ---------------- |
