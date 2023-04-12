@@ -220,6 +220,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/buaa/yzb/xlss" path="/buaa/yzb/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1">
+
+| 学历硕士 | 资讯速递 |
+| -------- | -------- |
+| xlss     | zxsd     |
+
+</Route>
+
 ## 北京交通大学
 
 ### 研究生院
@@ -358,6 +368,18 @@ pageClass: routes
 
 </Route>
 
+## 北京外国语大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bfsu/graduate/zsxx-sszs" path="/bfsu/graduate/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 招生信息硕士招生 | 招生信息博士招生 | 新闻通知 |
+| ---------------- | ---------------- | -------- |
+| zsxx-sszs        | zsxx-bszs        | xwtz     |
+
+</Route>
+
 ## 北京物资学院
 
 ### 通知公告
@@ -421,7 +443,7 @@ pageClass: routes
 
 ### 研究生招生网
 
-<Route author="yanbot-team" example="/cust/yzb/:type" path="/cust/yzb/:type" :paramsDesc="['分类type,见下表']">
+<Route author="yanbot-team" example="/cust/yzb/:type" path="/cust/yzb/:type" :paramsDesc="['分类type,见下表']" radar="1" >
 
 | 硕士生招生 | 博士生招生 |
 | ---------- | ---------- |
@@ -1685,7 +1707,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 暨南大学
 
-## 暨南要闻
+### 暨南要闻
 
 <Route author="hang333" example="/jnu/yw/tt" path="/jnu/yw/:type?" :paramDesc="['暨南要闻类型，默认为 `yw`']">
 
@@ -1702,6 +1724,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 院系速递 | 部门快讯 |
 | -------- | -------- |
 | yxsd     | bmkx     |
+
+</Route>
+
+### 研究生招生信息网
+
+<Route author="yanbot" example="/jnu/yz/tzgg" path="/jnu/yz/:type" :paramDesc="['分类id，见下表']">
+
+| 通知公告 | 硕士招生简章 |
+| -------- | ------------ |
+| tzgg     | sszsjz       |
 
 </Route>
 
@@ -2353,6 +2385,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="SunBK201" example="/qlu/notice" path="/qlu/notice" radar="1" />
 
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/qlu/yjszs/6601" path="/qlu/yjszs/:type" :paramsDesc="['分类id，见下表']">
+
+| 通知公告 | 硕士招生简章 | 信息发布 | 信息查询 | 考试大纲 |
+| -------- | ------------ | -------- | -------- | -------- |
+| 6601     | sszsjz       | 6602     | 6603     | ksdg     |
+
+</Route>
+
 ## 清华大学
 
 ### 清华大学校内信息发布平台
@@ -2701,7 +2743,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/ccmu/yjsh/8365" path="/ccmu/yjsh/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+<Route author="yanbot-team" example="/ccmu/yjsh/zsgz-sszs" path="/ccmu/yjsh/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
 
 | 硕士招生  | 博士招生  | 政策法规  | 港澳台招生 | 下载园地  | 招生简章  | 历年情况  |
 | --------- | --------- | --------- | ---------- | --------- | --------- | --------- |
@@ -2718,6 +2760,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 学工部通知公告
 
 <Route author="stevelee477" example="/scu/xg/notice" path="/scu/xg/notice" />
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/scu/yz/" path="/scu/yz/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 硕士公告通知 | 夏令营 | 硕士章程 | 历年数据 | 信息公开 |
+| ------------ | ------ | -------- | -------- | -------- |
+| ss-gg        | zt-1   | ss-zc    | a-ls     | a-gk     |
+
+</Route>
 
 ## 四川旅游学院
 
@@ -2852,6 +2904,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 |  notice  |  master  |  doctor  |   job    |
 
 </Route>
+
+## 天津师范大学
+
+<Route author="yanbot-team" example="/tjnu/yjsy/notice" path="/tjnu/yjsy/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士研究生招生 | 招生信息 |
+| :------------: | :------: |
+| zsxx1-ssyjszs  |   zsxx   |
+
+</Route>
+
+### 研究生院
 
 ## 同济大学
 
