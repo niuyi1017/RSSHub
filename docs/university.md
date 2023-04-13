@@ -1108,19 +1108,33 @@ pageClass: routes
 
 ### 教务处通知
 
-<Route author="Lao-Liu233" example="/fzu/jxtz" path="/fzu/:type" :paramsDesc="['分类见下表']"/>
+<Route author="Lao-Liu233" example="/fzu/jxtz" path="/fzu/:type" :paramsDesc="['分类见下表']">
 
 | 教学通知 | 专家讲座 |
 | -------- | -------- |
 | jxtz     | zjjz     |
+
+</Route>
 
 ### 教务处通知（无文章内容）
 
-<Route author="Lao-Liu233" example="/fzu_min/jxtz" path="/fzu_min/:type" :paramsDesc="['分类见下表']"/>
+<Route author="Lao-Liu233" example="/fzu_min/jxtz" path="/fzu_min/:type" :paramsDesc="['分类见下表']">
 
 | 教学通知 | 专家讲座 |
 | -------- | -------- |
 | jxtz     | zjjz     |
+
+</Route>
+
+### 研究生院
+
+<Route author="yan-bot" example="/fzu/yjsy/index-tzgg" path="/fzu/yjsy/:type" :paramsDesc="['分类见下表']" radar="1" rssbud="1">
+
+| 通知公告   | 硕士研究生招生 | 文件规定  | 博士研究生招生 | 在职研究生招生 | 港澳台研究生招生 | 外国留学生研究生招生 |
+| ---------- | -------------- | --------- | -------------- | -------------- | ---------------- | -------------------- |
+| index-tzgg | asgz-ssyjszs   | zsgz-wjgd | zsgz-bsyjszs   | zsgz-zzyjszs   | zsgz-gatyjszs    | zsgz-wglxsyjszs      |
+
+</Route>
 
 ## 复旦大学继续教育学院
 
@@ -1267,6 +1281,16 @@ category 列表：
 | 通知公告 | 新闻动态 | 学籍注册 | 奖助学金 | 其他 |
 | :------: | :------: | :------: | :------: | :--: |
 |   2981   |   2980   |   3009   |   3011   | ...  |
+
+</Route>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/hrbeu/yzb/3279" path="/hrbeu/yzb/:type" :paramsDesc="['栏目编号，由 `URL` 中获取。']" radar="1" rssbud="1">
+
+| 招生公告 | 招生简章 | 专业目录 | 工作办法 | 其他 |
+| :------: | :------: | :------: | :------: | :--: |
+|   3279   |   3279   |   3277   |   3280   | ...  |
 
 </Route>
 
@@ -2763,7 +2787,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/scu/yz/" path="/scu/yz/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+<Route author="yanbot-team" example="/scu/yz/ss-gg" path="/scu/yz/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
 
 | 硕士公告通知 | 夏令营 | 硕士章程 | 历年数据 | 信息公开 |
 | ------------ | ------ | -------- | -------- | -------- |
@@ -2907,7 +2931,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 天津师范大学
 
-<Route author="yanbot-team" example="/tjnu/yjsy/notice" path="/tjnu/yjsy/:type" :paramsDesc="['分类，见下表']">
+<Route author="yanbot-team" example="/tjnu/yjsy/zsxx1-ssyjszs" path="/tjnu/yjsy/:type" :paramsDesc="['分类，见下表']">
 
 | 硕士研究生招生 | 招生信息 |
 | :------------: | :------: |
@@ -3026,6 +3050,17 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 珞珈副刊 |   ljfk   |
 | 校史钩沉 |   xsgc   |
 | 来稿选登 |   lgxd   |
+
+</Route>
+
+### 研究生招生信息网
+
+<Route author="yanbot" example="/whu/wdyz/index-show-tid-7" path="/whu/wdyz/:type"
+:paramsDesc="['类型，详见表格']">
+
+| 硕士招生 | 普通硕士 | 夏令营 | 推荐免试 | 非全日制招生 |
+| -------- | -------- | ------ | -------- | ------------ |
+| 7        | 35       | 35     | 41       | 42           |
 
 </Route>
 
@@ -3193,6 +3228,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安外国语大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/xisu/yzw/index-sstzgg" path="/xisu/yzw/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+
+| 硕士通知公告 | 硕士简章  | 硕士推免招生 | 信息公开 |  研招资讯  |
+| :----------: | :-------: | :----------: | :------: | :--------: |
+| index-sstzgg | zsjz-ssjz | zsjz-sstmsjz |  xxgk1   | index-yzzx |
+
+</Route>
+
 ## 西北工业大学
 
 ### 翱翔门户
@@ -3254,6 +3301,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院新闻 | 通知公告 |
 | -------- | -------- |
 | xyxw     | tzgg     |
+
+</Route>
+
+## 西南大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/swu/yanzhao/news1" path="/swu/yanzhao/:type" :paramsDesc="['分类名，见下表']" radar="1">
+
+| 最新动态 | 全日制硕士招生 | 博士招生 | 非全日制硕士 |
+| -------- | -------------- | -------- | ------------ |
+| news1    | news2          | news3    | news4        |
 
 </Route>
 
@@ -3384,6 +3443,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 主考专业 | 规章制度 | 实践课程 | 毕业论文 | 学士学位 | 自考毕业 | 自考教材 | 自考指南 | 联系我们 | 自考资讯 | 报名指南 | 日程安排 | 新生入门 | 转考免考 | 复习资料 |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | zkzy     | gzzd     | sjkc     | bylw     | xsxw     | zkby     | zkjc     | zkzn     | lxwm     | zkzx     | bmzn     | rcap     | xsrm     | zkmk     | fxzl     |
+
+</Route>
+
+## 徐州医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xzhmu/yjs/zs-sszs" path="/xzhmu/yjs/:type" :paramsDesc="['分类名，见下表']">
+
+| 招生 | 招生-硕士招生 | 招生-博士招生 | 招生政策 | 同力申硕 | 推免专栏 |
+| ---- | ------------- | ------------- | -------- | -------- | -------- |
+| 招生 | zs-sszs       | zs-bszs       | zs-zszc  | zs-tlss  | zs-tmzl  |
 
 </Route>
 
