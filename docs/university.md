@@ -582,6 +582,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/cqu/yz/ss_news" path="/cqu/yz/:type" :paramsDesc="['分类名']">
+
+| 硕士招生-通知公告 | 硕士招生-信息公示 |
+| ----------------- | ----------------- |
+| ss_news           | ss_pub            |
+
+</Route>
+
 ## 重庆科技学院
 
 ### 教务处公告
@@ -1130,7 +1140,7 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/fjnu/yjsy/" path="/fjnu/yjsy/:type" :paramsDesc="['分类见下表']">
+<Route author="yanbot-team" example="/fjnu/yjsy/4227" path="/fjnu/yjsy/:type" :paramsDesc="['分类见下表']">
 
 | 硕士研究生 | 港澳台研究生 | 博士研究生 | 文档下载 |
 | ---------- | ------------ | ---------- | -------- |
@@ -1433,6 +1443,16 @@ category 列表：
 
 </Route>
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/hitsz/yzb/04" path="/hitsz/yzb/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士公告 | 推荐免试 | 统考考生 | 招生简章 | 硕博连读 | 博士公告 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| 04       | 01       | 02       | 00       | 11       | 15       |
+
+</Route>
+
 ## 哈尔滨工业大学（威海）
 
 ### 今日工大 - 通知公告
@@ -1612,6 +1632,18 @@ category 列表：
 ::: warning 注意
 jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS_REJECT_UNAUTHORIZED = 0
 :::
+
+## 湖南大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hnu/gra/zsxx" path="/hnu/gra/zsxx"  :paramsDesc="['分类']">
+
+| 招生信息 |
+| -------- |
+| zsxx     |
+
+</Route>
 
 ## 湖南科技大学
 
@@ -2633,7 +2665,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/njupt/yzb/7797" path="/njupt/yzb/:type?" :paramsDesc="['见下表，也可在页面URL中找到']">
+<Route author="yanbot-team" example="/njupt/yzb/7797" path="/njupt/yzb/:type" :paramsDesc="['见下表，也可在页面URL中找到']">
 
 | 硕士招生动态 | 硕士招生目录 | 统考考生 | 推免生 |
 | ------------ | ------------ | -------- | ------ |
@@ -2652,6 +2684,14 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 1        | 2        |
 
 </Route>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/nku/yzb/5509" path="/nku/yzb/:type" :paramsDesc="['见下表，也可在页面URL中找到']">
+
+| 硕士招生 | 博士招生 | 港澳台招生 | 推免生 |
+| -------- | -------- | ---------- | ------ |
+| 5509     | 2552     | 2553       | 7800   |
 
 ## 宁波大学
 
@@ -2696,6 +2736,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ::: warning 注意
 由于学校通知仅允许校园网访问，需自行部署。
 :::
+
+### 研究生招生网
+
+<Route author="yanbto-team" example="/tsinghua/yz/zsxx-sszs-ptzk " path="/tsinghua/yz/:type" :paramsDesc="['分类type，见下表']">
+
+| 硕士招生-普通招考 | 硕士招生-推荐免试 | 硕士招生简章目录 |
+| ----------------- | ----------------- | ---------------- |
+| zsxx-sszs-ptzk    | zsxx-sszs-ptzk    | zsxx-sszs-jzml   |
+
+</Route>
 
 ### 清华大学招聘信息
 
@@ -4036,6 +4086,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/zzu/yz/1070" path="zzu/yz:type"  :paramsDesc="['可选，见下表，也可在页面URL中找到']">
+
+| 参数名称 | 通知公告 | 硕士招生 | 夏令营 |
+| -------- | -------- | -------- | ------ |
+| 参数     | 1070     | 1092     | 1101   |
+
+</Route>
+
 ## 郑州轻工业大学
 
 ### 智慧门户
@@ -4234,7 +4294,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生网
 
-<Route author="yanbot-team" example="/cmut/yz/sszs" path="/cmut/yz/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
+<Route author="yanbot-team" example="/cumt/yz/sszs" path="/cumt/yz/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
 
 | 招聘类型 | 硕士招生 | 港澳台招生 |
 | :------: | :------: | :--------: |
