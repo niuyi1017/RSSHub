@@ -208,6 +208,18 @@ pageClass: routes
 
 <Route author="legr4ndk" example="/pku/ss/pgadmin" path="/pku/ss/pgadmin" radar="1" rssbud="1"/>
 
+## 北京工业大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/bjut/yanzhao/sszs-sszs" path="/bjut/yanzhao/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1">
+
+| 硕士招生  | 通知公告 | 招生简章及专业目录 | 博士招生 |
+| --------- | -------- | ------------------ | -------- |
+| sszs-sszs | tzgg     | zsjzjzyml          | bszs     |
+
+</Route>
+
 ## 北京航空航天大学
 
 ### 北京航空航天大学
@@ -1179,6 +1191,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/uibe/yjsy/400" path="/uibe/yjsy/:type" :paramsDesc="['分类见下表']">
+
+| 硕士生招生 | 推免生招生 | 历年数据统计 | 博士生招生 |
+| ---------- | ---------- | ------------ | ---------- |
+| 400        | 403        | 406          | 401        |
+
+</Route>
+
 ## 福建师范大学
 
 ### 研究生院
@@ -1258,6 +1280,18 @@ pageClass: routes
 ### 广东海洋大学
 
 <Route author="Xiaotouming" example="/gdoujwc" path="/gdoujwc"/>
+
+## 广西大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gxu/yjsc/zsgz1-sszs" path="/gxu/yjsc/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+
+| 硕士招生   | 推免招生    |
+| ---------- | ----------- |
+| zsgz1-sszs | zsgz1-tmszs |
+
+</Route>
 
 ## 广州大学
 
@@ -3179,6 +3213,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 陕西师范大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/snnu/yz/tzgg-ssyjszs" path="/snnu/yz/:type" :paramsDesc="['类别ID，见下表，其他未列出的栏目参数可以从页面的 URL Path 中找到，例如：硕士研究生招生的网址为http://yz.snnu.edu.cn/tzgg/ssyjszs.htm，则类别ID为tzgg-ssyjszs']" radar="1" >
+
+| 硕士研究生招生 | 推免生接收 | 公费师范毕业生在职攻读教育硕士 |
+| -------------- | ---------- | ------------------------------ |
+| tzgg-ssyjszs   | tzgg-tmsjs | tzgg-gfsfbyszzgdjyss           |
+
+</Route>
+
 ## 深圳大学
 
 ### 深圳大学研究生招生网通知公告
@@ -4512,6 +4558,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 中国政法大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cupl/yjsy/yjszs" path="/cupl/yjsy:type" :paramsDesc="['分类，见下表']">
+
+| 研究生招生 |
+| ---------- |
+| yjszs      |
+
+</Route>
+
 ## 中科院
 
 ### 中科院自动化所
@@ -4580,7 +4638,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="Neutrino3316 MegrezZhu nczitzk" example="/sysu/cse" path="/sysu/cse"/>
 
-### 中央民族大学
+## 中央财经大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cufe/gs/zsgz-sszs_sz_" path="/cufe/gs/:type" :paramsDesc="['类型，见下表，其他未列出的类型可在页面URL中找到']" radar="1">
+
+| 类型 | 硕士招生（双证） | 报考统计  |
+| ---- | ---------------- | --------- |
+| 参数 | zsgz-sszs*sz*    | zsgz/bktj |
+
+</Route>
+
+## 中央民族大学
 
 ### 研究生招生网
 
