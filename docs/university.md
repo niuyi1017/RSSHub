@@ -316,6 +316,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/bjfu/graduate/zsgl-zsdt" path="/bjfu/graduate/:type" :paramsDesc="['栏目']">
+
+| 招生动态  | 培养动态  |
+| --------- | --------- |
+| zsgl-zsdt | pygl-pydt |
+
+</Route>
+
 ### 研究生院培养动态
 
 <Route author="markmingjie" example="/bjfu/grs" path="/bjfu/grs" />
@@ -1091,6 +1101,18 @@ pageClass: routes
 | ---- | -------- |
 | 5932 | 硕士公告 |
 | 5933 | 硕士简章 |
+
+</Route>
+
+## 东北林业大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/nefu/yz/ssszs" path="/nefu/yz/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
+
+| Id    | 名称       |
+| ----- | ---------- |
+| ssszs | 硕士生招生 |
 
 </Route>
 
@@ -2152,6 +2174,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 辽宁大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/lnu/grs/zsgz-sszs" path="/lnu/grs/:type" :paramsDesc="['分类type，见下表']">
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
 ## 辽宁工程技术大学
 
 ### 教务公告
@@ -2805,6 +2839,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 宁夏大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/nxu/graduate/-ssyjs" path="/nxu/graduate/:type" :paramsDesc="['分区 type，可在网页 URL 中找到']">
+
+| 硕士生招生 | 推免生   |
+| ---------- | -------- |
+| zsxx-ssyjs | zsxx-tms |
+
+</Route>
+
 ## 齐鲁工业大学
 
 ### 通知公告
@@ -3238,6 +3284,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 研究生 | 博士生 |
 | ------ | ------ |
 | 1      | 2      |
+
+</Route>
+
+## 石河子大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/shzu/yz/gsgg" path="/shzu/yz/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 公示公告 | 推免动态 | 招生简章 |
+| -------- | -------- | -------- |
+| gsgg     | tmdt     | zsjz     |
 
 </Route>
 
@@ -4318,6 +4376,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 中国地质大学 (北京)
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cugb/yjsyzsb/zsxx-sszs" path="/cugb/yjsyzsb/:type" :paramsDesc="['分类type，见下表，也可在URL中找到']">
+
+| 硕士招生  | 推荐免试       | 夏令营 | 推免 | 中外合作 | 博士 |
+| --------- | -------------- | ------ | ---- | -------- | ---- |
+| zsxx-sszs | zsxx-sszs-tjms | 8544   | tm   | 8546     | 8542 |
+
+</Route>
+
 ## 中国地质大学 (武汉)
 
 ### 今日文章 - 包含全校网站最新通知
@@ -4478,9 +4548,21 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/cumt/yz/sszs" path="/cumt/yz/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
 
-| 招聘类型 | 硕士招生 | 港澳台招生 |
-| :------: | :------: | :--------: |
-|   参数   |   sszs   |   gatzs    |
+| 类型 | 硕士招生 | 港澳台招生 |
+| :--: | :------: | :--------: |
+| 参数 |   sszs   |   gatzs    |
+
+</Route>
+
+## 中国矿业大学 （北京）
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/cumtb/yz/156" path="/cumtb/yz/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
+
+| 类型 | 通知公告 | 推荐免试 | 招生简章 |
+| :--: | :------: | :------: | -------- |
+| 参数 |   156    |   189    | 155      |
 
 </Route>
 
@@ -4517,6 +4599,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 如 [中国人民大学人事处 - 办事机构 - 教师事务办公室 - 教师通知公告](http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm) 的网址为 <http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm> 其中介于 **<http://hr.ruc.edu.cn/>** 和 **/index.htm** 中间的一段为 `bsjg/bsjsswbgs/jstzgg`。随后，并将其中的 `/` 修改为 `-`，可以得到 `bsjg-bsjsswbgs-jstzgg`。所以最终我们的路由为 [`/ruc/hr/bsjg-bsjsswbgs-jstzgg`](https://rsshub.app/ruc/hr/bsjg-bsjsswbgs-jstzgg)
 
 :::
+
+</Route>
+
+## 中国社会科学院大学
+
+### 招生网
+
+<Route author="yanbot-team" example="/ucass/skdzs/tzgg" path="/ucass/skdzs/:type" :paramsDesc="['分类，见下表']">
+
+| 通知公告 | 招生信息   |
+| -------- | ---------- |
+| tzgg     | sszs1-zsxx |
 
 </Route>
 
