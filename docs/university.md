@@ -444,6 +444,18 @@ pageClass: routes
 由于学校官网对非大陆 IP 的访问存在限制，需自行部署。
 :::
 
+## 北京协和医学院
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/pumc/graduate/sszs" path="/pumc/graduate/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 硕士招生 | 夏令营 | 推免生 |
+| -------- | ------ | ------ |
+| sszs     | xly    | tms    |
+
+</Route>
+
 ## 北京邮电大学
 
 ### 硕士研究生招生通知
@@ -1400,6 +1412,18 @@ pageClass: routes
 ## 广州航海学院图书馆通知公告
 
 <Route author="skyedai910" example="/gzmtu/tsg" path="/gzmtu/tsg" />
+
+## 广州中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gzucm/yjsy/zsgz1-ssszs" path="/gzucm/yjsy/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+
+| 硕士生招生  |
+| ----------- |
+| zsgz1-ssszs |
+
+</Route>
 
 ## 桂林电子科技大学
 
@@ -4170,6 +4194,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 新乡医学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xxmu/yjsc/zsgz1-qrzssyjszs" path="/xxmu/yjsc/:type" :paramsDesc="['分类名，见下表']">
+
+| 全日制硕士研究生招生 |
+| -------------------- |
+| zsgz1-qrzssyjszs     |
+
+</Route>
+
 ## 徐州医科大学
 
 ### 研究生院
@@ -4379,6 +4415,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 公告栏 | 每周会议 | 屏峰班车 | 新闻速递 | 学术动态 |
 | ------ | -------- | -------- | -------- | -------- |
 | 1      | 2        | 3        | 10       | 25       |
+
+</Route>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/zjut/yz/4270" path="/zjut/yz/:type" :paramsDesc="['分类，见下表']">
+
+| 最新通知公告 | 硕士生招生 | 公示公告 |
+| ------------ | ---------- | -------- |
+| 4269         | 4270       | gsgg     |
 
 </Route>
 
@@ -4641,6 +4687,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生    | 博士招生    |
 | ----------- | ----------- |
 | zsxx*-sszs* | zsxx*-bszs* |
+
+</Route>
+
+### 广州地球化学研究所
+
+<Route author="yanbot-team" example="/gigcas/yjsjy/zsxx-sszs" path="/gigcas/yjsjy/:type" :paramsDesc="['分类，见下表']" radar="1">
+
+| 硕士招生  | 博士招生  |
+| --------- | --------- |
+| zsxx-sszs | zsxx-bszs |
 
 </Route>
 
