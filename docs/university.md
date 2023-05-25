@@ -1990,6 +1990,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 华南农业大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/scau/yzb/2138" path="/scau/yzb/:type" :paramsDesc="['通知分类，见下表，也可从页面url中找到']">
+
+| 研究生招生信息 |
+| -------------- |
+| 2138           |
+
+</Route>
+
 ## 华南师范大学
 
 ### 软件学院通知公告
@@ -2276,6 +2288,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="ikvarxt" example="/lntu/jwnews" path="/lntu/jwnews" />
 
+## 辽宁师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/lnnu/master/zsgz-ssyjs-qgtk" path="/lnnu/master/:type" :paramsDesc="['分类type，见下表']">
+
+| 硕士研究生全国统考 |
+| ------------------ |
+| zsgz-ssyjs-qgtk    |
+
+</Route>
+
 ## 临沂大学
 
 ### 新闻
@@ -2389,6 +2413,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生最新通知 | 硕士招生招生简章 | 硕士招生 往年分数线 | 往年录取情况 | 招生动态 |
 | ---------------- | ---------------- | ------------------- | ------------ | -------- |
 | sszs-zxtz        | sszs-zsjz        | sszs-wnfsx          | sszs-wnlqqk  | zsdt     |
+
+</Route>
+
+## 南京财经大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/nufe/yjsc/zsgz-ssyjszs" path="/nufe/yjsc/:type" :paramsDesc="['分类名，见下表，也可在网页URL中找到']">
+
+| 硕士研究生招生 |
+| -------------- |
+| zsgz-ssyjszs   |
 
 </Route>
 
@@ -2888,6 +2924,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生动态 | 硕士招生目录 | 统考考生 | 推免生 |
 | ------------ | ------------ | -------- | ------ |
 | 7797         | 7795         | 7801     | 7800   |
+
+</Route>
+
+## 南京中医药大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/njucm/gra/2898" path="/njucm/gra/:type" :paramsDesc="['见下表，也可在页面URL中找到']">
+
+| 硕士招生 |
+| -------- |
+| 2898     |
 
 </Route>
 
@@ -4218,6 +4266,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 延边大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/ybu/grad/tzgg-zs" path="/ybu/grad/:type" :paramsDesc="['分类名']">
+
+| 招生    | 招生简章    | 推荐免试 |
+| ------- | ----------- | -------- |
+| tzgg-zs | sszs-zsjian | tjms     |
+
+</Route>
+
 ## 燕山大学
 
 ### 研究生招生网
@@ -4435,6 +4495,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院新闻 | 公告通知 | 学术交流 |
 | -------- | -------- | -------- |
 | 16       | 18       | 20       |
+
+</Route>
+
+## 浙江师范大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/zjnu/yzw/qrzssszs" path="/zjnu/yzw/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士生招生 |
+| ---------- |
+| qrzssszs   |
 
 </Route>
 
