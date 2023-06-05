@@ -1762,6 +1762,17 @@ category 列表：
 
 </Route>
 
+## 哈尔滨医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hrbmu/yjsy/zsgz-sszs" path="/hrbmu/yjsy/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
 ## 海南大学
 
 ### 硕士研究生招生动态
@@ -1874,6 +1885,16 @@ category 列表：
 
 </Route>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/henu/grs/zszx-sszs___" path="/henu/grs/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生        |
+| --------------- |
+| zszx-sszs\_\_\_ |
+
+</Route>
+
 ## 河南科技大学
 
 ### 研究生院
@@ -1883,6 +1904,18 @@ category 列表：
 | 首页通知公告  | 招生简章-硕士招生简章 |
 | ------------- | --------------------- |
 | yjsyxwtz-tzgg | zszx-zsjz-sszsjz      |
+
+</Route>
+
+## 黑龙江大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hlju/yjsy/zsgz-sszs" path="/hlju/yjsy/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
 
 </Route>
 
@@ -1907,6 +1940,16 @@ category 列表：
 | 综合新闻 | 湖大要闻 | 通知公告 | 学术学者学生 | 媒体湖大 |
 | -------- | -------- | -------- | ------------ | -------- |
 | zhxw     | hdyw     | tzgg     | xsxzxs       | mthd     |
+
+</Route>
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/hubu/yz/zsxy-sszs" path="/hubu/yz/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生  |
+| --------- |
+| zsxy-sszs |
 
 </Route>
 
@@ -3329,11 +3372,23 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/sdust/yjsy/tzgg" path="/sdust/yjsy/tzgg" :paramsDesc="['专栏名称，见下表，也可在对应页面的URL中找到']" radar="1" rssbud="1">
+<Route author="yanbot-team" example="/sdust/yjsy/tzgg" path="/sdust/yjsy/:type" :paramsDesc="['专栏名称，见下表，也可在对应页面的URL中找到']" radar="1" rssbud="1">
 
 | 通知公告 |
 | -------- |
 | tzgg     |
+
+</Route>
+
+## 山东师范大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/sdnu/yjszs/zsdt-sszs" path="/sdnu/yjszs/:type" :paramsDesc="['专栏名称，见下表，也可在对应页面的URL中找到']" radar="1" rssbud="1">
+
+| 硕士招生  |
+| --------- |
+| zsdt-sszs |
 
 </Route>
 
@@ -3851,6 +3906,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士研究生招生 |
 | :------------: |
 |   zsxx-ssszs   |
+
+</Route>
+
+## 天津理工大学
+
+<Route author="yanbot-team" example="/tjut/yjs/xwzx-jwdt" path="/tjut/yjs/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生  |
+| :-------: |
+| xwzx-jwdt |
 
 </Route>
 
