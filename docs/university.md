@@ -102,6 +102,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/ahau/yjs/tzgg-zs" path="/ahau/yjs/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
+
+| 通知公告招生 |
+| ------------ |
+| tzgg-zs      |
+
+</Route>
+
 ## 安徽师范大学
 
 ### 研究生招生信息网
@@ -1435,6 +1445,18 @@ pageClass: routes
 
 </Route>
 
+## 广东医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gdmu/yjsxy/zsgz-sszs" path="/gdmu/yjsxy/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
 ## 广西大学
 
 ### 研究生院
@@ -1788,6 +1810,18 @@ category 列表：
 ### 计算机学院 - 研究生通知
 
 <Route author="legr4ndk" example="/hdu/cs/pg" path="/hdu/cs/pg" radar="1" rssbud="1"/>
+
+## 杭州师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hznu/yjs/yjszs-sszs" path="/hznu/yjs/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士招生   |
+| ---------- |
+| yjszs-sszs |
+
+</Route>
 
 ## 河北工业大学
 
@@ -3274,6 +3308,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="Halcao DylanXie123" example="/thu/career" path="/thu/career" />
 
+## 曲阜师范大学
+
+### 研究生教育
+
+<Route author="yanbot-team" example="/qfnu/yjs/zsgz-tzgg" path="/qfnu/yjs/:type" :paramsDesc="['分类见下表']"/>
+
+| 招生工作通知公告 |
+| :--------------: |
+|    zsgz-tzgg     |
+
+</Route>
+
 ## 三峡大学
 
 ### 研究生院
@@ -3413,6 +3459,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士最新通知 |
 | ------------ |
 | sszs1-tz     |
+
+</Route>
+
+## 山东工艺美术学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/sdada/yjsc/zsxx" path="/sdada/yjsc/:type" :paramsDesc="['专栏名称，见下表']" radar="1" rssbud="1">
+
+| 招生信息 |
+| -------- |
+| zsxx     |
 
 </Route>
 
@@ -4689,6 +4747,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 新疆师范大学
+
+### 新疆师范大学
+
+<Route author="yanbot-team" example="/xju/gs/zsxx-ssyjs" path="/xju/gs/:type" :paramsDesc="['分类名，见下表']">
+
+| 硕士研究生 |
+| ---------- |
+| zsxx-ssyjs |
+
+</Route>
+
 ## 信阳师范学院
 
 ### 高等教育自学考试办公室
@@ -5242,6 +5312,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生  | 博士招生  |
 | --------- | --------- |
 | zsxx-sszs | zsxx-bszs |
+
+</Route>
+
+### 空天信息创新研究院-教育培养
+
+<Route author="yanbot-team" example="/aircas/kjrh/rhtzgg" path="/aircas/kjrh/:type" :paramsDesc="['分类，见下表']" radar="1">
+
+| 教育培养通知公告 |
+| ---------------- |
+| rhtzgg           |
 
 </Route>
 
