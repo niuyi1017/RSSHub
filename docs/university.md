@@ -1732,6 +1732,16 @@ category 列表：
 
 <Route author="hlmu" example="/hit/hitgs" path="/hit/hitgs" radar="1" rssbud="1"/>
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/hit/yzb/8822" path="/hit/yzb/:type" :paramsDesc="['分类名，见下表']" puppeteer="1" >
+
+| 硕士公告 |
+| -------- |
+| 8822     |
+
+</Route>
+
 ## 哈尔滨工业大学（深圳）
 
 ### 新闻中心
@@ -2157,6 +2167,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 华东政法大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ecupl/gs/11350" path="/ecupl/gs/:type" radar="1" :paramsDesc="['分类，见下表']" >
+
+| 硕士生招生 |
+| ---------- |
+| 11350      |
+
+</Route>
+
 ## 华南理工大学
 
 ### 研究生院通知公告
@@ -2420,6 +2442,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 研招网通知公告
 
 <Route author="real-jiakai" example="/jou/yztzgg" path="/jou/yztzgg" radar="1" />
+
+## 江西财经大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jxufe/grs/162" path="/jxufe/grs/:type" radar="1" >
+
+| 研究生院新闻动态 |
+| ---------------- |
+| 162              |
+
+</Route>
 
 ## 江西理工大学
 
@@ -2797,16 +2831,6 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
-### 研究生院
-
-<Route author="junfengP Seiry Xm798" example="/nuaa/yjsy/tzgg/getDescription" path="/nuaa/yjsy/:type/:getDescription?" :paramsDesc="['分类名，见下表', '是否获取全文']" puppeteer="1" radar="1">
-
-| 通知公告 | 新闻动态 | 学术信息 | 师生风采 |
-| -------- | -------- | -------- | -------- |
-| tzgg     | xwdt     | xsxx     | ssfc     |
-
-</Route>
-
 ### 自动化学院
 
 <Route author="Xm798" example="/nuaa/cae/zhxw" path="/nuaa/cs/:type/:getDescription?" :paramsDesc="['分类名，见下表', '是否获取全文']" puppeteer="1" radar="1">
@@ -2822,6 +2846,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 通知公告 | 热点新闻 | 学科科研 | 教学动态 | 本科生培养 | 研究生培养 | 学生工作 |
 | -------- | -------- | -------- | -------- | ---------- | ---------- | -------- |
 | tzgg     | rdxw     | xkky     | jxdt     | be         | me         | xsgz     |
+
+</Route>
+
+### 研究生院
+
+<Route author="yanbot-team" example="/nuaa/graduate/xxdt_13494" path="/nuaa/graduate/:type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1">
+
+| 招生工作动态信息 | 招生工作硕士招生 | 招生工作博士招生 |
+| ---------------- | ---------------- | ---------------- |
+| xxdt_13494       | zsgg-sszs        | zsgg-bszs        |
 
 </Route>
 
@@ -3056,6 +3090,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 南京信息工程大学图书馆
 
 <Route author="gylidian" example="/nuist/lib" path="/nuist/library/lib" />
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/nuist/yzb/sszs-tzgg" path="/nuist/yzb/:type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1" puppeteer="1">
+
+| 硕士招生通知公告 |
+| ---------------- |
+| sszs-tzgg        |
+
+</Route>
 
 ## 南京医科大学
 
@@ -5179,6 +5223,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | ---- | -------- | -------- | -------- | -------- | ---------- | ---------- | -------- |
 | 0    | 1        | 2        | 3        | 4        | 5          | 6          | 7        |
 
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/cug/yz/697" path="/cug/yz/:type" :paramsDesc="['分类type，见下表，也可在URL中找到']">
+
+| 硕士招生公告通知 |
+| ---------------- |
+| 697              |
+
+</Route>
+
 ## 中国海洋大学
 
 ### 信息科学与工程学院
@@ -5375,13 +5429,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 中国农业大学
 
-### 中国农业大学研招网通知公告
-
-<Route author="shengmaosu" example="/cauyjs" path="/cauyjs" />
-
-#### 中国农业大学信电学院
+### 中国农业大学信电学院
 
 <Route author="shengmaosu" example="/cauele" path="/cauele" />
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/cau/yz/41740" path="/cau/yz/:type" :paramsDesc="['分类，见下表']">
+
+| 通知公告 |
+| -------- |
+| 41740    |
+
+</Route>
 
 ## 中国人民大学
 
@@ -5584,6 +5644,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 数据科学与计算机学院动态
 
 <Route author="Neutrino3316 MegrezZhu nczitzk" example="/sysu/cse" path="/sysu/cse"/>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/sysu/graduate/postgraduate" path="/sysu/graduate/:type" :paramsDesc="['类型，见下表，其他未列出的类型可在页面URL中找到']" radar="1" puppeteer="1">
+
+| 类型 | 硕士招生     |
+| ---- | ------------ |
+| 参数 | postgraduate |
+
+</Route>
 
 ## 中央财经大学
 
