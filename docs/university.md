@@ -50,6 +50,18 @@ pageClass: routes
 
 </Route>
 
+## 安徽大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ahu/graschool/9509" path="/ahu/graschool/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1" puppeteer="1">
+
+| 招生工作近期热点 |
+| ---------------- |
+| 9509             |
+
+</Route>
+
 ## 安徽工业大学
 
 ### 教务处
@@ -229,6 +241,18 @@ pageClass: routes
 ### 软件与微电子学院 - 硕士统考招生通知
 
 <Route author="legr4ndk" example="/pku/ss/pgadmin" path="/pku/ss/pgadmin" radar="1" rssbud="1"/>
+
+## 北京电影学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bfa/yanjiusheng/zsgz-zstz" path="/bfa/yanjiusheng/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1" puppeteer="1">
+
+| 招生通知  |
+| --------- |
+| zsgz-zstz |
+
+</Route>
 
 ## 北京工业大学
 
@@ -572,6 +596,18 @@ pageClass: routes
 | 硕士招生  | 招生简章  |
 | --------- | --------- |
 | zsjy-sszs | zsjy-zsjz |
+
+</Route>
+
+## 渤海大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/bhu/yjszsxxw/506189" path="/bhu/yjszsxxw/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 最新公告 |
+| -------- |
+| 506189   |
 
 </Route>
 
@@ -2433,6 +2469,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 江苏大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/ujs/yz/sszs" path="/ujs/yz/:type" radar="1" puppeteer="1">
+
+| 硕士招生 |
+| -------- |
+| sszs     |
+
+</Route>
+
 ## 江苏海洋大学
 
 ### 官网通知公告
@@ -2442,6 +2490,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 研招网通知公告
 
 <Route author="real-jiakai" example="/jou/yztzgg" path="/jou/yztzgg" radar="1" />
+
+## 江苏科技大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/just/yjsb/zsgz" path="/just/yjsb/:type" radar="1" >
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
 
 ## 江西财经大学
 
@@ -2972,6 +3032,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院公告 | 学院新闻 | 学生资讯 |
 | -------- | -------- | -------- |
 | xygg     | xyxw     | xszx     |
+
+</Route>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/njnu/yz/2" path="/njnu/yz/:type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1" puppeteer="1">
+
+| 硕士招生 |
+| -------- |
+| 2        |
 
 </Route>
 
@@ -3871,6 +3941,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 首都经济贸易大学
+
+### 研招办
+
+<Route author="yanbot-team" example="/cueb/yjs/zsks-zsdt" path="/cueb/yjs/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 招生动态  |
+| --------- |
+| zsks-zsdt |
+
+</Route>
+
 ## 首都师范大学
 
 ### 研究生院
@@ -4080,6 +4162,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士研究生招生 |
 | :------------: |
 |   zsxx-ssszs   |
+
+</Route>
+
+## 天津工业大学
+
+<Route author="yanbot-team" example="/tiangong/yjsb/2714" path="/tiangong/yjsb/:type" :paramsDesc="['分类，见下表']" puppeteer="1">
+
+| 招生动态 |
+| :------: |
+|   2714   |
 
 </Route>
 
@@ -4767,6 +4859,30 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西南政法大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/swupl/yjsy/zsgl-qrzssszlxx" path="/swupl/yjsy/:type" :paramsDesc="['分类名，见下表']">
+
+| 硕士生招录信息  |
+| --------------- |
+| zsgl-qrzssszlxx |
+
+</Route>
+
+## 西南民族大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/swun/yjsglxt/zsjz" path="/swun/yjsglxt/:type" :paramsDesc="['分类名，见下表']" puppeteer="1">
+
+| 招生动态 |
+| -------- |
+| zsjz     |
+
+</Route>
+
 ## 西藏大学
 
 ### 研究生招生信息网
@@ -4795,11 +4911,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 新疆师范大学
 
-<Route author="yanbot-team" example="/xju/gs/zsxx-ssyjs" path="/xju/gs/:type" :paramsDesc="['分类名，见下表']">
+<Route author="yanbot-team" example="/xjnu/yjszs" path="/xjnu/:type" :paramsDesc="['分类名，见下表']">
 
-| 硕士研究生 |
+| 研究生招生 |
 | ---------- |
-| zsxx-ssyjs |
+| yjszs      |
 
 </Route>
 
@@ -4887,6 +5003,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 云南财经大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ynufe/yjsyxz/zs-sszs" path="/ynufe/yjsyxz/:type" :paramsDesc="['分类名，见下表']">
+
+| 硕士招生 |
+| -------- |
+| zs-sszs  |
+
+</Route>
+
 ## 云南大学
 
 ### 官网消息通告
@@ -4926,6 +5054,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 #### 新闻
 
 <Route author="SettingDust" example="/ynnu/edu/news" path="/ynnu/edu/news" >
+</Route>
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/ynnu/zsb/qrzss" path="/ynnu/zsb/:type" :paramsDesc="['分类，见下表']" radar="1" puppeteer="1">
+
+| 全日制硕士 |
+| ---------- |
+| qrzss      |
+
 </Route>
 
 ## 浙江财经大学
