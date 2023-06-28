@@ -693,11 +693,23 @@ pageClass: routes
 
 </Route>
 
+## 成都大学
+
+### 研究生处
+
+<Route author="yanbot-team" example="/cdu/yjsc/yjszs" path="/cdu/yjsc/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 研究生招生 |
+| ---------- |
+| yjszs      |
+
+</Route>
+
 ## 成都理工大学
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/cdut/gra/zsgz-tzgg" path="/cdut/gra/zsgz-tzgg:type" :paramsDesc="['分类type,见下表']" radar="1" >
+<Route author="yanbot-team" example="/cdut/gra/zsgz-tzgg" path="/cdut/gra/:type" :paramsDesc="['分类type,见下表']" radar="1" >
 
 | 招生工作-通知公告 |
 | ----------------- |
@@ -846,6 +858,16 @@ pageClass: routes
 
 <Route author="Colin-XKL" example="/cqut/libnews" path="/cqut/libnews" radar="1"/>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/cqut/yjszs/zsxx" path="/cqut/yjszs:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
+
+| 招生信息 |
+| -------- |
+| zsxx     |
+
+</Route>
+
 ## 重庆师范大学
 
 ### 研究生院
@@ -879,6 +901,18 @@ pageClass: routes
 | 通知公告 |
 | -------- |
 | tzgg-75  |
+
+</Route>
+
+## 重庆邮电大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cqupt/yjs/1180" path="/cqupt/yjs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
+
+| 硕士招生 |
+| -------- |
+| 1180     |
 
 </Route>
 
@@ -2677,6 +2711,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 公告快讯 | 招生简章 |
 | -------- | -------- |
 | 6249     | 6237     |
+
+</Route>
+
+## 景德镇陶瓷大学
+
+### 招生网
+
+<Route author="yanbot-team" example="/jci/zs/ssyjszs-zxdt" path="/jci/zs/:type" radar="1" >
+
+| 硕士研究生招生最新动态 |
+| ---------------------- |
+| ssyjszs-zxdt           |
 
 </Route>
 
