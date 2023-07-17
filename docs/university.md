@@ -657,6 +657,18 @@ pageClass: routes
 
 </Route>
 
+## 长春工业大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ccut/yjsy/a2023yzxxgk" path="/ccut/yjsy/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 2023 研招信息公开 |
+| ----------------- |
+| sssza2023yzxxgks  |
+
+</Route>
+
 ## 长春理工大学
 
 ### 研究生招生网
@@ -1538,6 +1550,18 @@ pageClass: routes
 | 招收硕士学位研究生 |
 | ------------------ |
 | 2439               |
+
+</Route>
+
+## 福建中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/fjtcm/yjsy/500" path=/fjtcm/yjsy/:type" :paramsDesc="['分类见下表']">
+
+| 硕士招生 |
+| -------- |
+| 500      |
 
 </Route>
 
@@ -3975,6 +3999,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 山东农业大学
+
+### 研究生处
+
+<Route author="yanbot-team" example="/sdau/yjsc/zsgz" path="/sdau/yjsc/:type" :paramsDesc="['专栏名称，见下表，也可在对应页面的URL中找到']" radar="1" rssbud="1">
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
+
 ## 山东师范大学
 
 ### 研究生招生信息网
@@ -4525,6 +4561,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/usts/yjsb/zsgz" path="/usts/yjsb/:type" :paramsDesc="['类型，见下表']" rssbud="1" radar="1">
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
+
 ## 太原理工大学
 
 ### 研究生招生网
@@ -5072,6 +5118,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生-招生公告 | 硕士招生-招生简章 | 硕士招生-招生学科 |
 | ----------------- | ----------------- | ----------------- |
 | sszs-zsgg         | sszs-zsjz         | sszs-zsxk         |
+
+</Route>
+
+## 西北民族大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/xbmu/yz/sszs-tzgg" path="/xbmu/yz/:type" :paramsDesc="['栏目ID,见下表，也可在页面URL中找到']">
+
+| 硕士招生  |
+| --------- |
+| sszs-tzgg |
 
 </Route>
 
@@ -6043,6 +6101,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="HenryQW" example="/cas/sim/kyjz" path="/cas/sim/kyjz" radar="1"/>
 
+### 沈阳应用生态研究所
+
+<Route author="yanbot-team" example="/iaecsc/yjsjy/zhaoshengxinxi" path="/iaecsc/yjsjy/:type" :paramsDesc="['分类，见下表']" radar="1">
+
+| 招生信息       |
+| -------------- |
+| zhaoshengxinxi |
+
+</Route>
+
 ### 信息工程研究所 第二研究室 处理架构组 知识库
 
 <Route author="renzhexigua" example="/cas/mesalab/kb" path="/cas/mesalab/kb" radar="1"/>
@@ -6060,6 +6128,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 招聘类型 | 博士后 | 课题项目聘用 | 管理支撑人才 | 教学科研人才 |
 | :------: | :----: | :----------: | :----------: | :----------: |
 |   参数   |  bsh   |    ktxmpy    |    glzcrc    |    jxkyrc    |
+
+</Route>
+
+## 中国科学院大学宁波材料工程学院
+
+### 招生信息
+
+<Route author="yanbot-team" example="/nimte/ncmte/zhaosheng" path="/nimte/ncmte/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
+
+| 招生类型 | 招生工作  |
+| :------: | :-------: |
+|   参数   | zhaosheng |
 
 </Route>
 
@@ -6084,6 +6164,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 类型 | 通知公告 | 推荐免试 | 招生简章 |
 | :--: | :------: | :------: | -------- |
 | 参数 |   156    |   189    | 155      |
+
+</Route>
+
+## 中国美术学院
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/caa/zb/sszs" path="/caa/zb/:type" :paramsDesc="['分类type，见下表，也可在网页URL中找到']">
+
+| 类型 | 通知公告 |
+| :--: | :------: |
+| 参数 |   sszs   |
 
 </Route>
 
