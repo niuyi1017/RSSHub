@@ -2116,7 +2116,7 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/hebic/yjs/" path="/hebic/yjs/:type" :paramsDesc="['分类名，见下表']" >
+<Route author="yanbot-team" example="/hebic/yjs/11018" path="/hebic/yjs/:type" :paramsDesc="['分类名，见下表']" >
 
 | 招生工作 |
 | -------- |
@@ -2157,6 +2157,18 @@ category 列表：
 | 招生工作-通知公告 | 招生工作招生简章 | 首页通知公告 |
 | ----------------- | ---------------- | ------------ |
 | zsgz-tzggzs       | zsgz-zsjz        | tzgg         |
+
+</Route>
+
+## 河北农业大学
+
+### 学位与研究生教育
+
+<Route author="yanbot-team" example="/hebau/yjs/zsxx" path="/hebau/yjs/:type" :paramsDesc="['分类名，见下表']" >
+
+| 招生信息 |
+| -------- |
+| zsxx     |
 
 </Route>
 
@@ -2396,6 +2408,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 湖南工业大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hut/yjsy/zsxx-ssszs" path="/hut/yjsy/:type"  :paramsDesc="['分类']">
+
+| 招生信息-硕士生招生 |
+| ------------------- |
+| zsxx-ssszs          |
+
+</Route>
+
 ## 湖南科技大学
 
 ### 教务处通知
@@ -2445,6 +2469,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招考   | 博士招生   |
 | ---------- | ---------- |
 | zsks-sszk1 | zsks-bszk1 |
+
+</Route>
+
+## 湖南中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hnucm/yjsy/zsxx-ssszs" path="/hnucm/yjsy/:type" :paramsDesc="['分类，见下表，也可从页面URL中找到']">
+
+| 招生信息-硕士生招生 |
+| ------------------- |
+| zsxx-ssszs          |
 
 </Route>
 
@@ -3761,6 +3797,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 内蒙古农业大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/imau/yjsy/zsgz-sszs" path="/imau/yjsy/:type" :paramsDesc="['分区 type，可在网页 URL 中找到']">
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
 ## 宁波大学
 
 ### 研究生院
@@ -4437,6 +4485,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 山西大同大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/sxdtdx/yjsc/63" path="/sxdtdx/yjsc/:type" :paramsDesc="['类别ID，见下表，其他未列出的栏目参数可以从页面的 URL Path 中找到']" radar="1" >
+
+| 硕士生招生 |
+| ---------- |
+| 63         |
+
+</Route>
+
 ## 山西大学
 
 ### 研究生招生网
@@ -4470,6 +4530,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生  |
 | --------- |
 | zsgz-sszs |
+
+</Route>
+
+## 沈阳建筑大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/sjzu/grs/zsxx-sszs" path="/sjzu/grs/:type" :paramsDesc="['类别ID，见下表，其他未列出的栏目参数可以从页面的 URL Path 中找到']" radar="1" >
+
+| 硕士招生  |
+| --------- |
+| zsxx-sszs |
 
 </Route>
 
@@ -5599,6 +5671,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 延安大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/yau/yjsc/zsxx-zsdt" path="/yau/yjsc/:type" :paramsDesc="['分类名']">
+
+| 招生动态  |
+| --------- |
+| zsxx-zsdt |
+
+</Route>
+
 ## 延边大学
 
 ### 研究生招生网
@@ -5874,6 +5958,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院新闻 | 公告通知 | 学术交流 |
 | -------- | -------- | -------- |
 | 16       | 18       | 20       |
+
+</Route>
+
+## 浙江海洋大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/zstu/gra/sszs" path="/zstu/gra/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生 |
+| -------- |
+| sszs     |
 
 </Route>
 
