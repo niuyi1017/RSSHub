@@ -280,11 +280,11 @@ pageClass: routes
 
 ### 研究生招生网
 
-<Route author="yanbot-team" example="/bjut/yanzhao/sszs-sszs" path="/bjut/yanzhao/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1">
+<Route author="yanbot-team" example="/bjut/yanzhao/zxtz" path="/bjut/yanzhao/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1">
 
-| 硕士招生  | 通知公告 | 招生简章及专业目录 | 博士招生 |
-| --------- | -------- | ------------------ | -------- |
-| sszs-sszs | tzgg     | zsjzjzyml          | bszs     |
+| 硕士招生 | 通知公告 | 招生简章及专业目录 | 博士招生 |
+| -------- | -------- | ------------------ | -------- |
+| zxtz     | tzgg     | zsjzjzyml          | bszs     |
 
 </Route>
 
@@ -2176,9 +2176,15 @@ category 列表：
 
 ## 海南大学
 
-### 硕士研究生招生动态
+### 研究生院
 
-<Route author="OdinZhang" example="/hainanu/ssszs" path="/hainanu/ssszs"/>
+<Route author="yanbot-team" example="/hainanu/gs/ssszs" path="/hainanu/gs/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士生招生 |
+| ---------- |
+| ssszs      |
+
+</Route>
 
 ## 杭州电子科技大学
 
@@ -3861,11 +3867,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/njupt/yzb/7797" path="/njupt/yzb/:type" :paramsDesc="['见下表，也可在页面URL中找到']">
+<Route author="yanbot-team" example="/njupt/yzb-main" path="njupt/yzb-main" :paramsDesc="['见下表，也可在页面URL中找到']">
 
-| 硕士招生动态 | 硕士招生目录 | 统考考生 | 推免生 |
-| ------------ | ------------ | -------- | ------ |
-| 7797         | 7795         | 7801     | 7800   |
+| 硕士招生动态&硕士招生目录 |
+| ------------------------- |
+| yzb-main                  |
 
 </Route>
 
@@ -4323,11 +4329,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/sufe/gs/36" path="/sufe/gs/:type" :paramsDesc="['类型,见下表，也可在页面URL中找到']">
+<Route author="yanbot-team" example="/sufe/gs/88" path="/sufe/gs/:type" :paramsDesc="['类型,见下表，也可在页面URL中找到']">
 
-| 硕士生招生 | 历史数据-硕士生招生 |
+| 通知与公告 | 历史数据-硕士生招生 |
 | ---------- | ------------------- |
-| 36         | 40                  |
+| 88         | 40                  |
 
 </Route>
 
@@ -5657,11 +5663,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生网
 
-<Route author="yanbot-team" example="/swu/yanzhao/news1" path="/swu/yanzhao/:type" :paramsDesc="['分类名，见下表']" radar="1">
+<Route author="yanbot-team" example="/swu/yz/zsxx-sszs-tzgg" path="/swu/yz/:type" :paramsDesc="['分类名，见下表']" radar="1">
 
-| 最新动态 | 全日制硕士招生 | 博士招生 | 非全日制硕士 |
-| -------- | -------------- | -------- | ------------ |
-| news1    | news2          | news3    | news4        |
+| 硕士招生通知公告 | 硕士招生招生简章 | 推免通知         | 夏令营通知        |
+| ---------------- | ---------------- | ---------------- | ----------------- |
+| zsxx-sszs-tzgg   | zsxx-sszs-zsjz   | zsxx-xly_tm-tmtz | zsxx-xly_tm-xlytz |
 
 </Route>
 
@@ -6005,7 +6011,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/ynufe/yjsyxz/zs-sszs" path="/ynufe/yjsyxz/:type" :paramsDesc="['分类名，见下表']">
+<Route author="yanbot-team" example="/ynufe/yjsy/zs-sszs" path="/ynufe/yjsyxz/:type" :paramsDesc="['分类名，见下表']">
 
 | 硕士招生 |
 | -------- |
