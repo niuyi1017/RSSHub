@@ -964,11 +964,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/cqupt/yjs/1180" path="/cqupt/yjs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
+<Route author="yanbot-team" example="/cqupt/yjs/zsxx-sszs" path="/cqupt/yjs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
 
-| 硕士招生 |
-| -------- |
-| 1180     |
+| 硕士招生  |
+| --------- |
+| zsxx-sszs |
 
 </Route>
 
@@ -1783,11 +1783,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/gxmu/yjs/zsgz-zsgg" path="/gxmu/yjs/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+<Route author="yanbot-team" example="/gxmu/yjs/zsgz" path="/gxmu/yjs/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
 
-| 招生工作  |
-| --------- |
-| zsgz-zsgg |
+| 招生工作 |
+| -------- |
+| zsgz     |
 
 </Route>
 
@@ -2690,7 +2690,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 | 硕士生招生 |
 | ---------- |
-| 11350      |
+| 13332      |
 
 </Route>
 
