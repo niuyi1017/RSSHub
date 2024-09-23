@@ -1793,11 +1793,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/gxmu/yjs/zsgz" path="/gxmu/yjs/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+<Route author="yanbot-team" example="/gxmu/yjs/zsgz-zsgg" path="/gxmu/yjs/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
 
-| 招生工作 |
-| -------- |
-| zsgz     |
+| 招生工作-招生公告 | 招生工作-硕士招生考试大纲 | 招生工作-同等学力 |
+| ----------------- | ------------------------- | ----------------- |
+| zsgz-zsgg         | zsgz-ssyjszs              | zsgz-tdxlyjszs    |
 
 </Route>
 
@@ -6442,6 +6442,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 </Route>
 
 ## 中国海洋大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/ouc/yz/tzgg" path="/ouc/yz/:type">
+
+| 通知公告 | 硕士招生 | 公开公示 |
+| -------- | -------- | -------- |
+| tzgg     | 31646    | gkgs     |
+
+</Route>
 
 ### 信息科学与工程学院
 
