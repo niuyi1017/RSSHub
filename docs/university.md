@@ -3086,11 +3086,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/jxau/yanjiusheng/981" path="/jxau/yanjiusheng/:type" radar="1" >
+<Route author="yanbot-team" example="/jxau/yanjiusheng/szgz-ssszs" path="/jxau/yanjiusheng/:type" radar="1" >
 
 | 硕士生招生 |
 | ---------- |
-| 981        |
+| szgz-ssszs |
 
 </Route>
 
@@ -3536,7 +3536,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/njust/zsw/zsw-ss" path="/njust/zsw/:type?" :paramsDesc="['分类名，见下表']" radar="1" rssbud="1" puppeteer="1">
+<Route author="yanbot-team" example="/njust/zsw/zsw-ss" path="/njust/zsw/:type" :paramsDesc="['分类名，见下表']" radar="1" rssbud="1" puppeteer="1">
 
 | 硕士招生 |
 | -------- |
