@@ -3534,6 +3534,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 南京理工大学
 
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/njust/zsw/zsw-ss" path="/njust/zsw/:type?" :paramsDesc="['分类名，见下表']" radar="1" rssbud="1" puppeteer="1">
+
+| 硕士招生 |
+| -------- |
+| zsw-ss   |
+
+</Route>
+
 ### 教务处
 
 <Route author="MilkShakeYoung jasongzy" example="/njust/jwc/xstz" path="/njust/jwc/:type?" :paramsDesc="['分类名，见下表，默认为学生通知']" radar="1" rssbud="1" puppeteer="1">
