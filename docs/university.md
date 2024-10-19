@@ -693,6 +693,18 @@ pageClass: routes
 
 </Route>
 
+## 长江大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/yangtzeu/gs/zsgz-sszs" path="/yangtzeu/gs/:type" >
+
+| 硕士招生 | 招生简章及专业目录 |
+| -------- | --------------- |
+| zsgz-sszs| zsgz-zsjzjzyml  |
+
+</Route>
+
 ## 长沙理工大学
 
 ### 研究生招生网
