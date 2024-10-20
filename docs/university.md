@@ -2998,6 +2998,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+
+## 锦州医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jzmu/yjsc/zs-tzssyjszs" path="/jzmu/yjsc/:type" >
+
+| zs-tzssyjszs | 
+| ------------ | 
+| 招生工作统招 |
+
+</Route>
+
 ## 江南大学
 
 ### 研究生招生网
