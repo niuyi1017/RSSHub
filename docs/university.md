@@ -5449,6 +5449,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安建筑科技大学
+
+### 研招网
+
+<Route author="yanbot-team" example="/xauat/yzb/sszs" path="/xauat/yzb/:type" >
+
+| 硕士招生 | 通知公告 |
+| -------- | ------- |
+|   sszs   |   tzgg  |
+
+</Route>
+
+
 ## 西安理工大学
 
 ### 学校主页
