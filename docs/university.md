@@ -2942,6 +2942,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 吉林师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jlnu/yjsy/zsgz" path="/jlnu/yjsy/:type" >
+
+| 招生工作| 
+| -------- | 
+| zsgz     | 
+
+</Route>
+
 ## 集美大学
 
 ### 招生办
