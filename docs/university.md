@@ -693,6 +693,18 @@ pageClass: routes
 
 </Route>
 
+## 长江大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/yangtzeu/gs/zsgz-sszs" path="/yangtzeu/gs/:type" >
+
+| 硕士招生 | 招生简章及专业目录 |
+| -------- | --------------- |
+| zsgz-sszs| zsgz-zsjzjzyml  |
+
+</Route>
+
 ## 长沙理工大学
 
 ### 研究生招生网
@@ -2930,6 +2942,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 吉林师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jlnu/yjsy/zsgz" path="/jlnu/yjsy/:type" >
+
+| 招生工作| 
+| -------- | 
+| zsgz     | 
+
+</Route>
+
 ## 集美大学
 
 ### 招生办
@@ -2983,6 +3007,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 通知公告 | 硕士招生简章 |
 | -------- | ------------ |
 | tzgg     | sszsjz       |
+
+</Route>
+
+
+## 锦州医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jzmu/yjsc/zs-tzssyjszs" path="/jzmu/yjsc/:type" >
+
+| zs-tzssyjszs | 
+| ------------ | 
+| 招生工作统招 |
 
 </Route>
 
@@ -5437,6 +5474,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安建筑科技大学
+
+### 研招网
+
+<Route author="yanbot-team" example="/xauat/yzb/sszs" path="/xauat/yzb/:type" >
+
+| 硕士招生 | 通知公告 |
+| -------- | ------- |
+|   sszs   |   tzgg  |
+
+</Route>
+
+
 ## 西安理工大学
 
 ### 学校主页
@@ -5498,6 +5548,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士通知公告 | 硕士简章  | 硕士推免招生 | 信息公开 |  研招资讯  |
 | :----------: | :-------: | :----------: | :------: | :--------: |
 | index-sstzgg | zsjz-ssjz | zsjz-sstmsjz |  xxgk1   | index-yzzx |
+
+</Route>
+
+## 西安邮电大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xupt/gr/zsxx-sszs-tzgg" path="/xupt/gr/:type" >
+
+|    硕士招生    |
+| :------------: |
+| zsxx-sszs-tzgg | 
 
 </Route>
 
@@ -6728,6 +6790,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 如 [中国人民大学人事处 - 办事机构 - 教师事务办公室 - 教师通知公告](http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm) 的网址为 <http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm> 其中介于 **<http://hr.ruc.edu.cn/>** 和 **/index.htm** 中间的一段为 `bsjg/bsjsswbgs/jstzgg`。随后，并将其中的 `/` 修改为 `-`，可以得到 `bsjg-bsjsswbgs-jstzgg`。所以最终我们的路由为 [`/ruc/hr/bsjg-bsjsswbgs-jstzgg`](https://rsshub.app/ruc/hr/bsjg-bsjsswbgs-jstzgg)
 
 :::
+
+</Route>
+
+## 中国人民公安大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/ppsuc/yzb/sszs" path="/ppsuc/yzb/:type" >
+
+| 硕士招生 | 
+| -------- | 
+| sszs     | 
 
 </Route>
 
