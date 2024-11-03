@@ -721,11 +721,11 @@ pageClass: routes
 
 ### 教务处
 
-<Route author="richardchien" example="/cczu/jwc/1425" path="/cczu/jwc/:category?" :paramsDesc="['可选，默认为 `all`']">
+<Route author="yanbot-team" example="/cczu/gs/1800" path="/cczu/gs/:type" :paramsDesc="['可选，默认为 `all`']">
 
-| 全部 | 通知公告 | 教务新闻 | 各类活动与系列讲座 | 本科教学工程 | 他山之石 | 信息快递 |
-| ---- | -------- | -------- | ------------------ | ------------ | -------- | -------- |
-| all  | 1425     | 1437     | 1485               | 1487         | 1442     | 1445     |
+| 硕士招生与录取 | 
+| ------------- |
+|   1800       | 
 
 </Route>
 
