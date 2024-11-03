@@ -2430,6 +2430,18 @@ category 列表：
 
 </Route>
 
+## 河南理工大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hpu/adge/zsgz2-sszs" path="/hpu/adge/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生  | 
+| ------------- | 
+| zsgz2-sszs | 
+
+</Route>
+
 ## 河南农业大学
 
 ### 研究生院
@@ -5137,6 +5149,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士研究生招生 | 招生信息 |
 | :------------: | :------: |
 | zsxx1-ssyjszs  |   zsxx   |
+
+</Route>
+
+## 天津外国语大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/tjfsu/grad/zsgz-sszs" path="/tjfsu/grad/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生 |
+| :--------: | 
+| zsgz-sszs  |  
 
 </Route>
 
