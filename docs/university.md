@@ -3331,6 +3331,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="gammapi" example="/umass/amherst/ipoevents" path="/umass/amherst/ipoevents" radar="1" rssbud="1"/>
 
+## 闽南师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/mnnu/yjsc/zsgz-ssyjszs" path="/mnnu/yjsc/:type" :paramsDesc="['分类ID，见下表，也可在网页URL中找到']">
+
+| 硕士研究生招生 |
+| ------------- |
+| zsgz-ssyjszs  |
+
+</Route>
+
+
 ## 南昌大学
 
 ### 研究生院
