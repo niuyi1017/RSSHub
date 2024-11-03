@@ -2492,11 +2492,11 @@ category 列表：
 
 ### 新闻中心
 
-<Route author="Lava-Swimmer" example="/hbut/news/tzgg" path="/hbut/news/:type" radar="1" rssbud="1" :paramsDesc="['分类']">
+<Route author="yanbot-team" example="/hbut/yjs/zsgz-sszs" path="/hbut/yjs/:type" radar="1" rssbud="1" :paramsDesc="['分类']">
 
-| 通知公告 | 湖工要闻 | 学术活动 | 媒体湖工大 | 综合新闻 | 湖工故事 |
-| -------- | -------- | -------- | ---------- | -------- | -------- |
-| tzgg     | hgyw     | xshd     | mthgd      | zhxw     | hggs     |
+| 硕士招生 | 通知公告 | 湖工要闻 | 学术活动 | 媒体湖工大 | 综合新闻 | 湖工故事 |
+| -------- | -------- | -------- | -------- | ---------- | -------- | -------- |
+| zsgz-sszs| tzgg     | hgyw     | xshd     | mthgd      | zhxw     | hggs     |
 
 </Route>
 
@@ -5089,6 +5089,17 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生  |
 | :-------: |
 | xwzx-jwdt |
+
+</Route>
+
+
+## 天津科技大学
+
+<Route author="yanbot-team" example="/tust/yjs/zsgz-sszs" path="/tust/yjs/:type" :paramsDesc="['分类，见下表']">
+
+| 硕士招生  |
+| :-------: |
+| zsgz-sszs |
 
 </Route>
 
