@@ -3035,6 +3035,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 江汉大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/jhun/gs/1956-list" path="/jhun/gs/:type" :paramsDesc="['分类，见下表']">
+
+| 1956-list | 
+| -------- | 
+| 研究生招生 |
+
+</Route>
+
 ## 江南大学
 
 ### 研究生招生网
@@ -4776,6 +4788,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 </Route>
 
 ## 沈阳大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/syu/yjs/zsgz-sszs" path="/syu/yjs/:type" :paramsDesc="['类别ID，见下表，其他未列出的栏目参数可以从页面的 URL Path 中找到']" radar="1" >
+
+| 硕士招生  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
+## 沈阳工业大学
 
 ### 研究生院
 
