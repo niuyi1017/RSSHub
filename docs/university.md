@@ -3131,6 +3131,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 吉首大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jsu/yjsc/zsgz1-sszs" path="/jsu/yjsc/:type" radar="1" >
+
+| 招生工作硕士招生 |
+| --------------- |
+|    zsgz1-sszs   |
+
+</Route>
+
 ## 江西财经大学
 
 ### 研究生院
