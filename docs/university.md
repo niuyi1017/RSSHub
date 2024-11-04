@@ -174,6 +174,18 @@ pageClass: routes
 
 </Route>
 
+## 北华大学
+
+### 研究生学院
+
+<Route author="yanbot-team" example="/beihua/grad/zsgz1-tzgg1" path="/beihua/grad/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
+
+| 招生工作通知公告 | 
+| -------------- | 
+| zsgz1-tzgg1    | 
+
+</Route>
+
 ## 北华航天工业学院
 
 ### 新闻
