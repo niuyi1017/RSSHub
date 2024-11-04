@@ -5270,6 +5270,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="cccht" example="/wfu/jwc" path="/wfu/jwc" />
 
+## 外交学院
+
+### 研究生部
+
+<Route author="yanbot-team" example="/cfau/yjsb/col41-col460" path="/cfau/yjsb/:type" :paramsDesc="['分类，见下表 默认为`0`']" />
+
+|       招生工作     | 
+| :----------------: | 
+|    col41-col460    |  
+
+</Route>
+
 ## 温州大学
 
 ### 新闻
