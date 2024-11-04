@@ -1303,6 +1303,18 @@ pageClass: routes
 
 </Route>
 
+## 大连外国语大学
+
+### 研究生处
+
+<Route author="yanbot-team" example="/dlufl/gd/zsgz-sszs" path="/dlufl/gd/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" >
+
+| 招生工作硕士招生 |
+| ---------------- |
+| zsgz-sszs        |
+
+</Route>
+
 ## 大连医科大学
 
 ### 研究生院
