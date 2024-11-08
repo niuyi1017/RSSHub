@@ -7021,6 +7021,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 中国艺术研究院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gscaa/list/shuoshi_list" path="/gscaa/list/:type" :paramsDesc="['分类，见下表']">
+
+|   硕士研究生  | 
+| ------------ | 
+| shuoshi_list | 
+
+</Route>
+
 ## 中国政法大学
 
 ### 研究生院
