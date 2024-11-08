@@ -2978,6 +2978,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 吉林农业大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/jlau/yjsy/3" path="/jlau/yjsy/:type" >
+
+| 招生工作| 
+| -------- | 
+| 3     | 
+
+</Route>
+
 ## 吉林师范大学
 
 ### 研究生院
@@ -3256,6 +3268,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 通知公告       | 招生动态         | 硕士生       |
 | -------------- | ---------------- | ------------ |
 | tongzhigonggao | zhaoshengdongtai | shuoshisheng |
+
+</Route>
+
+## 兰州理工大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/lut/ge/zsxx-ssyjszs" path="/lut/ge/:type" :paramsDesc="['分类type，见下表']">
+
+| 硕士研究生招生 | 
+| --------------| 
+| zsxx-ssyjszs | 
 
 </Route>
 
