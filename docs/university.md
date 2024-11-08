@@ -3325,6 +3325,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 辽宁中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/lnutcm/yjs/zsgz-sszsxx" path="/lnutcm/yjs/:type" :paramsDesc="['分类type，见下表']">
+
+| 硕士招生信息 |
+| ------------------ |
+| zsgz-sszsxx    |
+
+</Route>
+
 ## 临沂大学
 
 ### 新闻
