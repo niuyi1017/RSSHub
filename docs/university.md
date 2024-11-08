@@ -4581,13 +4581,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 上海海洋大学
 
-### 官网信息
+### 研究生院
 
-<Route author="Swung0x48" example="/shou/www/tzgg" path="/shou/www/:type" :paramsDesc="['消息类型']">
+<Route author="yanbot-team" example="/shou/yjs/14263-list1" path="/shou/yjs/:type" :paramsDesc="['消息类型']">
 
-| 通知公告 | 招标信息 | 要闻 | 媒体聚焦 | 学术讲座 | 科技前沿 |
-| -------- | -------- | ---- | -------- | -------- | -------- |
-| tzgg     | zbxx     | yw   | mtjj     | xsjz     | xsqy     |
+|   招生信息   |
+| ----------- | 
+| 14263-list1 | 
 
 </Route>
 
