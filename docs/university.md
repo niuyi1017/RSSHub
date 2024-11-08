@@ -5695,6 +5695,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安石油大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xsyu/yjs/tzgg" path="/xsyu/yjs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+
+| 通知公告 | 
+| :-----: |
+|   tzgg  |
+
+</Route>
+
 ## 西安外国语大学
 
 ### 研究生招生信息网
