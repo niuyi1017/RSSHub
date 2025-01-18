@@ -562,6 +562,12 @@ pageClass: routes
 
 ## 北京邮电大学
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/bupt/yzb" path="/bupt/yzb" :paramsDesc="['分类type,见下表']" radar="1" >
+
+</Route>
+
 ### 硕士研究生招生通知
 
 <Route author="ihewro" example="/bupt/yz/int" path="/bupt/yz/:type" :paramsDesc="['学院英文缩写']">
