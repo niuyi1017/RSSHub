@@ -5583,6 +5583,14 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 小木虫
+
+### 调剂信息
+
+<Route author="yanbot-team" example="/muchong/adjust" path="/muchong/adjust" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+
+</Route>
+
 ## 西北大学
 
 ### 研究生招生信息网
