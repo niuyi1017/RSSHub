@@ -1478,11 +1478,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/neau/graduate/zsgz-tzgg" path="/neau/graduate/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
+<Route author="yanbot-team" example=" /neau/graduate/zsgz" path="/neau/graduate/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
 
-| Id        | 名称             |
-| --------- | ---------------- |
-| zsgz-tzgg | 招生工作通知公告 |
+| Id   | 名称             |
+| ---- | ---------------- |
+| zsgz | 招生工作通知公告 |
 
 </Route>
 
@@ -2782,7 +2782,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 | 研究生招生信息 | 华农研讯 |
 | -------------- | -------- |
-| 2138           |2136    |
+| 2138           | 2136     |
 
 </Route>
 
@@ -3282,13 +3282,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 陆军军医大学
 
-### 招生就业
+### 招生就业网
 
-<Route author="yanbot-team" example="/ljjyu/zsjy/zsjy-default2" path="/ljjyu/zsjy/:type" :paramsDesc="['分类type，见下表']">
+<Route author="yanbot-team" example="/ljjyu/zsjy/11" path="/ljjyu/zsjy/:type" :paramsDesc="['分类type，见下表']">
 
-| 招生就业      |
-| ------------- |
-| zsjy-default2 |
+| 硕士招生 |
+| -------- |
+| 11       |
 
 </Route>
 
