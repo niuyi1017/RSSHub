@@ -994,11 +994,11 @@ pageClass: routes
 
 ### 研究生处
 
-<Route author="yanbot-team" example="/nsmc/gs/1119" path="/nsmc/gs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
+<Route author="yanbot-team" example="/nsmc/gs/zsgz" path="/nsmc/gs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
 
 | 招生工作 |
 | -------- |
-| 1119     |
+| zsgz     |
 
 </Route>
 
