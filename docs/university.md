@@ -4175,11 +4175,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/ctgu/sxdxyjsy/tzgg-zstzgg" path="/ctgu/sxdxyjsy/:type" :paramsDesc="['分类见下表']"/>
+<Route author="yanbot-team" example="/ctgu/sxdxyjsy/zsgl-sszs" path="/ctgu/sxdxyjsy/:type" :paramsDesc="['分类见下表']"/>
 
-| 招生通知公告 |
-| :----------: |
-| tzgg-zstzgg  |
+| 硕士招生  |
+| :-------: |
+| zsgl-sszs |
 
 </Route>
 
