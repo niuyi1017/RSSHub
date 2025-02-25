@@ -729,9 +729,9 @@ pageClass: routes
 
 <Route author="yanbot-team" example="/cczu/gs/1800" path="/cczu/gs/:type" :paramsDesc="['可选，默认为 `all`']">
 
-| 硕士招生与录取 | 
-| ------------- |
-|   1800       | 
+| 硕士招生与录取 |
+| -------------- |
+| 1800           |
 
 </Route>
 
@@ -1897,6 +1897,18 @@ pageClass: routes
 
 </Route>
 
+## 贵州财经大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gufe/yjsy/zsgz" path="/gufe/yjsy/:type" :paramsDesc="['分类名,见下表']">
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
+
 ## 贵州大学
 
 ### 研究生院
@@ -2442,9 +2454,9 @@ category 列表：
 
 <Route author="yanbot-team" example="/hpu/adge/zsgz2-sszs" path="/hpu/adge/:type" :paramsDesc="['分类，见下表']">
 
-| 硕士招生  | 
-| ------------- | 
-| zsgz2-sszs | 
+| 硕士招生   |
+| ---------- |
+| zsgz2-sszs |
 
 </Route>
 
@@ -2512,9 +2524,9 @@ category 列表：
 
 <Route author="yanbot-team" example="/hbut/yjs/zsgz-sszs" path="/hbut/yjs/:type" radar="1" rssbud="1" :paramsDesc="['分类']">
 
-| 硕士招生 | 通知公告 | 湖工要闻 | 学术活动 | 媒体湖工大 | 综合新闻 | 湖工故事 |
-| -------- | -------- | -------- | -------- | ---------- | -------- | -------- |
-| zsgz-sszs| tzgg     | hgyw     | xshd     | mthgd      | zhxw     | hggs     |
+| 硕士招生  | 通知公告 | 湖工要闻 | 学术活动 | 媒体湖工大 | 综合新闻 | 湖工故事 |
+| --------- | -------- | -------- | -------- | ---------- | -------- | -------- |
+| zsgz-sszs | tzgg     | hgyw     | xshd     | mthgd      | zhxw     | hggs     |
 
 </Route>
 
@@ -3046,8 +3058,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/jhun/gs/1956-list" path="/jhun/gs/:type" :paramsDesc="['分类，见下表']">
 
-| 1956-list | 
-| -------- | 
+| 1956-list  |
+| ---------- |
 | 研究生招生 |
 
 </Route>
@@ -3377,11 +3389,10 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/mnnu/yjsc/zsgz-ssyjszs" path="/mnnu/yjsc/:type" :paramsDesc="['分类ID，见下表，也可在网页URL中找到']">
 
 | 硕士研究生招生 |
-| ------------- |
-| zsgz-ssyjszs  |
+| -------------- |
+| zsgz-ssyjszs   |
 
 </Route>
-
 
 ## 南昌大学
 
@@ -5156,7 +5167,6 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
-
 ## 天津科技大学
 
 <Route author="yanbot-team" example="/tust/yjs/zsgz-sszs" path="/tust/yjs/:type" :paramsDesc="['分类，见下表']">
@@ -5197,9 +5207,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/tjfsu/grad/zsgz-sszs" path="/tjfsu/grad/:type" :paramsDesc="['分类，见下表']">
 
-| 硕士招生 |
-| :--------: | 
-| zsgz-sszs  |  
+| 硕士招生  |
+| :-------: |
+| zsgz-sszs |
 
 </Route>
 
