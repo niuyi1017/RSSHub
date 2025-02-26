@@ -3714,13 +3714,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 南京林业大学
 
-### 教务处
+### 研究生招生信息网
 
-<Route author="kiusiudeng" example="/njfu/jwc/1798" path="/njfu/jwc/:category?" :paramsDesc="['省略则默认为tzgg']">
+<Route author="yanbot-team" example="/njfu/yz/tzgg" path="/njfu/yz/:type" :paramsDesc="['栏目类别']">
 
-| 校级发文 | 通知公告 | 上级发文 | 下载专区 |
-| -------- | -------- | -------- | -------- |
-| xjfw     | tzgg     | sjfw     | xzzq     |
+| 通知公告 | 硕士招生 |
+| -------- | -------- |
+| tzgg     | sszs     |
 
 </Route>
 
