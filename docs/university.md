@@ -180,9 +180,9 @@ pageClass: routes
 
 <Route author="yanbot-team" example="/beihua/grad/zsgz1-tzgg1" path="/beihua/grad/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
 
-| 招生工作通知公告 | 
-| -------------- | 
-| zsgz1-tzgg1    | 
+| 招生工作通知公告 |
+| ---------------- |
+| zsgz1-tzgg1      |
 
 </Route>
 
@@ -3002,9 +3002,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/jlau/yjsy/3" path="/jlau/yjsy/:type" >
 
-| 招生工作| 
-| -------- | 
-| 3     | 
+| 招生工作 |
+| -------- |
+| 3        |
 
 </Route>
 
@@ -3179,8 +3179,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/jsu/yjsc/zsgz1-sszs" path="/jsu/yjsc/:type" radar="1" >
 
 | 招生工作硕士招生 |
-| --------------- |
-|    zsgz1-sszs   |
+| ---------------- |
+| zsgz1-sszs       |
 
 </Route>
 
@@ -3304,9 +3304,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/lut/ge/zsxx-ssyjszs" path="/lut/ge/:type" :paramsDesc="['分类type，见下表']">
 
-| 硕士研究生招生 | 
-| --------------| 
-| zsxx-ssyjszs | 
+| 硕士研究生招生 |
+| -------------- |
+| zsxx-ssyjszs   |
 
 </Route>
 
@@ -3359,8 +3359,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/lnutcm/yjs/zsgz-sszsxx" path="/lnutcm/yjs/:type" :paramsDesc="['分类type，见下表']">
 
 | 硕士招生信息 |
-| ------------------ |
-| zsgz-sszsxx    |
+| ------------ |
+| zsgz-sszsxx  |
 
 </Route>
 
@@ -4647,9 +4647,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/shou/yjs/14263-list1" path="/shou/yjs/:type" :paramsDesc="['消息类型']">
 
-|   招生信息   |
-| ----------- | 
-| 14263-list1 | 
+| 招生信息    |
+| ----------- |
+| 14263-list1 |
 
 </Route>
 
@@ -5373,9 +5373,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/cfau/yjsb/col41-col460" path="/cfau/yjsb/:type" :paramsDesc="['分类，见下表 默认为`0`']" />
 
-|       招生工作     | 
-| :----------------: | 
-|    col41-col460    |  
+|   招生工作   |
+| :----------: |
+| col41-col460 |
 
 </Route>
 
@@ -5725,9 +5725,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/xsyu/yjs/tzgg" path="/xsyu/yjs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
 
-| 通知公告 | 
-| :-----: |
-|   tzgg  |
+| 通知公告 |
+| :------: |
+|   tzgg   |
 
 </Route>
 
@@ -7074,18 +7074,6 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士最新通知 |
 | ------------ |
 | 10916        |
-
-</Route>
-
-## 中国艺术研究院
-
-### 研究生院
-
-<Route author="yanbot-team" example="/gscaa/list/shuoshi_list" path="/gscaa/list/:type" :paramsDesc="['分类，见下表']">
-
-|   硕士研究生  | 
-| ------------ | 
-| shuoshi_list | 
 
 </Route>
 
