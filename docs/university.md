@@ -574,6 +574,12 @@ pageClass: routes
 
 ## 北京邮电大学
 
+### 研究生招生网
+
+<Route author="yanbot-team" example="/bupt/yzb" path="/bupt/yzb" :paramsDesc="['分类type,见下表']" radar="1" >
+
+</Route>
+
 ### 硕士研究生招生通知
 
 <Route author="ihewro" example="/bupt/yz/int" path="/bupt/yz/:type" :paramsDesc="['学院英文缩写']">
@@ -711,9 +717,9 @@ pageClass: routes
 
 <Route author="yanbot-team" example="/yangtzeu/gs/zsgz-sszs" path="/yangtzeu/gs/:type" >
 
-| 硕士招生 | 招生简章及专业目录 |
-| -------- | --------------- |
-| zsgz-sszs| zsgz-zsjzjzyml  |
+| 硕士招生  | 招生简章及专业目录 |
+| --------- | ------------------ |
+| zsgz-sszs | zsgz-zsjzjzyml     |
 
 </Route>
 
@@ -1000,11 +1006,11 @@ pageClass: routes
 
 ### 研究生处
 
-<Route author="yanbot-team" example="/nsmc/gs/1119" path="/nsmc/gs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
+<Route author="yanbot-team" example="/nsmc/gs/zsgz" path="/nsmc/gs/:type" :paramsDesc="['分类，见下表, 未列出的type可在对应页 URL 中找到']" radar="1">
 
 | 招生工作 |
 | -------- |
-| 1119     |
+| zsgz     |
 
 </Route>
 
@@ -1496,11 +1502,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/neau/graduate/zsgz-tzgg" path="/neau/graduate/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
+<Route author="yanbot-team" example=" /neau/graduate/zsgz" path="/neau/graduate/:type" :paramsDesc="['分类 id 见下表，也可在页面URL中找到']" radar="1">
 
-| Id        | 名称             |
-| --------- | ---------------- |
-| zsgz-tzgg | 招生工作通知公告 |
+| Id   | 名称             |
+| ---- | ---------------- |
+| zsgz | 招生工作通知公告 |
 
 </Route>
 
@@ -2434,11 +2440,11 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/henu/grs/zszx-sszs___" path="/henu/grs/:type" :paramsDesc="['分类，见下表']">
+<Route author="yanbot-team" example="/henu/grs/zsxx-sszs___" path="/henu/grs/:type" :paramsDesc="['分类，见下表']">
 
-| 硕士招生        |
-| --------------- |
-| zszx-sszs\_\_\_ |
+| 硕士招生                  |
+| ------------------------- |
+| /henu/grs/zsxx-sszs\_\_\_ |
 
 </Route>
 
@@ -2810,9 +2816,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/scau/yzb/2138" path="/scau/yzb/:type" :paramsDesc="['通知分类，见下表，也可从页面url中找到']">
 
-| 研究生招生信息 |
-| -------------- |
-| 2138           |
+| 研究生招生信息 | 华农研讯 |
+| -------------- | -------- |
+| 2138           | 2136     |
 
 </Route>
 
@@ -2996,9 +3002,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/jlnu/yjsy/zsgz" path="/jlnu/yjsy/:type" >
 
-| 招生工作| 
-| -------- | 
-| zsgz     | 
+| 招生工作 |
+| -------- |
+| zsgz     |
 
 </Route>
 
@@ -3058,15 +3064,14 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
-
 ## 锦州医科大学
 
 ### 研究生院
 
 <Route author="yanbot-team" example="/jzmu/yjsc/zs-tzssyjszs" path="/jzmu/yjsc/:type" >
 
-| zs-tzssyjszs | 
-| ------------ | 
+| zs-tzssyjszs |
+| ------------ |
 | 招生工作统招 |
 
 </Route>
@@ -3235,6 +3240,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 昆明理工大学
 
+### 招生就业
+
+<Route author="yanbot-team" example="/kmust/zsjy/ssyjszs" path="/kmust/zsjy/:type" :paramsDesc="['默认为 `notify`']">
+
+| 硕士研究生招生 |
+| -------------- |
+| ssyjszs        |
+
+</Route>
+
 ### 教务处
 
 <Route author="geekrainy" example="/kmust/jwc/notify" path="/kmust/jwc/:type?" :paramsDesc="['默认为 `notify`']">
@@ -3363,13 +3378,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 陆军军医大学
 
-### 招生就业
+### 招生就业网
 
-<Route author="yanbot-team" example="/ljjyu/zsjy/zsjy-default2" path="/ljjyu/zsjy/:type" :paramsDesc="['分类type，见下表']">
+<Route author="yanbot-team" example="/ljjyu/zsjy/11" path="/ljjyu/zsjy/:type" :paramsDesc="['分类type，见下表']">
 
-| 招生就业      |
-| ------------- |
-| zsjy-default2 |
+| 硕士招生 |
+| -------- |
+| 11       |
 
 </Route>
 
@@ -3774,11 +3789,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/njau/grasch/zsgz-tzgg" path="/njau/grasch/:type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1">
+<Route author="yanbot-team" example="/njau/zsgz/zsxx-sszs-sszxtz" path="/njau/grasch/：type" :paramsDesc="['分类名，见下表，也可在页面URL中找到']"  radar="1">
 
-| 招生工作通知公告 | 招生工作硕士招生 | 招生工作博士招生 |
-| ---------------- | ---------------- | ---------------- |
-| zsgz-tzgg        | zsgg-sszs        | zsgg-bszs        |
+| 招生工作通知公告 |
+| ---------------- |
+| zsxx-sszs-sszxtz |
 
 </Route>
 
@@ -4269,11 +4284,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/ctgu/sxdxyjsy/tzgg-zstzgg" path="/ctgu/sxdxyjsy/:type" :paramsDesc="['分类见下表']"/>
+<Route author="yanbot-team" example="/ctgu/sxdxyjsy/zsgl-sszs" path="/ctgu/sxdxyjsy/:type" :paramsDesc="['分类见下表']"/>
 
-| 招生通知公告 |
-| :----------: |
-| tzgg-zstzgg  |
+| 硕士招生  |
+| :-------: |
+| zsgl-sszs |
 
 </Route>
 
@@ -5637,11 +5652,10 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/xauat/yzb/sszs" path="/xauat/yzb/:type" >
 
 | 硕士招生 | 通知公告 |
-| -------- | ------- |
-|   sszs   |   tzgg  |
+| -------- | -------- |
+| sszs     | tzgg     |
 
 </Route>
-
 
 ## 西安理工大学
 
@@ -5727,7 +5741,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 |    硕士招生    |
 | :------------: |
-| zsxx-sszs-tzgg | 
+| zsxx-sszs-tzgg |
 
 </Route>
 
@@ -5740,6 +5754,14 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士专区  |
 | :-------: |
 | zsgl-sszq |
+
+</Route>
+
+## 小木虫
+
+### 调剂信息
+
+<Route author="yanbot-team" example="/muchong/adjust" path="/muchong/adjust" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
 
 </Route>
 
@@ -6967,9 +6989,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/ppsuc/yzb/sszs" path="/ppsuc/yzb/:type" >
 
-| 硕士招生 | 
-| -------- | 
-| sszs     | 
+| 硕士招生 |
+| -------- |
+| sszs     |
 
 </Route>
 
@@ -7066,6 +7088,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 研究生招生 |
 | ---------- |
 | yjszs      |
+
+</Route>
+
+## 中国艺术研究院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gscaa/list/shuoshi" path="/gscaa/list/:type" :paramsDesc="['分类，见下表']">
+
+| 研究生研究生 |
+| ------------ |
+| shuoshi      |
 
 </Route>
 
