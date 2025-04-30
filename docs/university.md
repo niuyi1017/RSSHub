@@ -6239,11 +6239,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生网
 
-<Route author="yanbot-team" example="/ybu/grad/tzgg-zs" path="/ybu/grad/:type" :paramsDesc="['分类名']">
+<Route author="yanbot-team" example="/ybu/grad/zsgz" path="/ybu/grad/:type" :paramsDesc="['分类名']">
 
-| 招生    | 招生简章    | 推荐免试 |
-| ------- | ----------- | -------- |
-| tzgg-zs | sszs-zsjian | tjms     |
+| 招生工作 |
+| -------- |
+| tzgg-zs  |
 
 </Route>
 
