@@ -631,11 +631,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/blcu/yjsy/13223" path="/blcu/yjsy/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+<Route author="yanbot-team" example="/blcu/yjsy/zsgz1-sszs1-tzgg" path="/blcu/yjsy/:type" :paramsDesc="['分类type,见下表']" radar="1" >
 
-| 硕士生招生 |
-| ---------- |
-| 13223      |
+| 招生工作通知公告 |
+| ---------------- |
+| zsgz1-sszs1-tzgg |
 
 </Route>
 
@@ -2382,11 +2382,11 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/hynu/xkjsb/yjszs-zsdt" path="/hynu/xkjsb/:type" :paramsDesc="['分类名，见下表']" >
+<Route author="yanbot-team" example="/hynu/xkjsb/yjszs1-zsdt" path="/hynu/xkjsb/:type" :paramsDesc="['分类名，见下表']" >
 
-| 招生动态   |
-| ---------- |
-| yjszs-zsdt |
+| 招生动态    |
+| ----------- |
+| yjszs1-zsdt |
 
 </Route>
 
