@@ -3300,13 +3300,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 兰州理工大学
 
-### 研究生院
+### 招生办公室
 
-<Route author="yanbot-team" example="/lut/ge/zsxx-ssyjszs" path="/lut/ge/:type" :paramsDesc="['分类type，见下表']">
+<Route author="yanbot-team" example="/lut/zhaosheng/ssyjs-zxgg1" path="/lut/zhaosheng/:type" :paramsDesc="['分类type，见下表']">
 
-| 硕士研究生招生 |
-| -------------- |
-| zsxx-ssyjszs   |
+| 硕士研究生-最新公告 |
+| ------------------- |
+| ssyjs-zxgg1         |
 
 </Route>
 
