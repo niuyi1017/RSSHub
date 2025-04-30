@@ -6177,11 +6177,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 新疆师范大学
 
-<Route author="yanbot-team" example="/xjnu/yjszs" path="/xjnu/:type" :paramsDesc="['分类名，见下表']">
+<Route author="yanbot-team" example="/xjnu/zsjy-yjszs" path="/xjnu/:type" :paramsDesc="['分类名，见下表']">
 
 | 研究生招生 |
 | ---------- |
-| yjszs      |
+| zsjy-yjszs |
 
 </Route>
 
