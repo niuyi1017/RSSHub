@@ -7081,6 +7081,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 中国医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cmu/cmuyjs/zsxx-tkss" path="/cmu/cmuyjs/:type" :paramsDesc="['分类，见下表']">
+
+| 招生信息-统考硕士 |
+| ----------------- |
+| zsxx-tkss         |
+
+</Route>
+
 ## 中国政法大学
 
 ### 研究生院
