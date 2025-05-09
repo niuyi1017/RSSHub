@@ -5721,13 +5721,23 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 西安石油大学
 
-### 研究生院
+### 研究生招生网首页
 
-<Route author="yanbot-team" example="/xsyu/yjs/tzgg" path="/xsyu/yjs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+<Route author="yanbot-team" example="/xsyu/yjszs-index" path="/xsyu/yjszs-index" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
 
 | 通知公告 |
 | :------: |
 |   tzgg   |
+
+</Route>
+
+### 研究生招生网-分板块
+
+<Route author="yanbot-team" example="/xsyu/yjszs/tzgg1-ss" path="/xsyu/yjszs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+
+| 通知公告-硕士 |
+| :------: |
+|   tzgg1-ss   |
 
 </Route>
 
