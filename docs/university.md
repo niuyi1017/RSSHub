@@ -793,6 +793,18 @@ pageClass: routes
 
 </Route>
 
+## 成都中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cdutcm/yjs/zsgz-sszs" path="/cdutcm/yjs/:type" :paramsDesc="['分类type,见下表']">
+
+| 综合新闻  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
 ### 研究生院
 
 <Route author="yanbot-team" example="/cuit/yjsc/1020" path="/cuit/yjsc/:type" :paramsDesc="['分类type,见下表']" radar="1" >
@@ -5673,9 +5685,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="yanbot-team" example="/xust/yjs/tzgg-zsgz" path="/xust/yjs/:type" >
 
-| 通知公告-招生工作 | 
-| -------- |
-| tzgg-zsgz     | 
+| 通知公告-招生工作 |
+| ----------------- |
+| tzgg-zsgz         |
 
 </Route>
 
