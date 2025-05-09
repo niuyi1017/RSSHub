@@ -793,6 +793,16 @@ pageClass: routes
 
 </Route>
 
+### 研究生院
+
+<Route author="yanbot-team" example="/cuit/yjsc/1020" path="/cuit/yjsc/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+
+| 招生动态 |
+| -------- |
+| 1020     |
+
+</Route>
+
 ## 成都中医药大学
 
 ### 研究生院
@@ -802,16 +812,6 @@ pageClass: routes
 | 综合新闻  |
 | --------- |
 | zsgz-sszs |
-
-</Route>
-
-### 研究生院
-
-<Route author="yanbot-team" example="/cuit/yjsc/1020" path="/cuit/yjsc/:type" :paramsDesc="['分类type,见下表']" radar="1" >
-
-| 招生动态 |
-| -------- |
-| 1020     |
 
 </Route>
 
