@@ -803,6 +803,18 @@ pageClass: routes
 
 </Route>
 
+## 成都中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cdutcm/yjs/zsgz-sszs" path="/cdutcm/yjs/:type" :paramsDesc="['分类type,见下表']">
+
+| 综合新闻  |
+| --------- |
+| zsgz-sszs |
+
+</Route>
+
 ## 重庆大学
 
 ### 本科教学信息网通知公告
@@ -5535,6 +5547,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 武汉体育学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/whsu/yjsy/zsxx-zsxx" path="/whsu/yjsy/:type" :paramsDesc="['类型，详见表格']">
+
+| 类型 | 招生信息  |
+| ---- | --------- |
+| 参数 | zsxx-zsxx |
+
+</Route>
+
 ## 西安财经大学
 
 ### 教务处
@@ -5667,6 +5691,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安科技大学
+
+### 研招网
+
+<Route author="yanbot-team" example="/xust/yjs/tzgg-zsgz" path="/xust/yjs/:type" >
+
+| 通知公告-招生工作 |
+| ----------------- |
+| tzgg-zsgz         |
+
+</Route>
+
 ## 西安理工大学
 
 ### 学校主页
@@ -5721,13 +5757,19 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 西安石油大学
 
-### 研究生院
+### 研究生招生网首页
 
-<Route author="yanbot-team" example="/xsyu/yjs/tzgg" path="/xsyu/yjs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+<Route author="yanbot-team" example="/xsyu/yjszs-index" path="/xsyu/yjszs-index"  radar="1" rssbud="1">
 
-| 通知公告 |
-| :------: |
-|   tzgg   |
+</Route>
+
+### 研究生招生网-分板块
+
+<Route author="yanbot-team" example="/xsyu/yjszs/tzgg1-ss" path="/xsyu/yjszs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
+
+| 通知公告-硕士 |
+| :-----------: |
+|   tzgg1-ss    |
 
 </Route>
 
@@ -7078,6 +7120,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士最新通知 |
 | ------------ |
 | 10916        |
+
+</Route>
+
+## 中国医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cmu/cmuyjs/zsxx-tkss" path="/cmu/cmuyjs/:type" :paramsDesc="['分类，见下表']">
+
+| 招生信息-统考硕士 |
+| ----------------- |
+| zsxx-tkss         |
 
 </Route>
 
