@@ -5667,6 +5667,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 西安科技大学
+
+### 研招网
+
+<Route author="yanbot-team" example="/xust/yjs/tzgg-zsgz" path="/xust/yjs/:type" >
+
+| 通知公告-招生工作 | 
+| -------- |
+| tzgg-zsgz     | 
+
+</Route>
+
 ## 西安理工大学
 
 ### 学校主页
@@ -5723,11 +5735,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生招生网首页
 
-<Route author="yanbot-team" example="/xsyu/yjszs-index" path="/xsyu/yjszs-index" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
-
-| 通知公告 |
-| :------: |
-|   tzgg   |
+<Route author="yanbot-team" example="/xsyu/yjszs-index" path="/xsyu/yjszs-index"  radar="1" rssbud="1">
 
 </Route>
 
@@ -5736,8 +5744,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/xsyu/yjszs/tzgg1-ss" path="/xsyu/yjszs/:type" :paramsDesc="['分类id，见下表']" radar="1" rssbud="1">
 
 | 通知公告-硕士 |
-| :------: |
-|   tzgg1-ss   |
+| :-----------: |
+|   tzgg1-ss    |
 
 </Route>
 
