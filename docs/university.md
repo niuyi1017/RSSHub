@@ -4905,6 +4905,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+## 山西医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sxmu/yjs/zsxx" path="/sxmu/yjs/:type" :paramsDesc="['类别ID，见下表']" radar="1" >
+
+| 招生信息 |
+| -------- |
+| zsxx     |
+
+</Route>
+
 ## 沈阳大学
 
 ### 研究生院
