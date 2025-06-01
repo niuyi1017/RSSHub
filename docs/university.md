@@ -2274,6 +2274,18 @@ category 列表：
 
 </Route>
 
+## 海南师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hainannu/yjsc/1779" path="/hainannu/yjsc/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士生招生 |
+| ---------- |
+| 1779       |
+
+</Route>
+
 ## 杭州电子科技大学
 
 ### 计算机学院 - 通知公告
