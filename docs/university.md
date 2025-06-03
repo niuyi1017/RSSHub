@@ -2934,6 +2934,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="RayHY" example="/hust/aia/news" path="/hust/aia/news" />
 
+### 生命科学与技术学院
+
+<Route author="yanbot-team" example="/hust/life/yjsjy1-yjszs" path="/hust/life/:type?" :paramsDesc="['分区 type']">
+
+| 研究生招生   |
+| ------------ |
+| yjsjy1-yjszs |
+
+</Route>
+
 ### 研究生招生信息网
 
 <Route author="yanbot-team" example="/hust/gszs/zsxx-ggtz" path="/hust/aia/notice/:type?" :paramsDesc="['分区 type']">
