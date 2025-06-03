@@ -2462,6 +2462,16 @@ category 列表：
 
 </Route>
 
+### 马克思主义学院
+
+<Route author="yanbot-team" example="/hhu/mky/6551" path="/hhu/mky/:type" :paramsDesc="['分类名，见下表']" >
+
+| 通知公告 |
+| -------- |
+| 6551     |
+
+</Route>
+
 ## 河南财政金融学院
 
 ### 河南财政金融学院
