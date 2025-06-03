@@ -1893,6 +1893,18 @@ pageClass: routes
 
 <Route author="skyedai910" example="/gzmtu/tsg" path="/gzmtu/tsg" />
 
+## 广州医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/gzhmu/yjs/zsgz" path="/gzucm/yjs/:type" :paramsDesc="['分类名,见下表，也可在页面url中找到']">
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
+
 ## 广州中医药大学
 
 ### 研究生院
@@ -2262,6 +2274,18 @@ category 列表：
 
 </Route>
 
+## 海南师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hainannu/yjsc/1779" path="/hainannu/yjsc/:type" :paramsDesc="['分类名，见下表']" >
+
+| 硕士生招生 |
+| ---------- |
+| 1779       |
+
+</Route>
+
 ## 杭州电子科技大学
 
 ### 计算机学院 - 通知公告
@@ -2435,6 +2459,16 @@ category 列表：
 | 硕士研究生招生 | 硕士历年招生目录 | 硕士历年复试分数基本要求 | 招生工作通知公告 |
 | -------------- | ---------------- | ------------------------ | ---------------- |
 | 17279          | 17365            | 17366                    | 17277            |
+
+</Route>
+
+### 马克思主义学院
+
+<Route author="yanbot-team" example="/hhu/mky/6551" path="/hhu/mky/:type" :paramsDesc="['分类名，见下表']" >
+
+| 通知公告 |
+| -------- |
+| 6551     |
 
 </Route>
 
@@ -2899,6 +2933,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 人工智能和自动化学院新闻
 
 <Route author="RayHY" example="/hust/aia/news" path="/hust/aia/news" />
+
+### 生命科学与技术学院
+
+<Route author="yanbot-team" example="/hust/life/yjsjy1-yjszs" path="/hust/life/:type?" :paramsDesc="['分区 type']">
+
+| 研究生招生   |
+| ------------ |
+| yjsjy1-yjszs |
+
+</Route>
 
 ### 研究生招生信息网
 
@@ -4293,13 +4337,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 曲阜师范大学
 
-### 研究生教育
+### 研究生处
 
-<Route author="yanbot-team" example="/qfnu/yjs/zsgz-tzgg" path="/qfnu/yjs/:type" :paramsDesc="['分类见下表']"/>
+<Route author="yanbot-team" example="/qfnu/yjs/zsgz" path="/qfnu/yjs/:type" :paramsDesc="['分类见下表']"/>
 
-| 招生工作通知公告 |
-| :--------------: |
-|    zsgz-tzgg     |
+| 招生工作 |
+| :------: |
+|   zsgz   |
 
 </Route>
 
@@ -4395,9 +4439,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="suxb201" example="/sdu/cs/0" path="/sdu/cs/:type?" :paramsDesc="['默认为 `0`']" radar="1" rssbud="1">
 
-| 学院公告 | 学术报告 | 科技简讯 |
-| -------- | -------- | -------- |
-| 0        | 1        | 2        |
+| 学院公告 | 学术报告 | 科技简讯 | 研究生教育 |
+| -------- | -------- | -------- | ---------- |
+| 0        | 1        | 2        | 3          |
 
 </Route>
 
@@ -4570,6 +4614,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生  |
 | --------- |
 | zslb-sszs |
+
+</Route>
+
+### 社会学院
+
+<Route author="yanbot-team" example="/shu/sociology/rcpy-yjspy-zsxx" path="/shu/sociology/:type" :paramsDesc="['类型,见下表,也可在页面URL中找到']">
+
+| 招生信息        |
+| --------------- |
+| rcpy-yjspy-zsxx |
 
 </Route>
 
@@ -4757,13 +4811,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="Diffumist" example="/usst/jwc" path="/usst/jwc"/>
 
-### 研究生院
+### 研究生院-首页
 
-<Route author="yanbot-team" example="/shanghaitech/yanzhao/tzgg" path="/shanghaitech/yanzhao/:type" :paramsDesc="['类型,见下表，也可在页面URL中找到']">
-
-| 通知公告 |
-| -------- |
-| tzgg     |
+<Route author="yanbot-team" example="/usst/yz-index" path="/usst/yz-index" >
 
 </Route>
 
@@ -4894,6 +4944,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士研究生招生 | 推免生接收 | 公费师范毕业生在职攻读教育硕士 |
 | -------------- | ---------- | ------------------------------ |
 | tzgg-ssyjszs   | tzgg-tmsjs | tzgg-gfsfbyszzgdjyss           |
+
+</Route>
+
+## 山西医科大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sxmu/yjs/zsxx" path="/sxmu/yjs/:type" :paramsDesc="['类别ID，见下表']" radar="1" >
+
+| 招生信息 |
+| -------- |
+| zsxx     |
 
 </Route>
 
@@ -5429,11 +5491,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/wmu/yjsy/zsgz1-sszs" path="/wmu/yjsy/:type" :paramsDesc="['分类，见下表']" />
+<Route author="yanbot-team" example="wmu/yjsy/zsgz1-tzggs" path="/wmu/yjsy/:type" :paramsDesc="['分类，见下表']" />
 
-|  硕士招生  |
+|  通知公告  |
 | :--------: |
-| zsgz1-sszs |
+| zsgz1-tzgg |
 
 </Route>
 
@@ -6892,6 +6954,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生    | 博士招生    |
 | ----------- | ----------- |
 | zsxx*-sszs* | zsxx*-bszs* |
+
+</Route>
+
+### 赣江创新研究院
+
+<Route author="yanbot-team" example="/giacas/index/rcjy-sszs" path="/giacas/index/:type" :paramsDesc="['分类，见下表']" radar="1">
+
+| 硕士招生  |
+| --------- |
+| rcjy-sszs |
 
 </Route>
 
