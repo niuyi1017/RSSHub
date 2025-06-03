@@ -4607,6 +4607,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 社会学院
+
+<Route author="yanbot-team" example="/shu/sociology/rcpy-yjspy-zsxx" path="/shu/sociology/:type" :paramsDesc="['类型,见下表,也可在页面URL中找到']">
+
+| 招生信息        |
+| --------------- |
+| rcpy-yjspy-zsxx |
+
+</Route>
+
 ## 上海电力大学
 
 ### 新闻网与学院通知
