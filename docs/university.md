@@ -4429,9 +4429,9 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="suxb201" example="/sdu/cs/0" path="/sdu/cs/:type?" :paramsDesc="['默认为 `0`']" radar="1" rssbud="1">
 
-| 学院公告 | 学术报告 | 科技简讯 |
-| -------- | -------- | -------- |
-| 0        | 1        | 2        |
+| 学院公告 | 学术报告 | 科技简讯 | 研究生教育 |
+| -------- | -------- | -------- | ---------- |
+| 0        | 1        | 2        | 3          |
 
 </Route>
 
