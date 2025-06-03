@@ -6947,6 +6947,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 赣江创新研究院
+
+<Route author="yanbot-team" example="/giacas/index/rcjy-sszs" path="/giacas/index/:type" :paramsDesc="['分类，见下表']" radar="1">
+
+| 硕士招生  |
+| --------- |
+| rcjy-sszs |
+
+</Route>
+
 ### 广州地球化学研究所
 
 <Route author="yanbot-team" example="/gigcas/yjsjy/zsxx-sszs" path="/gigcas/yjsjy/:type" :paramsDesc="['分类，见下表']" radar="1">
