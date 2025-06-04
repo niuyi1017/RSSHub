@@ -276,6 +276,18 @@ pageClass: routes
 
 <Route author="legr4ndk" example="/pku/ss/pgadmin" path="/pku/ss/pgadmin" radar="1" rssbud="1"/>
 
+## 北京大学医学部
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bjmu/yjsy/zslq-zsdt" path="/bjmu/yjsy/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1" puppeteer="1">
+
+| 招生动态  |
+| --------- |
+| zslq-zsdt |
+
+</Route>
+
 ## 北京电影学院
 
 ### 研究生院
@@ -6450,6 +6462,18 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 招生 |
 | ---- |
 | zs   |
+
+</Route>
+
+## 云南农业大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ynau/yjs/zsgz-qrzssyjs" path="/ynau/yjs/:type" :paramsDesc="['分类名，见下表']">
+
+| 招生          |
+| ------------- |
+| zsgz-qrzssyjs |
 
 </Route>
 
