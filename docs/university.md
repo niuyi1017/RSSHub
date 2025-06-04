@@ -276,6 +276,18 @@ pageClass: routes
 
 <Route author="legr4ndk" example="/pku/ss/pgadmin" path="/pku/ss/pgadmin" radar="1" rssbud="1"/>
 
+## 北京大学医学部
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bjmu/yjsy/zslq-zsdt" path="/bjmu/yjsy/:type" :paramsDesc="['分类id，见下表，其他未列出的分类可以在网页URL中找到']" radar="1" puppeteer="1">
+
+| 招生动态  |
+| --------- |
+| zslq-zsdt |
+
+</Route>
+
 ## 北京电影学院
 
 ### 研究生院
