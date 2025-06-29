@@ -2880,6 +2880,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 工商管理学院
+
+<Route author="yanbot-team" example="/scut/cnsba/zszx" path="/scut/cnsba/:type" :paramsDesc="['通知分类，见下表，也可从页面url中找到']">
+
+| 招生资讯 |
+| -------- |
+| zszx     |
+
+</Route>
+
 ## 华南农业大学
 
 ### 研究生招生信息网
@@ -3021,6 +3031,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 ### 校内通知
 
 <Route author="276562578" example="/jlu/oa" path="/jlu" />
+
+### 工商与管理学院
+
+<Route author="yanbot-team" example="/jlu/sg/tzgg" path="/jlu/sg/:type" :paramDesc="['分类，见下表，其他未列出的可在页面URL中找到']">
+
+| 通知公告 |
+| -------- |
+| tzgg     |
+
+</Route>
 
 ### 招生网
 
@@ -3244,11 +3264,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/jsu/yjsc/zsgz1-sszs" path="/jsu/yjsc/:type" radar="1" >
+<Route author="yanbot-team" example="/jsu/yjsc/zsgz-sszss" path="/jsu/yjsc/:type" radar="1" >
 
 | 招生工作硕士招生 |
 | ---------------- |
-| zsgz1-sszs       |
+| zsgz-sszs        |
 
 </Route>
 
@@ -4393,6 +4413,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 医学院
+
+<Route author="yanbot-team" example="/xmu/med/sbszs" path="/xmu/med/:type" :paramsDesc="['分类见下表']"/>
+
+| 硕博士招生 |
+| :--------: |
+|   sbszs    |
+
+</Route>
+
 ## 厦门理工学院
 
 ### 研究生院
@@ -4454,6 +4484,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院公告 | 学术报告 | 科技简讯 | 研究生教育 |
 | -------- | -------- | -------- | ---------- |
 | 0        | 1        | 2        | 3          |
+
+</Route>
+
+### 齐鲁医学院
+
+<Route author="yanbot-team" example=" /sdu/qlyxjxgl/zsgz-sszs" path="/sdu/qlyxjxgl/:type?" :paramsDesc="['默认为 `0`']" radar="1" rssbud="1">
+
+| 招生工作-硕士招生 |
+| ----------------- |
+| zsgz-sszs         |
 
 </Route>
 
@@ -5420,6 +5460,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 硕士招生  | 博士生 |
 | --------- | ------ |
 | zsxw-sszs | 2      |
+
+</Route>
+
+### 同济大学职业技术教育学院
+
+<Route author="yanbot-team" example="/tongji/cdibb/17655" path="/tongji/cdibb/:type" :paramsDesc="['类型，见下表']">
+
+| 教务公告 |
+| -------- |
+| 17655    |
 
 </Route>
 
