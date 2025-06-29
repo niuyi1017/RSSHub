@@ -5443,6 +5443,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 同济大学职业技术教育学院
+
+<Route author="yanbot-team" example="/tongji/cdibb/17655" path="/tongji/cdibb/:type" :paramsDesc="['类型，见下表']">
+
+| 教务公告 |
+| -------- |
+| 17655    |
+
+</Route>
+
 ## 潍坊学院
 
 ### 新闻
