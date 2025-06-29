@@ -2880,6 +2880,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 工商管理学院
+
+<Route author="yanbot-team" example="/scut/cnsba/zszx" path="/scut/cnsba/:type" :paramsDesc="['通知分类，见下表，也可从页面url中找到']">
+
+| 招生资讯 |
+| -------- |
+| zszx     |
+
+</Route>
+
 ## 华南农业大学
 
 ### 研究生招生信息网
@@ -4454,6 +4464,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 | 学院公告 | 学术报告 | 科技简讯 | 研究生教育 |
 | -------- | -------- | -------- | ---------- |
 | 0        | 1        | 2        | 3          |
+
+</Route>
+
+### 齐鲁医学院
+
+<Route author="yanbot-team" example=" /sdu/qlyxjxgl/zsgz-sszs" path="/sdu/qlyxjxgl/:type?" :paramsDesc="['默认为 `0`']" radar="1" rssbud="1">
+
+| 招生工作-硕士招生 |
+| ----------------- |
+| zsgz-sszs         |
 
 </Route>
 
