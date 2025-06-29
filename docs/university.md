@@ -4413,6 +4413,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 </Route>
 
+### 医学院
+
+<Route author="yanbot-team" example="/xmu/med/sbszs" path="/xmu/med/:type" :paramsDesc="['分类见下表']"/>
+
+| 硕博士招生 |
+| :--------: |
+|   sbszs    |
+
+</Route>
+
 ## 厦门理工学院
 
 ### 研究生院
