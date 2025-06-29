@@ -3032,6 +3032,16 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 <Route author="276562578" example="/jlu/oa" path="/jlu" />
 
+### 工商与管理学院
+
+<Route author="yanbot-team" example="/jlu/sg/tzgg" path="/jlu/sg/:type" :paramDesc="['分类，见下表，其他未列出的可在页面URL中找到']">
+
+| 通知公告 |
+| -------- |
+| tzgg     |
+
+</Route>
+
 ### 招生网
 
 <Route author="yanbot-team" example="/jlu/zsb/18" path="/jlu/zsb/:type" :paramDesc="['分类，见下表，其他未列出的可在页面URL中找到']">
