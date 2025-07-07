@@ -3264,11 +3264,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/jsu/yjsc/zsgz-sszss" path="/jsu/yjsc/:type" radar="1" >
+<Route author="yanbot-team" example="/jsu/yjsc/zsgz" path="/jsu/yjsc/:type" radar="1" >
 
-| 招生工作硕士招生 |
-| ---------------- |
-| zsgz-sszs        |
+| 招生工作 |
+| -------- |
+| zsgz     |
 
 </Route>
 
