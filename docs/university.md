@@ -819,11 +819,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/cdutcm/yjs/zsgz-sszs" path="/cdutcm/yjs/:type" :paramsDesc="['分类type,见下表']">
+<Route author="yanbot-team" example="/cdutcm/yjs/yjs-zsgz" path="/cdutcm/yjs/:type" :paramsDesc="['分类type,见下表']">
 
-| 综合新闻  |
-| --------- |
-| zsgz-sszs |
+| 招生工作 |
+| -------- |
+| yjs-zsgz |
 
 </Route>
 
