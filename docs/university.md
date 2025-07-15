@@ -928,11 +928,11 @@ pageClass: routes
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/cqjtu/yjszs/zsxx1-ssyjs" path="/cqjtu/yjszs/:type" :paramsDesc="['分类名']">
+<Route author="yanbot-team" example="/cqjtu/yjszs/tzgg-ssyjs" path="/cqjtu/yjszs/:type" :paramsDesc="['分类名']">
 
-| 硕士研究生  |
-| ----------- |
-| zsxx1-ssyjs |
+| 硕士研究生 |
+| ---------- |
+| tzgg-ssyjs |
 
 </Route>
 
