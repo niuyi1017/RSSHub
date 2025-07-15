@@ -6536,13 +6536,13 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="SettingDust" example="/ynnu/edu/news" path="/ynnu/edu/news" >
 </Route>
 
-### 研究生招生网
+### 研究生处
 
-<Route author="yanbot-team" example="/ynnu/zsb/qrzss" path="/ynnu/zsb/:type" :paramsDesc="['分类，见下表']" radar="1" puppeteer="1">
+<Route author="yanbot-team" example="/ynnu/grs/zsxx" path="/ynnu/grs/:type" :paramsDesc="['分类，见下表']" radar="1" puppeteer="1">
 
-| 全日制硕士 |
+| 招生信息 |
 | ---------- |
-| qrzss      |
+| zsxx      |
 
 </Route>
 
