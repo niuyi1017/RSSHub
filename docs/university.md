@@ -785,11 +785,11 @@ pageClass: routes
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/cdut/gra/zsgz-tzgg" path="/cdut/gra/:type" :paramsDesc="['分类type,见下表']" radar="1" >
+<Route author="yanbot-team" example="/cdut/gra/zsgz-sszs" path="/cdut/gra/:type" :paramsDesc="['分类type,见下表']" radar="1" >
 
-| 招生工作-通知公告 |
+| 招生工作-硕士招生 |
 | ----------------- |
-| zsgz-tzgg         |
+| zsgz-sszs         |
 
 </Route>
 
