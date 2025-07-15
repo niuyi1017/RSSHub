@@ -6451,11 +6451,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/yzu/yjsc/tzgg-zsxx" path="/yzu/yjsc/:type" :paramsDesc="['分类名']">
+<Route author="yanbot-team" example="/yzu/yjszs/tzgg-tzgg" path="/yzu/yjsc/:type" :paramsDesc="['分类名']">
 
-| 通知公告-招生信息 |
+| 通知公告-通知公告 |
 | ----------------- |
-| tzgg-zsxx         |
+| tzgg-tzgg         |
 
 </Route>
 
