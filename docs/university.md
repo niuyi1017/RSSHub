@@ -54,11 +54,11 @@ pageClass: routes
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/aufe/yz/13920" path="/aufe/yz/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
+<Route author="yanbot-team" example="/aufe/yz/sszsdt" path="/aufe/yz/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
 
-| 招生动态通知公告 |
-| ---------------- |
-| 13920            |
+| 硕士招生动态 | 简章目录 |
+| ------------ | -------- |
+| sszsdt       | zsjz     |
 
 </Route>
 
