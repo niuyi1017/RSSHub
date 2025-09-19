@@ -2310,11 +2310,11 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/hdu/grs/1708" path="/hdu/grs/:type" :paramsDesc="['分类名，见下表']" >
+<Route author="yanbot-team" example="/hdu/grs/13493" path="/hdu/grs/:type" :paramsDesc="['分类名，见下表']" >
 
-| 招生工作 |
-| -------- |
-| 1708     |
+| 硕士招生 | 招生简章 | 招生信息 |
+| -------- | -------- | -------- |
+| 13493    | 13497    | 13498    |
 
 </Route>
 
@@ -6541,8 +6541,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/ynnu/grs/zsxx" path="/ynnu/grs/:type" :paramsDesc="['分类，见下表']" radar="1" puppeteer="1">
 
 | 招生信息 |
-| ---------- |
-| zsxx      |
+| -------- |
+| zsxx     |
 
 </Route>
 
