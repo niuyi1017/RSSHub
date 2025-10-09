@@ -54,11 +54,11 @@ pageClass: routes
 
 ### 研究生招生信息网
 
-<Route author="yanbot-team" example="/aufe/yz/13920" path="/aufe/yz/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
+<Route author="yanbot-team" example="/aufe/yz/sszsdt" path="/aufe/yz/:type" :paramsDesc="['类型名,见下表，也可在页面URL中找到']"  radar="1" rssbud="1">
 
-| 招生动态通知公告 |
-| ---------------- |
-| 13920            |
+| 硕士招生动态 | 简章目录 |
+| ------------ | -------- |
+| sszsdt       | zsjz     |
 
 </Route>
 
@@ -2310,11 +2310,11 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/hdu/grs/1708" path="/hdu/grs/:type" :paramsDesc="['分类名，见下表']" >
+<Route author="yanbot-team" example="/hdu/grs/13493" path="/hdu/grs/:type" :paramsDesc="['分类名，见下表']" >
 
-| 招生工作 |
-| -------- |
-| 1708     |
+| 硕士招生 | 招生简章 | 招生信息 |
+| -------- | -------- | -------- |
+| 13493    | 13497    | 13498    |
 
 </Route>
 
@@ -6541,8 +6541,8 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 <Route author="yanbot-team" example="/ynnu/grs/zsxx" path="/ynnu/grs/:type" :paramsDesc="['分类，见下表']" radar="1" puppeteer="1">
 
 | 招生信息 |
-| ---------- |
-| zsxx      |
+| -------- |
+| zsxx     |
 
 </Route>
 
