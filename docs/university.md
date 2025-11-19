@@ -751,11 +751,11 @@ pageClass: routes
 
 ### 教务处
 
-<Route author="yanbot-team" example="/cczu/gs/1800" path="/cczu/gs/:type" :paramsDesc="['可选，默认为 `all`']">
+<Route author="yanbot-team" example="/cczu/gs/1798" path="/cczu/gs/:type" :paramsDesc="['可选，默认为 `all`']">
 
-| 硕士招生与录取 |
-| -------------- |
-| 1800           |
+| 招生 |
+| ---- |
+| 1798 |
 
 </Route>
 
@@ -2334,11 +2334,11 @@ category 列表：
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/hebic/yjs/11018" path="/hebic/yjs/:type" :paramsDesc="['分类名，见下表']" >
+<Route author="yanbot-team" example="/hebic/yjs/c81af17d-8720-49cf-9741-127c2aaf9c21" path="/hebic/yjs/:type" :paramsDesc="['分类名，见下表']" >
 
-| 招生工作 |
-| -------- |
-| 11018    |
+| 招生工作                             |
+| ------------------------------------ |
+| c81af17d-8720-49cf-9741-127c2aaf9c21 |
 
 </Route>
 
@@ -4763,11 +4763,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/shou/yjs/14263-list1" path="/shou/yjs/:type" :paramsDesc="['消息类型']">
+<Route author="yanbot-team" example="/shou/yjs/18604" path="/shou/yjs/:type" :paramsDesc="['消息类型']">
 
-| 招生信息    |
-| ----------- |
-| 14263-list1 |
+| 招生信息 |
+| -------- |
+| 18604    |
 
 </Route>
 
@@ -7371,11 +7371,11 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ### 研究生院
 
-<Route author="yanbot-team" example="/csuft/yjsb/zsgz-qrzss" path="/csuft/yjsb/:type" :paramsDesc="['类型，见下表，其他未列出的类型可在页面URL中找到']" radar="1">
+<Route author="yanbot-team" example="/csuft/yjsy/zsgz-sszs" path="/csuft/yjsy/:type" :paramsDesc="['类型，见下表，其他未列出的类型可在页面URL中找到']" radar="1">
 
-| 类型 | 硕士招生   |
-| ---- | ---------- |
-| 参数 | zsgz-qrzss |
+| 类型 | 硕士招生  |
+| ---- | --------- |
+| 参数 | zsgz-sszs |
 
 </Route>
 
