@@ -129,3 +129,23 @@
 | 2701     | 2712     | 2713     | 2702     | 2703     | 2704     | 2705     | 2706     |
 
 </Route>
+
+## 湘潭大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xtu/yjsc/zsgl-sszs" path="/xtu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  | 港澳台招生  | 同等学力申硕  | 招生宣传  | 考点信息  |
+| --------- | --------- | ----------- | ------------- | --------- | --------- |
+| zsgl-sszs | zsgl-bszs | zsgl-gatzs1 | zsgl-tdxlss1  | zsgl-zsxc | zsgl-kdxx |
+
+| 硕士招生-通知公告 | 硕士招生-简章目录 | 硕士招生-录取公示 |
+| ----------------- | ----------------- | ----------------- |
+| zsgl-sszs-tzgg    | zsgl-sszs-jzml    | zsgl-sszs-lqgs    |
+
+| 博士招生-通知公告 | 博士招生-简章目录 | 博士招生-录取公示 |
+| ----------------- | ----------------- | ----------------- |
+| zsgl-bszs-tzgg    | zsgl-bszs-jzml    | zsgl-bszs-lqgs    |
+
+</Route>
