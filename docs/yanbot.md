@@ -189,3 +189,15 @@
 | 32-25  | 32-26  | 32-27  | 32-28  |
 
 </Route>
+
+## 青海大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/qhu/yjs/tzgg1" path="/qhu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 党建工作 | 学历硕士招生 | 学历博士招生 | 教务管理 | 培养规章制度 | 学位通知公告 | 学位管理规定 | 通知通告 |
+| -------- | -------- | ------------ | ------------ | -------- | ------------ | ------------ | ------------ | -------- |
+| tzgg1    | djgz     | zsgz-xlsszs  | zsgz-xlbszs  | pygl-jwgl | pygl-pyzc   | xwgl-tzgg    | xwgl-xwwj    | xsgz-tztg |
+
+</Route>
