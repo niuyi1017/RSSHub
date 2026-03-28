@@ -69,3 +69,15 @@
 | zsgz-zsjz | zsgz-sszs | zsgz-bszs | zsgz-tmgz | zsgz-gatyz  | zsgz-gzzd |
 
 </Route>
+
+## 东华大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/dhu/yjszs/zxgg" path="/dhu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 最新公告 | 博士招生简章 | 硕士招生简章 | 信息公开 |
+| -------- | ------------ | ------------ | -------- |
+| zxgg     | 8891         | 8890         | 7120     |
+
+</Route>
