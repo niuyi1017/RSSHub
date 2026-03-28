@@ -237,3 +237,15 @@
 | 5139     | 5152     | 5153     | 5154     | 5140     | 5141     | 5142     | 5143     | 5144     |
 
 </Route>
+
+## 湖北中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/hbucm/yjs/zsgz-sszs" path="/hbucm/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  | 硕士推免生接收 |
+| --------- | --------- | -------------- |
+| zsgz-sszs | zsgz-bszs | zsgz-sstmsjs   |
+
+</Route>
