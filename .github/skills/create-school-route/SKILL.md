@@ -128,7 +128,7 @@ module.exports = createRoute({
 ```
 
 **配置规则:**
-- 日期文本如含非标准格式（如 `[2026-03-26]` 带方括号），使用 `listItemParser` 自定义解析去掉多余字符
+- 日期文本如含非标准格式，优先用 `listParser.dateTransform` 做简单转换（如中文日期 `2026年03月25日` → `2026/03/25`），复杂场景才用 `listItemParser`
 - `buildPageUrl` — URL 模式为默认 `${host}/${type}/index.htm` 时省略
 - `fetchMethod` — 用默认 `'got'` 时省略
 - **puppy 模式默认不采集详情页** — 当 `fetchMethod: 'puppy'` 时，默认省略 `fetchDetail` 及详情相关配置（puppy 采集详情页速度慢、资源开销大）。仅当用户明确要求抓取详情全文时才加 `fetchDetail: true` + `detailFetchMethod: 'puppy'`
@@ -211,6 +211,7 @@ module.exports = {
 | `listParser.dateSelector` | string | `'span'` | No |
 | `listParser.linkSelector` | string | `'a'` | No |
 | `listParser.titleAttr` | string | `'title'` | No |
+| `listParser.dateTransform` | `(dateStr) => string` | — | No |
 | `listItemParser` | function | — | Advanced |
 | `fetchDetail` | boolean | `false` | No |
 | `detailFetchMethod` | `'got'` \| `'puppy'` | `'got'` | No |
@@ -235,7 +236,7 @@ module.exports = {
 |---------|----------|
 | Empty list / no items | Check JS rendering → switch to `fetchMethod: 'puppy'` |
 | Wrong links (relative path) | The template auto-resolves relative URLs — verify `host` is correct |
-| Dates not parsing | Adjust `listParser.dateSelector` or use `listItemParser` for custom parsing |
+| Dates not parsing | Adjust `listParser.dateSelector`；简单格式转换用 `listParser.dateTransform`（如 `d => d.replace(/[年月]/g, '/').replace(/日/g, '')`）；复杂场景用 `listItemParser` |
 | Detail page empty | Try different `detailContentSelector`, check for iframe embedding |
 | Encoding issues | 页面 `charset=gb2312` 或 `gbk` 时，配置 `encoding: 'gb2312'`（列表页+详情页统一转码） |
 | 403/blocked | Try `fetchMethod: 'puppy'` with browser User-Agent |
