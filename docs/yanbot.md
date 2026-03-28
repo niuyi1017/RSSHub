@@ -34,6 +34,18 @@
 
 </Route>
 
+## 广东技术师范大学
+
+### 研究生招生网通知公告
+
+<Route author="yanbot-team" example="/gpnu/yjszs/tzgg" path="/gpnu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 简章与目录 | 学科专业 | 资料下载 |
+| -------- | ---------- | -------- | -------- |
+| tzgg     | jzyml      | xkzy     | zlxz     |
+
+</Route>
+
 ## 广州大学
 
 ### 研究生院
