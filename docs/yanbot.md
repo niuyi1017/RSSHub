@@ -34,6 +34,30 @@
 
 </Route>
 
+## 南通大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/ntu/yjszs/xxgg" path="/ntu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 信息公告 | 招生简章 | 博士生招生 | 硕士生招生 | 港澳台招生 | 规章制度 | 常见问题 | 资料下载 |
+| -------- | -------- | ---------- | ---------- | ---------- | -------- | -------- | -------- |
+| xxgg     | zsjz     | bsszs      | yjszsjz    | gatzs_9031 | gzzd     | cjwt     | zlxz     |
+
+</Route>
+
+## 华北电力大学（保定）
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/ncepu/gs/zsxx-zxxx2" path="/ncepu/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 最新信息 | 招生简章 | 专业目录 | 查询服务 | 推荐免试 | 联系我们 | 常见问题解答 |
+| -------- | -------- | -------- | -------- | -------- | -------- | ------------ |
+| zsxx-zxxx2 | zsxx-zsjz | zsxx-zyml | zsxx-cxfw | zsxx-tjms | zsxx-lxwm | zsxx-cjwtjd |
+
+</Route>
+
 ## 桂林电子科技大学
 
 ### 研究生招生信息网
