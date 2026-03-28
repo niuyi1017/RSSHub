@@ -321,3 +321,16 @@
 | yjszs1-zszc   | yjszs1-bszs   | yjszs1-sszs   | yjszs1-tdxlss1    | yjszs1-ejxytzgg    | yjszs1-xzzq   |
 
 </Route>
+
+
+## 四川外国语大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/sisu/graduate/zsxx-sszs" path="/sisu/graduate/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  |
+| --------- | --------- |
+| zsxx-sszs | zsxx-bszs |
+
+</Route>
