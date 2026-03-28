@@ -126,6 +126,7 @@ module.exports = createRoute({
 - 日期文本如含非标准格式（如 `[2026-03-26]` 带方括号），使用 `listItemParser` 自定义解析去掉多余字符
 - `buildPageUrl` — URL 模式为默认 `${host}/${type}/index.htm` 时省略
 - `fetchMethod` — 用默认 `'got'` 时省略
+- **puppy 模式默认不采集详情页** — 当 `fetchMethod: 'puppy'` 时，默认省略 `fetchDetail` 及详情相关配置（puppy 采集详情页速度慢、资源开销大）。仅当用户明确要求抓取详情全文时才加 `fetchDetail: true` + `detailFetchMethod: 'puppy'`
 - `listParser` — dateSelector 为默认 `'span'` 时省略
 - `detailExtraSelectors` — 无附件时省略
 - `fetchDetail` 及详情选择器 — 不抓详情页时省略
@@ -179,10 +180,9 @@ module.exports = {
 1. 检查语法错误（使用 error checker）
 2. 模块加载测试:
    ```bash
-   nvs use 18
-   node -e "require('./lib/app');const r=require('./lib/v2/<folder>/<route>');console.log(typeof r)"
+   node scripts/verify-route.js <folder>/<route>
    ```
-   应输出 `function`。
+   应输出 `✓ ... 加载成功 (type: function)`。
 3. 清理临时文件（仅当文件存在时）:
    ```powershell
    Remove-Item _temp_page.html -ErrorAction SilentlyContinue

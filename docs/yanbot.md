@@ -81,3 +81,15 @@
 | zxgg     | 8891         | 8890         | 7120     |
 
 </Route>
+
+## 中国政法大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/cupl/yjsy/yjszs" path="/cupl/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 研究生招生 | 内地硕士招生 | 内地博士招生 | 港澳台研究生 | 招生章程 | 复试分数线 | 通知公告 | 常用下载 |
+| ---------- | ------------ | ------------ | ------------ | -------- | ---------- | -------- | -------- |
+| yjszs      | yjszs-ndsszs | yjszs-ndbszs | yjszs-gatyjs | yjszs-zszc | yjszs-fsfsx | yjszs-tzgg | yjszs-cyxz |
+
+</Route>
