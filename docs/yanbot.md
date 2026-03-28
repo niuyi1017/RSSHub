@@ -249,3 +249,27 @@
 | zsgz-sszs | zsgz-bszs | zsgz-sstmsjs   |
 
 </Route>
+
+## 浙江中医药大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/zcmu/yjsgl/20" path="/zcmu/yjsgl/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 |
+| -------- |
+| 20       |
+
+</Route>
+
+## 海南医科大学
+
+### 招生信息网（研究生招生）
+
+<Route author="yanbot-team" example="/muhn/zsw/yjszs1-sszs" path="/muhn/zsw/:type" :paramsDesc="['栏目类型']" >
+
+| 招生政策      | 博士招生      | 硕士招生      | 同等学力申硕      | 二级学院通知公告   | 下载专区      |
+| ------------- | ------------- | ------------- | ----------------- | ------------------ | ------------- |
+| yjszs1-zszc   | yjszs1-bszs   | yjszs1-sszs   | yjszs1-tdxlss1    | yjszs1-ejxytzgg    | yjszs1-xzzq   |
+
+</Route>
