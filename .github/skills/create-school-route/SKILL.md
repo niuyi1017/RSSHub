@@ -217,6 +217,7 @@ module.exports = {
 | `detailContentSelector` | string | — | If fetchDetail |
 | `detailExtraSelectors` | string[] | `[]` | No |
 | `detailParser` | function | — | Advanced |
+| `encoding` | string | — | No |
 | `timezone` | number | `8` | No |
 
 ## Common URL Patterns
@@ -236,6 +237,6 @@ module.exports = {
 | Wrong links (relative path) | The template auto-resolves relative URLs — verify `host` is correct |
 | Dates not parsing | Adjust `listParser.dateSelector` or use `listItemParser` for custom parsing |
 | Detail page empty | Try different `detailContentSelector`, check for iframe embedding |
-| Encoding issues | Most Chinese sites use UTF-8; if GBK, may need custom handling |
+| Encoding issues | 页面 `charset=gb2312` 或 `gbk` 时，配置 `encoding: 'gb2312'`（列表页+详情页统一转码） |
 | 403/blocked | Try `fetchMethod: 'puppy'` with browser User-Agent |
 | Module load test fails | 确保用 `require('./lib/app')` 先注册 `@/` 别名，且使用 Node 18 |

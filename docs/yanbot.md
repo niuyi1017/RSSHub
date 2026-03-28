@@ -161,3 +161,31 @@
 | zsxx     | zsxx-zsgz | zsxx-zsgz-zsjz |
 
 </Route>
+
+## 山东工艺美术学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/sdada/yjsc/zsxx" path="/sdada/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 工作动态 | 招生信息 | 研究生培养 | 学位管理 | 学科建设 | 政策法规 |
+| -------- | -------- | ---------- | -------- | -------- | -------- |
+| gzdt     | zsxx     | yjspy      | xwgl     | xkjs     | zcfg     |
+
+</Route>
+
+## 大连交通大学
+
+### 研究生招生复试与调剂
+
+<Route author="yanbot-team" example="/djtu/grs" path="/djtu/grs" />
+
+### 研究生工作处
+
+<Route author="yanbot-team" example="/djtu/gs/32-25" path="/djtu/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生办 | 培养办 | 学位办 | 研工部 |
+| ------ | ------ | ------ | ------ |
+| 32-25  | 32-26  | 32-27  | 32-28  |
+
+</Route>
