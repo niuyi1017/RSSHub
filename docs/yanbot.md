@@ -117,3 +117,15 @@
 | sszs-sszs | bszs-bszs | tjms-tjms | fstj-fsdj | zsjz-zsjz | cyxz-cyxz | zsxc-zsxc |
 
 </Route>
+
+## 西北师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/nwnu/yjsy/2701" path="/nwnu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 博士招生 | 硕士招生 | 培养工作 | 学科建设 | 学位工作 | 规章制度 | 下载中心 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 2701     | 2712     | 2713     | 2702     | 2703     | 2704     | 2705     | 2706     |
+
+</Route>
