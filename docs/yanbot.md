@@ -149,3 +149,15 @@
 | zsgl-bszs-tzgg    | zsgl-bszs-jzml    | zsgl-bszs-lqgs    |
 
 </Route>
+
+## 新疆师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/xjnu/yjsc/zsxx" path="/xjnu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 招生工作  | 招生简章      |
+| -------- | --------- | ------------- |
+| zsxx     | zsxx-zsgz | zsxx-zsgz-zsjz |
+
+</Route>
