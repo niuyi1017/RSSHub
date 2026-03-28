@@ -201,3 +201,27 @@
 | tzgg1    | djgz     | zsgz-xlsszs  | zsgz-xlbszs  | pygl-jwgl | pygl-pyzc   | xwgl-tzgg    | xwgl-xwwj    | xsgz-tztg |
 
 </Route>
+
+## 延安大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/yau/yjsy/zsgz-zsdt" path="/yau/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 | 招生简章 | 导师风采 | 信息公开 | 信息查询 | 培养制度 | 培养方案 | 学籍管理 | 教学管理 | 学位政策 | 学位申请 | 学位授予 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| zsgz-zsdt | zsgz-zsjz | zsgz-dsfc | zsgz-xxgk | zsgz-xxcx | pygz-pyzd | pygz-pyfa | pygz-xjgl | pygz-jxgl | xwgl-xwzc | xwgl-xwsq | xwgl-xwsy |
+
+</Route>
+
+## 沈阳师范大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/synu/yjs/zsxx" path="/synu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 新闻动态 | 通知公告 | 招生信息 | 学术动态 | 导师风采 | 学生风采 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| 7912     | 7913     | zsxx     | 7915     | 7917     | 7918     |
+
+</Route>

@@ -63,7 +63,7 @@ function parseArgs(argv) {
 
 async function fetchWithGot(url) {
   const got = require('@/utils/got');
-  const response = await got({ method: 'get', url });
+  const response = await got({ method: 'get', url, https: { rejectUnauthorized: false } });
   return typeof response.data === 'string' ? response.data : response.body;
 }
 
