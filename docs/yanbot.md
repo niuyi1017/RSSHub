@@ -93,3 +93,27 @@
 | yjszs      | yjszs-ndsszs | yjszs-ndbszs | yjszs-gatyjs | yjszs-zszc | yjszs-fsfsx | yjszs-tzgg | yjszs-cyxz |
 
 </Route>
+
+## 石河子大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/shzu/yz/gsgg" path="/shzu/yz/:type" :paramsDesc="['栏目类型']" >
+
+| 公示公告 | 学科专业 | 导师信息 | 硕士生招生 | 博士生招生 | 下载专区 |
+| -------- | -------- | -------- | ---------- | ---------- | -------- |
+| gsgg     | xkzy     | dsxx     | ssszs      | bsszs      | xzzq     |
+
+</Route>
+
+## 辽宁师范大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/lnnu/yjszs/sszs-sszs" path="/lnnu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  | 推荐免试  | 复试调剂  | 招生简章  | 常用下载  | 招生宣传  |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| sszs-sszs | bszs-bszs | tjms-tjms | fstj-fsdj | zsjz-zsjz | cyxz-cyxz | zsxc-zsxc |
+
+</Route>

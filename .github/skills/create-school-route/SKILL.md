@@ -78,7 +78,12 @@ node scripts/fetch-page.js "TARGET_URL" --puppy
 node scripts/fetch-page.js "DETAIL_URL" --out _temp_detail.html
 ```
 
-默认保存到 `_temp_page.html`。如必须用 puppy 才能获取内容，路由需加 `fetchMethod: 'puppy'`。
+默认保存到 `_temp_page.html`。
+
+**抓取方式判断:**
+- 如果 `got` 成功获取到完整 HTML → 使用默认 `got` 模式
+- 如果 `got` 返回 JS challenge / 空列表（反爬）→ 改用 `--puppy`，路由加 `fetchMethod: 'puppy'`
+- **SSL 证书问题**（`unable to verify the first certificate`）→ `createRoute` 中 `got` 已默认配置 `{ https: { rejectUnauthorized: false } }`，无需额外处理，继续用 `got` 模式即可
 
 #### 分析 HTML 结构
 
