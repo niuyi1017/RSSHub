@@ -63,7 +63,7 @@ argument-hint: "Provide the target listing page URL and school name, e.g., 'http
 
 如 `router.js` 中已有同名 route 文件且处理不同 URL 结构，则需判断是否可合并或需创建新文件。
 
-### Step 2: Fetch Page HTML
+### Step 2: Fetch & Analyze Page HTML
 
 使用 [fetch-page.js](../../../scripts/fetch-page.js) 获取 HTML（封装了 `got` 和 `puppy`，与路由运行时一致）。
 
@@ -78,7 +78,23 @@ node scripts/fetch-page.js "TARGET_URL" --puppy
 node scripts/fetch-page.js "DETAIL_URL" --out _temp_detail.html
 ```
 
-默认保存到 `_temp_page.html`。读取 HTML 后自行分析 DOM 结构，确定列表选择器、日期选择器、栏目名选择器、详情页正文选择器等。如必须用 puppy 才能获取内容，路由需加 `fetchMethod: 'puppy'`。
+默认保存到 `_temp_page.html`。如必须用 puppy 才能获取内容，路由需加 `fetchMethod: 'puppy'`。
+
+#### 分析 HTML 结构
+
+**重要：使用 `read_file` 工具直接读取保存的 HTML 文件，不要用 `node -e "fs.readFileSync(...)"` 等终端命令读取。**
+
+1. **列表页** — 用 `read_file` 读取 `_temp_page.html`（分段读取，先读前 200 行定位结构，再按需读取列表区域）：
+   - 找到列表容器选择器（如 `.text-list ul li`、`.news-list li`）
+   - 确认列表项内部结构：日期选择器、链接选择器、标题来源
+   - 找到侧栏导航，提取所有栏目 type
+   - 找到栏目名选择器（如 `.channl-menu li.on a`）
+
+2. **详情页** — 用 `read_file` 读取 `_temp_detail.html`：
+   - 搜索 `vsb_content`、`v_news_content`、`art-body` 等常见正文容器
+   - 确定 `detailContentSelector`
+
+可同时用 `fetch_webpage` 获取页面概要作为辅助参考，但选择器分析应以 `read_file` 读取的原始 HTML 为准。
 
 ### Step 3: Create Route Files
 
@@ -167,34 +183,12 @@ module.exports = {
    node -e "require('./lib/app');const r=require('./lib/v2/<folder>/<route>');console.log(typeof r)"
    ```
    应输出 `function`。
-3. 清理临时文件:
+3. 清理临时文件（仅当文件存在时）:
    ```powershell
-   Remove-Item _temp_page.html, _temp_detail.html
+   Remove-Item _temp_page.html -ErrorAction SilentlyContinue
+   Remove-Item _temp_detail.html -ErrorAction SilentlyContinue
    ```
 4. 建议用户测试完整路由: `http://localhost:1200/<folder>/<route>/<type>`
-
-### Step 5: Git Commit
-
-校验通过后，提交所有变更文件。
-
-#### Commit 消息格式
-
-```
-feat(route): /<folder>/<route>/:type
-```
-
-**示例:**
-- `feat(route): /sdu/cmse/:type` — 新增路由
-- `fix(route): /sdu/cmse/:type` — 修复已有路由
-
-#### 提交步骤
-
-1. `git add` 所有相关文件（handler、router、maintainer、docs/yanbot.md）
-2. `git commit` 使用上述格式的消息
-
-#### 注意
-- 仅提交本次路由相关的文件，不要混入无关改动
-- 如果修改了已有的 `router.js` / `maintainer.js`，确认未破坏其他路由
 
 ## createRoute Parameter Quick Reference
 
