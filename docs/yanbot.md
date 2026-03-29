@@ -430,3 +430,16 @@
 | zsgz-sszs | zsgz-bszs |
 
 </Route>
+
+
+## 新疆医科大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/xjmu/yjsxy/zsgz-ssszs" path="/xjmu/yjsxy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士生招生  | 博士生招生  | 服务指南  |
+| ----------- | ----------- | --------- |
+| zsgz-ssszs  | zsgz-bsszs  | zsgz-fwzn |
+
+</Route>
