@@ -801,3 +801,15 @@
 | tzgg     | zsxx1-zsjz | zsxx1-zyml | zsxx1-ksdg | zsxx1-lnqk | zsxx1-lxyx | cjwt   |
 
 </Route>
+
+## 陕西中医药大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/sntcm/yzb/1608" path="/sntcm/yzb/:type" :paramsDesc="['栏目 cat_id（数字ID）']" >
+
+| 招生动态 | 简章目录 | 考点公告 | 专业介绍 | 硕士研究生导师 | 招生政策 |
+| -------- | -------- | -------- | -------- | -------------- | -------- |
+| 1608     | 3641     | 3642     | 1609     | 5255           | 1611     |
+
+</Route>
