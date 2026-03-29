@@ -688,3 +688,16 @@
 | sszs     | bszs     | tmgz1    | skkd     |
 
 </Route>
+
+
+## 天津体育学院
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/tjus/yjsb/1004" path="/tjus/yjsb/:type" :paramsDesc="['栏目 ID（数字）']" >
+
+| 招生工作 | 博士 | 全日制硕士 | 在职硕士 | 港澳台 |
+| -------- | ---- | ---------- | -------- | ------ |
+| 1004     | 1005 | 1006       | 1007     | 1008   |
+
+</Route>
