@@ -777,3 +777,15 @@
 | tzgg     |
 
 </Route>
+
+## 四川美术学院
+
+### 招生处
+
+<Route author="yanbot-team" example="/scfai/zsb/sszs" path="/scfai/zsb/:type" :paramsDesc="['栏目类型']" >
+
+| 部门首页 | 博士招生 | 硕士招生 | 本科招生 | 港澳台硕士 | 港澳台侨本科 | 第二学士学位 |
+| -------- | -------- | -------- | -------- | ---------- | ------------ | ------------ |
+| index    | bszs     | sszs     | bkzs     | gatss      | gatqbk       | dexsxw       |
+
+</Route>
