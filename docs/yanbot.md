@@ -309,3 +309,15 @@
 | zsgz-zsdt | zsgz-bszs | zsgz-sszs |
 
 </Route>
+
+## 首都经济贸易大学
+
+### 研招办
+
+<Route author="yanbot-team" example="/cueb/yjs/zsks-zsdt" path="/cueb/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 | 硕士招生 | 博士招生 | 港澳台招生 |
+| -------- | -------- | -------- | ---------- |
+| zsks-zsdt | sszs     | bszs     | gatzs      |
+
+</Route>
