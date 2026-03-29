@@ -395,6 +395,18 @@
 
 </Route>
 
+## 北方工业大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/ncut/yjsy/zsgz-zsjz" path="/ncut/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 学科与导师介绍  | 重要通知  | 招生简章  | 初试成绩查询  | 奖助体系  |
+| --------------- | --------- | --------- | ------------- | --------- |
+| zsgz-xkydsjs    | zsgz-zytz | zsgz-zsjz | zsgz-cscjcx   | zsgz-jztx |
+
+</Route>
+
 ## 沈阳航空航天大学
 
 ### 研究生院招生信息
