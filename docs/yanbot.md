@@ -482,3 +482,16 @@
 | sszs-zsdongt     | sszs-zsjz        | bszs-zsdongt     | bszs-zsjianz     | tmzs-zsdongt     | tmzs-zsjz        |
 
 </Route>
+
+
+## 大理大学
+
+### 研究生处招生信息
+
+<Route author="yanbot-team" example="/dali/yjsc/28" path="/dali/yjsc/:type" :paramsDesc="['栏目 catid（数字ID）']" >
+
+| 新闻快讯 | 招生-公告通知 | 招生-简章 | 招生-规章制度 |
+| -------- | -------------- | -------- | -------------- |
+| 28       | 5              | 4        | 3              |
+
+</Route>
