@@ -443,3 +443,29 @@
 | zsgz-ssszs  | zsgz-bsszs  | zsgz-fwzn |
 
 </Route>
+
+
+## 山西财经大学
+
+### 研究生院通知公告
+
+<Route author="yanbot-team" example="/sxufe/yjs/tzgg-tzgg" path="/sxufe/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告  |
+| ---------- |
+| tzgg-tzgg  |
+
+</Route>
+
+
+## 山西财经大学
+
+### 研究生院通知公告
+
+<Route author="yanbot-team" example="/sxufe/yjs/tzgg-tzgg" path="/sxufe/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告  |
+| ---------- |
+| tzgg-tzgg  |
+
+</Route>
