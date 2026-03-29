@@ -726,3 +726,16 @@
 | zsgl-ssszs-zsgg | zsgl-ssszs-jzml | zsgl-bsszs-zsgg_10043 | zsgl-bsszs-jzml_10044 | zsgl-zsglgzzd |
 
 </Route>
+
+
+## 内蒙古医科大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/immu/yjsy/zsgz-sszs" path="/immu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 同等学力招生 |
+| -------- | -------- | ------------ |
+| zsgz-sszs | zsgz-bszs | zsgz-tdxlzs |
+
+</Route>
