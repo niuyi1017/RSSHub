@@ -495,3 +495,16 @@
 | 28       | 5              | 4        | 3              |
 
 </Route>
+
+
+## 中国农业科学院
+
+### 研究生院招生就业
+
+<Route author="yanbot-team" example="/caas/gs/sszs" path="/caas/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 港澳台招生 | 留学生招生 | 就业政策 | 招聘信息 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| sszs     | bszs     | gatzs    | lxszs    | jyzc     | zpxx     |
+
+</Route>
