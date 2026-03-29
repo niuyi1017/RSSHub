@@ -297,3 +297,15 @@
 | 41       | 42       |
 
 </Route>
+
+## 西南民族大学
+
+### 研究生院（招生工作）
+
+<Route author="yanbot-team" example="/swun/yjsglxt/zsgz-zsdt" path="/swun/yjsglxt/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 | 博士招生 | 硕士招生 |
+| -------- | -------- | -------- |
+| zsgz-zsdt | zsgz-bszs | zsgz-sszs |
+
+</Route>
