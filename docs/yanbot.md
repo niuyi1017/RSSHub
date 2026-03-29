@@ -333,3 +333,15 @@
 | zs   |
 
 </Route>
+
+## 遵义医科大学
+
+### 研究生院（全日制招生）
+
+<Route author="yanbot-team" example="/zmu/grs/qrzzs-ssyjs" path="/zmu/grs/:type" :paramsDesc="['栏目类型']" >
+
+| 博士研究生  | 硕士研究生  | 推免研究生  |
+| ----------- | ----------- | ----------- |
+| qrzzs-bsyjs | qrzzs-ssyjs | qrzzs-tmyjs |
+
+</Route>
