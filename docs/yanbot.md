@@ -405,3 +405,15 @@
 | zsgz-tzggzs  | zsgz-xxgk  | zsgz-bszs  | zsgz-sszs  | zsgz-xzzxzs  | zsgz-lxfs  |
 
 </Route>
+
+## 上海体育大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sus/yjsc/zsxx" path="/sus/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 新闻动态 | 通知公告 | 培养工作 | 学位工作 | 考点信息 | 规章制度 | 创新计划 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| zsxx     | xwdt     | tzgg     | pygz     | xwgz     | kdxx     | gzzd     | cxjh     |
+
+</Route>
