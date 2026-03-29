@@ -381,3 +381,15 @@
 | tzgg     | tzgg-yjs |
 
 </Route>
+
+## 华侨大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/hqu/yjszs/zsxx-sszs" path="/hqu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 在职硕士招生  | 博士招生  | 港澳台海外研究生招生 |
+| --------- | ------------- | --------- | -------------------- |
+| zsxx-sszs | zsxx-zzsszs   | zsxx-bszs | zsxx-gat_hwyjszs     |
+
+</Route>
