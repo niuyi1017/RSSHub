@@ -345,3 +345,15 @@
 | qrzzs-bsyjs | qrzzs-ssyjs | qrzzs-tmyjs |
 
 </Route>
+
+## 贵州医科大学
+
+### 研究生院（招生信息）
+
+<Route author="yanbot-team" example="/gmc/yjsxy/zsxx-sszs" path="/gmc/yjsxy/:type" :paramsDesc="['栏目类型']" >
+
+| 博士招生    | 硕士招生    | 同等学力招生  |
+| ----------- | ----------- | ------------- |
+| zsxx-bszs   | zsxx-sszs   | zsxx-tdxlzs   |
+
+</Route>
