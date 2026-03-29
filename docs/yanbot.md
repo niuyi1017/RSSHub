@@ -323,6 +323,18 @@
 </Route>
 
 
+## 山西师范大学
+
+### 研究生院(研究生工作部)
+
+<Route author="yanbot-team" example="/sxnu/grc/zsgz" path="/sxnu/grc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 博士招生   | 硕士招生   | 培养工作 | 学科建设 | 学位工作 | 学生工作 | 政策文件 |
+| -------- | ---------- | ---------- | -------- | -------- | -------- | -------- | -------- |
+| zsgz     | zsgz/bszs  | zsgz/sszs  | pygz     | xkjs     | xwgz     | xsgz     | zcwj     |
+
+</Route>
+
 ## 昆明医科大学
 
 ### 研究生院(研究生处)
