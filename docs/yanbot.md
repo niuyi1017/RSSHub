@@ -765,3 +765,15 @@
 | yjszs1-sszs | yjszs1-bszs | yjszs1-zsjz |
 
 </Route>
+
+## 甘肃农业大学
+
+### 研究生院通知公告
+
+<Route author="yanbot-team" example="/gsau/yjsy/tzgg" path="/gsau/yjsy/:type" :paramsDesc="['栏目类型']"> 
+
+| 通知公告 |
+| -------- |
+| tzgg     |
+
+</Route>
