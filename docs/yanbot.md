@@ -714,3 +714,15 @@
 | tzgg1    | bszs     | qrzsszs        | fqrzsszs         | zlzq1-xgxz | zlzq1-lnfsx | zlzq1-wnzt |
 
 </Route>
+
+## 北京信息科技大学
+
+### 研究生院招生管理
+
+<Route author="yanbot-team" example="/bistu/yanjiusheng/zsgl-ssszs-zsgg" path="/bistu/yanjiusheng/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士生招生-招生公告 | 硕士生招生-简章目录 | 博士生招生-招生公告 | 博士生招生-简章目录 | 规章制度 |
+| ------------------- | ------------------- | ------------------- | ------------------- | -------- |
+| zsgl-ssszs-zsgg | zsgl-ssszs-jzml | zsgl-bsszs-zsgg_10043 | zsgl-bsszs-jzml_10044 | zsgl-zsglgzzd |
+
+</Route>
