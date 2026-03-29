@@ -521,3 +521,16 @@
 | zsgz     | zsgz-tzgg1 | zsgz-sszsx | zsgz-bszs |
 
 </Route>
+
+
+## 汕头大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/stu/gs/11" path="/stu/gs/:type" :paramsDesc="['栏目 ID（数字）']" >
+
+| 招生动态 | 招生简章 | 培养动态 | 学位动态 | 通知公告 |
+| -------- | -------- | -------- | -------- | -------- |
+| 11       | 14       | 21       | 31       | 61       |
+
+</Route>
