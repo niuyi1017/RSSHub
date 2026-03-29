@@ -285,3 +285,15 @@
 | zsjy-bk | zsjy-ss | zsjy-bs |
 
 </Route>
+
+## 河南农业大学
+
+### 外国语学院
+
+<Route author="yanbot-team" example="/henau/wgyxy/42" path="/henau/wgyxy/:type" :paramsDesc="['栏目类型']" >
+
+| 学院新闻 | 通知公告 |
+| -------- | -------- |
+| 41       | 42       |
+
+</Route>
