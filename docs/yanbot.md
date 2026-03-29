@@ -752,3 +752,16 @@
 | 11       | 12       | 13       | 14       | 16       | 17       | 18       | 19       | 20       |
 
 </Route>
+
+
+## 华东交通大学
+
+### 研究生院招生
+
+<Route author="yanbot-team" example="/ecjtu/yjsy/yjszs1-sszs" path="/ecjtu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 招生简章 |
+| -------- | -------- | -------- |
+| yjszs1-sszs | yjszs1-bszs | yjszs1-zsjz |
+
+</Route>
