@@ -321,3 +321,15 @@
 | zsks-zsdt | sszs     | bszs     | gatzs      |
 
 </Route>
+
+## 云南民族大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ymu/yjsy/zs" path="/ymu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生 |
+| ---- |
+| zs   |
+
+</Route>
