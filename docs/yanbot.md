@@ -418,3 +418,15 @@
 | zsxx     |
 
 </Route>
+
+## 北方民族大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/nmu/yjsc/zsgz-sszs" path="/nmu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  |
+| --------- | --------- |
+| zsgz-sszs | zsgz-bszs |
+
+</Route>
