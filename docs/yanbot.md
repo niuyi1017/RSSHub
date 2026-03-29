@@ -357,3 +357,15 @@
 | zsxx-bszs   | zsxx-sszs   | zsxx-tdxlzs   |
 
 </Route>
+
+## 河南财经政法大学
+
+### 研究生处（招生工作）
+
+<Route author="yanbot-team" example="/huel/yjs/zsgz" path="/huel/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 硕士招生     | 博士招生     | 招生政策    |
+| -------- | ------------ | ------------ | ----------- |
+| zsgz     | zsgz-sszs    | zsgz-bszs    | zsgz-zszc   |
+
+</Route>
