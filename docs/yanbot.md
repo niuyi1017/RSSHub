@@ -789,3 +789,15 @@
 | index    | bszs     | sszs     | bkzs     | gatss      | gatqbk       | dexsxw       |
 
 </Route>
+
+## 绍兴文理学院
+
+### 研究生院招生信息网
+
+<Route author="yanbot-team" example="/usx/yjsc/tzgg" path="/usx/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 招生简章 | 专业目录 | 考试大纲 | 历年情况 | 联系院系 | 常见问题 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| tzgg     | zsxx1-zsjz | zsxx1-zyml | zsxx1-ksdg | zsxx1-lnqk | zsxx1-lxyx | cjwt   |
+
+</Route>
