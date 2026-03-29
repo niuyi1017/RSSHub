@@ -369,3 +369,15 @@
 | zsgz     | zsgz-sszs    | zsgz-bszs    | zsgz-zszc   |
 
 </Route>
+
+## 上海大学
+
+### 材料科学与工程学院（通知公告）
+
+<Route author="yanbot-team" example="/shu/mat/tzgg-yjs" path="/shu/mat/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 研究生   |
+| -------- | -------- |
+| tzgg     | tzgg-yjs |
+
+</Route>
