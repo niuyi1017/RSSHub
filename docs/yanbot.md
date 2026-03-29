@@ -382,3 +382,15 @@
 | 4394     | 4396     | 4397               | 4398     | 10678    | pytz     | 10679    | xwtz     | 11261    | 11262    | 11263    | 4409     | 4417     |
 
 </Route>
+
+## 沈阳航空航天大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/sau/yjs/zsxx" path="/sau/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 |
+| -------- |
+| zsxx     |
+
+</Route>
