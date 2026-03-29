@@ -508,3 +508,16 @@
 | sszs     | bszs     | gatzs    | lxszs    | jyzc     | zpxx     |
 
 </Route>
+
+
+## 东北电力大学
+
+### 研究生院招生就业
+
+<Route author="yanbot-team" example="/neepu/grad/zsgz" path="/neepu/grad/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 通知公告 | 硕士招生 | 博士招生 |
+| -------- | ---------- | -------- | -------- |
+| zsgz     | zsgz-tzgg1 | zsgz-sszsx | zsgz-bszs |
+
+</Route>
