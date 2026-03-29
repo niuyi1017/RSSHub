@@ -469,3 +469,16 @@
 | tzgg-tzgg  |
 
 </Route>
+
+
+## 河南工业大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/haut/yjszs/sszs-zsdongt" path="/haut/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生-招生动态 | 硕士招生-招生简章 | 博士招生-招生动态 | 博士招生-招生简章 | 推免招生-招生动态 | 推免招生-招生简章 |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| sszs-zsdongt     | sszs-zsjz        | bszs-zsdongt     | bszs-zsjianz     | tmzs-zsdongt     | tmzs-zsjz        |
+
+</Route>
