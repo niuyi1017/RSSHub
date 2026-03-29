@@ -273,3 +273,15 @@
 | yjszs1-zszc   | yjszs1-bszs   | yjszs1-sszs   | yjszs1-tdxlss1    | yjszs1-ejxytzgg    | yjszs1-xzzq   |
 
 </Route>
+
+## 江南大学
+
+### 马克思主义学院（招生就业）
+
+<Route author="yanbot-team" example="/jiangnan/marxism/zsjy-ss" path="/jiangnan/marxism/:type" :paramsDesc="['栏目类型']" >
+
+| 本科    | 硕士    | 博士    |
+| ------- | ------- | ------- |
+| zsjy-bk | zsjy-ss | zsjy-bs |
+
+</Route>
