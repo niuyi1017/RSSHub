@@ -534,3 +534,16 @@
 | 11       | 14       | 21       | 31       | 61       |
 
 </Route>
+
+
+## 桂林理工大学
+
+### 研究生院招生管理
+
+<Route author="yanbot-team" example="/glut/yjsy/sszs" path="/glut/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 推免工作 | 硕考考点 |
+| -------- | -------- | -------- | -------- |
+| sszs     | bszs     | tmgz1    | skkd     |
+
+</Route>
