@@ -322,6 +322,147 @@
 
 </Route>
 
+## 江南大学
+
+### 马克思主义学院（招生就业）
+
+<Route author="yanbot-team" example="/jiangnan/marxism/zsjy-ss" path="/jiangnan/marxism/:type" :paramsDesc="['栏目类型']" >
+
+| 本科    | 硕士    | 博士    |
+| ------- | ------- | ------- |
+| zsjy-bk | zsjy-ss | zsjy-bs |
+
+</Route>
+
+## 河南农业大学
+
+### 外国语学院
+
+<Route author="yanbot-team" example="/henau/wgyxy/42" path="/henau/wgyxy/:type" :paramsDesc="['栏目类型']" >
+
+| 学院新闻 | 通知公告 |
+| -------- | -------- |
+| 41       | 42       |
+
+</Route>
+
+## 西南民族大学
+
+### 研究生院（招生工作）
+
+<Route author="yanbot-team" example="/swun/yjsglxt/zsgz-zsdt" path="/swun/yjsglxt/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 | 博士招生 | 硕士招生 |
+| -------- | -------- | -------- |
+| zsgz-zsdt | zsgz-bszs | zsgz-sszs |
+
+</Route>
+
+## 首都经济贸易大学
+
+### 研招办
+
+<Route author="yanbot-team" example="/cueb/yjs/zsks-zsdt" path="/cueb/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 | 硕士招生 | 博士招生 | 港澳台招生 |
+| -------- | -------- | -------- | ---------- |
+| zsks-zsdt | sszs     | bszs     | gatzs      |
+
+</Route>
+
+## 云南民族大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/ymu/yjsy/zs" path="/ymu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生 |
+| ---- |
+| zs   |
+
+</Route>
+
+## 遵义医科大学
+
+### 研究生院（全日制招生）
+
+<Route author="yanbot-team" example="/zmu/grs/qrzzs-ssyjs" path="/zmu/grs/:type" :paramsDesc="['栏目类型']" >
+
+| 博士研究生  | 硕士研究生  | 推免研究生  |
+| ----------- | ----------- | ----------- |
+| qrzzs-bsyjs | qrzzs-ssyjs | qrzzs-tmyjs |
+
+</Route>
+
+## 贵州医科大学
+
+### 研究生院（招生信息）
+
+<Route author="yanbot-team" example="/gmc/yjsxy/zsxx-sszs" path="/gmc/yjsxy/:type" :paramsDesc="['栏目类型']" >
+
+| 博士招生    | 硕士招生    | 同等学力招生  |
+| ----------- | ----------- | ------------- |
+| zsxx-bszs   | zsxx-sszs   | zsxx-tdxlzs   |
+
+</Route>
+
+## 河南财经政法大学
+
+### 研究生处（招生工作）
+
+<Route author="yanbot-team" example="/huel/yjs/zsgz" path="/huel/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 硕士招生     | 博士招生     | 招生政策    |
+| -------- | ------------ | ------------ | ----------- |
+| zsgz     | zsgz-sszs    | zsgz-bszs    | zsgz-zszc   |
+
+</Route>
+
+## 上海大学
+
+### 材料科学与工程学院（通知公告）
+
+<Route author="yanbot-team" example="/shu/mat/tzgg-yjs" path="/shu/mat/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 研究生   |
+| -------- | -------- |
+| tzgg     | tzgg-yjs |
+
+</Route>
+
+## 华侨大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/hqu/yjszs/zsxx-sszs" path="/hqu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 在职硕士招生  | 博士招生  | 港澳台海外研究生招生 |
+| --------- | ------------- | --------- | -------------------- |
+| zsxx-sszs | zsxx-zzsszs   | zsxx-bszs | zsxx-gat_hwyjszs     |
+
+</Route>
+
+## 天津科技大学
+
+### 研究生院（招生工作）
+
+<Route author="yanbot-team" example="/tust/yjs/zsgz-tzggzs" path="/tust/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告     | 信息公开   | 博士招生   | 硕士招生   | 下载中心     | 联系方式   |
+| ------------ | ---------- | ---------- | ---------- | ------------ | ---------- |
+| zsgz-tzggzs  | zsgz-xxgk  | zsgz-bszs  | zsgz-sszs  | zsgz-xzzxzs  | zsgz-lxfs  |
+
+</Route>
+
+## 上海体育大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sus/yjsc/zsxx" path="/sus/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 新闻动态 | 通知公告 | 培养工作 | 学位工作 | 考点信息 | 规章制度 | 创新计划 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| zsxx     | xwdt     | tzgg     | pygz     | xwgz     | kdxx     | gzzd     | cxjh     |
 
 ## 广东财经大学
 
