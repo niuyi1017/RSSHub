@@ -393,3 +393,15 @@
 | zsxx-sszs | zsxx-zzsszs   | zsxx-bszs | zsxx-gat_hwyjszs     |
 
 </Route>
+
+## 天津科技大学
+
+### 研究生院（招生工作）
+
+<Route author="yanbot-team" example="/tust/yjs/zsgz-tzggzs" path="/tust/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告     | 信息公开   | 博士招生   | 硕士招生   | 下载中心     | 联系方式   |
+| ------------ | ---------- | ---------- | ---------- | ------------ | ---------- |
+| zsgz-tzggzs  | zsgz-xxgk  | zsgz-bszs  | zsgz-sszs  | zsgz-xzzxzs  | zsgz-lxfs  |
+
+</Route>
