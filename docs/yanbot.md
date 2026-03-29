@@ -383,6 +383,18 @@
 
 </Route>
 
+## 安徽中医药大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/ahtcm/yjsb/zsgz-sszs" path="/ahtcm/yjsb/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  | 硕士报考点    | 港澳台招生  |
+| --------- | --------- | ------------- | ----------- |
+| zsgz-sszs | zsgz-bszs | zsgz-ssbkd    | zsgz-gatzs  |
+
+</Route>
+
 ## 沈阳航空航天大学
 
 ### 研究生院招生信息
