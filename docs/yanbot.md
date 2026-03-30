@@ -885,3 +885,14 @@
 | xwgg     | zsjz     | zcfg     | xzzq     |
 
 </Route>
+## 大连海洋大学
+
+### 研究生与学科建设处招生工作
+
+<Route author="yanbot-team" example="/dlou/master/9037" path="/dlou/master/:type" :paramsDesc="['栏目 ID（数字）']" >
+
+| 招生工作 | 工作动态 | 招生章程 | 专业目录 | 推荐免试 |
+| -------- | -------- | -------- | -------- | -------- |
+| 9037     | 9052     | 9053     | 9054     | 9055     |
+
+</Route>
