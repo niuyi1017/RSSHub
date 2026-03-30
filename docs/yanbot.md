@@ -1001,3 +1001,15 @@
 | col-1628824122427     | col-1628824153772     | col-1628824175199     | col-1628824196543     | col-1628824215377     |
 
 </Route>
+
+## 天津职业技术师范大学
+
+### 学科建设办公室（研究生处）招生工作
+
+<Route author="yanbot-team" example="/tute/yjsh/zsgz1" path="/tute/yjsh/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作（全部） | 硕士招生        | 博士招生        |
+| ---------------- | --------------- | --------------- |
+| zsgz1            | zsgz1-sszs      | zsgz1-bszs      |
+
+</Route>
