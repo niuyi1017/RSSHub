@@ -873,3 +873,15 @@
 | zsxx-sszs | zsxx-bszs |
 
 </Route>
+
+## 淮北师范大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/chnu/yjszs/xwgg" path="/chnu/yjszs/:type" :paramsDesc="['栏目类型']" >
+
+| 新闻公告 | 招生简章 | 政策法规 | 下载专区 |
+| -------- | -------- | -------- | -------- |
+| xwgg     | zsjz     | zcfg     | xzzq     |
+
+</Route>
