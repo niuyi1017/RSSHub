@@ -907,3 +907,14 @@
 | zsgz-sszs-zsxx       | zsgz-sszs-zsjz       | zsgz-bszs-zsjz      |
 
 </Route>
+## 大连大学
+
+### 研究生学院招生管理
+
+<Route author="yanbot-team" example="/dlu/yjs/zsgl" path="/dlu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生管理 | 博士招生      | 硕士招生      | 同等学力招生       |
+| -------- | ------------- | ------------- | ------------------ |
+| zsgl     | zsgl-bszs     | zsgl-sszs     | zsgl-tdxlzs        |
+
+</Route>
