@@ -861,3 +861,15 @@
 | 675953b3cf1e66a18c75f36c | 675953b8cf1e66a18c75f36e | 675953f0cf1e66a18c75f370 | 675953f5cf1e66a18c75f372 | 676b7588cf1e66a18c75f4e5 |
 
 </Route>
+
+## 内蒙古工业大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/imut/yjsch/zsxx-sszs" path="/imut/yjsch/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生  | 博士招生  |
+| --------- | --------- |
+| zsxx-sszs | zsxx-bszs |
+
+</Route>
