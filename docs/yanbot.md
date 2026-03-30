@@ -1037,3 +1037,15 @@
 | zsgz-zxxx    | zsgz-zsjz    | zsgz-zcfg    | zsgz-cjwt    |
 
 </Route>
+
+## 云南中医药大学
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/ynucm/yjs/zsgz-ss" path="/ynucm/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 博士       | 硕士       |
+| ---------- | ---------- |
+| zsgz-bs    | zsgz-ss    |
+
+</Route>
