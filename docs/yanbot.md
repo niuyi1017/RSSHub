@@ -896,3 +896,14 @@
 | 9037     | 9052     | 9053     | 9054     | 9055     |
 
 </Route>
+## 武汉纺织大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/wtu/gs/zsgz-sszs-zsxx" path="/wtu/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生-招生信息    | 硕士招生-招生简章    | 博士招生            |
+| -------------------- | -------------------- | ------------------- |
+| zsgz-sszs-zsxx       | zsgz-sszs-zsjz       | zsgz-bszs-zsjz      |
+
+</Route>
