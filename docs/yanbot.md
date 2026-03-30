@@ -929,3 +929,15 @@
 | yjszsw-sszs    | yjszsw-bszs    | yjszsw-kytd    | yjszsw-zsjz    | yjszsw-zcfg    | yjszsw-gkxx    | yjszsw-zxgg    |
 
 </Route>
+
+## 西南林业大学
+
+### 研究生院招生管理
+
+<Route author="yanbot-team" example="/swfu/yjsy/zsgl-sszs" path="/swfu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生   | 博士招生   |
+| ---------- | ---------- |
+| zsgl-sszs  | zsgl-bszs  |
+
+</Route>
