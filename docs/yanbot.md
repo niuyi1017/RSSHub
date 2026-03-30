@@ -953,3 +953,15 @@
 | yjszsw-881     | yjszsw-882     | yjszsw-883     | yjszsw-lqgs     |
 
 </Route>
+
+## 北京建筑大学
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bucea/yjsy/zsgz-tzgg2" path="/bucea/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生简章      | 通知公告       | 管理文件       | 下载专栏       |
+| ------------- | -------------- | -------------- | -------------- |
+| zsgz-zsjz     | zsgz-tzgg2     | zsgz-glwj2     | zsgz-xzzl2     |
+
+</Route>
