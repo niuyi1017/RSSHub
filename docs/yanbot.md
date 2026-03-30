@@ -1013,3 +1013,15 @@
 | zsgz1            | zsgz1-sszs      | zsgz1-bszs      |
 
 </Route>
+
+## 西安医学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/xiyi/yjsc/index-tzgg" path="/xiyi/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告     |
+| ------------ |
+| index-tzgg   |
+
+</Route>
