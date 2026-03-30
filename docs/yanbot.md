@@ -941,3 +941,15 @@
 | zsgl-sszs  | zsgl-bszs  |
 
 </Route>
+
+## 泉州师范学院
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/qztc/yjszsw/yjszsw-882" path="/qztc/yjszsw/:type" :paramsDesc="['栏目类型']" >
+
+| 招生简章       | 招生动态       | 招生政策       | 录取公示        |
+| -------------- | -------------- | -------------- | --------------- |
+| yjszsw-881     | yjszsw-882     | yjszsw-883     | yjszsw-lqgs     |
+
+</Route>
