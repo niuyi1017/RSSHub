@@ -825,3 +825,15 @@
 | 1121           | 1131           | 1141         | 1151       | 1161         |
 
 </Route>
+
+## 宁夏医科大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/nxmu/yjsy/zsgz-ssszs" path="/nxmu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士生招生 | 博士生招生 | 推免生工作 |
+| ---------- | ---------- | ---------- |
+| zsgz-ssszs | zsgz-bsszs | zsgz-tmsgz |
+
+</Route>
