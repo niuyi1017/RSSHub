@@ -965,3 +965,15 @@
 | zsgz-zsjz     | zsgz-tzgg2     | zsgz-glwj2     | zsgz-xzzl2     |
 
 </Route>
+
+## 皖南医科大学
+
+### 研究生学院招生就业
+
+<Route author="yanbot-team" example="/wnmc/yjs/zsjy-zszl" path="/wnmc/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生专栏   | 就业专栏   |
+| ---------- | ---------- |
+| zsjy-zszl  | zsjy-jyzl  |
+
+</Route>
