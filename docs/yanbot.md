@@ -977,3 +977,15 @@
 | zsjy-zszl  | zsjy-jyzl  |
 
 </Route>
+
+## 北京联合大学
+
+### 研究生处
+
+<Route author="yanbot-team" example="/buu/graduate/col-col30731" path="/buu/graduate/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告        |
+| --------------- |
+| col-col30731    |
+
+</Route>
