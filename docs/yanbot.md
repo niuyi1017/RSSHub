@@ -918,3 +918,14 @@
 | zsgl     | zsgl-bszs     | zsgl-sszs     | zsgl-tdxlzs        |
 
 </Route>
+## 河南师范大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/htu/yjszsw/yjszsw-sszs" path="/htu/yjszsw/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生       | 博士招生       | 科研团队       | 招生简章       | 招生宣传       | 公开信息       | 最新公告       |
+| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+| yjszsw-sszs    | yjszsw-bszs    | yjszsw-kytd    | yjszsw-zsjz    | yjszsw-zcfg    | yjszsw-gkxx    | yjszsw-zxgg    |
+
+</Route>
