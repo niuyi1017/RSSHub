@@ -1049,3 +1049,15 @@
 | zsgz-bs    | zsgz-ss    |
 
 </Route>
+
+## 长治医学院
+
+### 研究生学院
+
+<Route author="yanbot-team" example="/czmc/yjsc/zsgz" path="/czmc/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作   | 招生信息       | 招生政策       |
+| ---------- | -------------- | -------------- |
+| zsgz       | zsgz-zsxx      | zsgz-zszc      |
+
+</Route>
