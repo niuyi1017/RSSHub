@@ -1025,3 +1025,15 @@
 | index-tzgg   |
 
 </Route>
+
+## 信阳师范大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/xynu/yjs/zsgz-zxxx" path="/xynu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 最新消息     | 招生简章     | 政策法规     | 常见问题     |
+| ------------ | ------------ | ------------ | ------------ |
+| zsgz-zxxx    | zsgz-zsjz    | zsgz-zcfg    | zsgz-cjwt    |
+
+</Route>
