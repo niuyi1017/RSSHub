@@ -1097,3 +1097,15 @@
 | yjsy-zsgz-bszs       | yjsy-zsgz-sszs       | yjsy-zsgz-xxcx       | yjsy-zsgz-xzzx       | yjsy-zsgz-lxfs       |
 
 </Route>
+
+## 中央司法警官学院
+
+### 研究生教育部招生信息
+
+<Route author="yanbot-team" example="/cicp/yjs/zsxx" path="/cicp/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 |
+| ---------- |
+| zsxx       |
+
+</Route>
