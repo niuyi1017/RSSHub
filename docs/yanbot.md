@@ -1061,3 +1061,79 @@
 | zsgz       | zsgz-zsxx      | zsgz-zszc      |
 
 </Route>
+
+## 上海师范大学
+
+### 商学院
+
+<Route author="yanbot-team" example="/shnu/sfb/14631" path="/shnu/sfb/:type" :paramsDesc="['栏目类型']" >
+
+| 学院新闻 | 学院公告 |
+| -------- | -------- |
+| 14630    | 14631    |
+
+</Route>
+
+## 清华大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/tsinghua/yz/zsxx-sszs-ptzk" path="/tsinghua/yz/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士-简章目录 | 硕士-推荐免试 | 硕士-普通招考 | 博士-简章目录 | 博士-推荐免试 | 博士-普通招考 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| zsxx-sszs-jzml | zsxx-sszs-tjms | zsxx-sszs-ptzk | zsxx-bszs-jzml | zsxx-bszs-tjms | zsxx-bszs-ptzk |
+
+| 港澳台-通知公告 | 港澳台-简章目录 | 国际-通知公告 | 国际-简章目录 |
+| --------------- | --------------- | ------------- | ------------- |
+| zsxx-gatzs-tzgg1 | zsxx-gatzs-jzml | zsxx-gjxs-tzgg | zsxx-gjxs-jzml |
+
+</Route>
+
+## 河南理工大学
+
+### 机械与动力工程学院
+
+<Route author="yanbot-team" example="/hpu/smpe/yjsjy-zsgl" path="/hpu/smpe/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告   | 招生管理   | 人才培养   | 资料下载   |
+| ---------- | ---------- | ---------- | ---------- |
+| yjsjy-tzgg | yjsjy-zsgl | yjsjy-rcpy | yjsjy-zlxz |
+
+</Route>
+
+## 上海交通大学医学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/shsmu/yjsy/index-zsgz1" path="/shsmu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作   | 招生新闻     | 招生简章     | 信息查询     | 信息公示     |
+| ---------- | ------------ | ------------ | ------------ | ------------ |
+| index-zsgz1 | zsgz1-zsxw  | zsgz1-zsjz   | zsgz1-xxfw   | zsgz1-xxgs   |
+
+</Route>
+
+## 南京大学
+
+### 生命科学学院
+
+<Route author="yanbot-team" example="/nju/life/yjszs" path="/nju/life/:type" :paramsDesc="['栏目类型']" >
+
+| 研究生招生 | 本科培养 | 研究生培养 | 本科生开放日 |
+| ---------- | -------- | ---------- | ------------ |
+| yjszs      | 12941    | 12942      | 12944        |
+
+</Route>
+
+## 西安交通大学
+
+### 医学部研究生院
+
+<Route author="yanbot-team" example="/xjtu/medgs/zs-sszs" path="/xjtu/medgs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 同等学力硕士 | 同等学力博士 | 非全日制 |
+| -------- | -------- | ------------ | ------------ | -------- |
+| zs-sszs  | zs-bszs  | zs-tdxlss    | zs-tdxlbs    | zs-fqrz  |
+
+</Route>
