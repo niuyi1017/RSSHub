@@ -1101,3 +1101,15 @@
 | yjsjy-tzgg | yjsjy-zsgl | yjsjy-rcpy | yjsjy-zlxz |
 
 </Route>
+
+## 上海交通大学医学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/shsmu/yjsy/index-zsgz1" path="/shsmu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作   | 招生新闻     | 招生简章     | 信息查询     | 信息公示     |
+| ---------- | ------------ | ------------ | ------------ | ------------ |
+| index-zsgz1 | zsgz1-zsxw  | zsgz1-zsjz   | zsgz1-xxfw   | zsgz1-xxgs   |
+
+</Route>
