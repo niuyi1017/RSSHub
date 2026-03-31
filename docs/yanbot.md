@@ -1073,3 +1073,19 @@
 | 14630    | 14631    |
 
 </Route>
+
+## 清华大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/tsinghua/yz/zsxx-sszs-ptzk" path="/tsinghua/yz/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士-简章目录 | 硕士-推荐免试 | 硕士-普通招考 | 博士-简章目录 | 博士-推荐免试 | 博士-普通招考 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| zsxx-sszs-jzml | zsxx-sszs-tjms | zsxx-sszs-ptzk | zsxx-bszs-jzml | zsxx-bszs-tjms | zsxx-bszs-ptzk |
+
+| 港澳台-通知公告 | 港澳台-简章目录 | 国际-通知公告 | 国际-简章目录 |
+| --------------- | --------------- | ------------- | ------------- |
+| zsxx-gatzs-tzgg1 | zsxx-gatzs-jzml | zsxx-gjxs-tzgg | zsxx-gjxs-jzml |
+
+</Route>
