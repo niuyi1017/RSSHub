@@ -1113,3 +1113,15 @@
 | index-zsgz1 | zsgz1-zsxw  | zsgz1-zsjz   | zsgz1-xxfw   | zsgz1-xxgs   |
 
 </Route>
+
+## 南京大学
+
+### 生命科学学院
+
+<Route author="yanbot-team" example="/nju/life/yjszs" path="/nju/life/:type" :paramsDesc="['栏目类型']" >
+
+| 研究生招生 | 本科培养 | 研究生培养 | 本科生开放日 |
+| ---------- | -------- | ---------- | ------------ |
+| yjszs      | 12941    | 12942      | 12944        |
+
+</Route>
