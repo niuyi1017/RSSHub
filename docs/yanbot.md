@@ -1061,3 +1061,15 @@
 | zsgz       | zsgz-zsxx      | zsgz-zszc      |
 
 </Route>
+
+## 上海师范大学
+
+### 商学院
+
+<Route author="yanbot-team" example="/shnu/sfb/14631" path="/shnu/sfb/:type" :paramsDesc="['栏目类型']" >
+
+| 学院新闻 | 学院公告 |
+| -------- | -------- |
+| 14630    | 14631    |
+
+</Route>
