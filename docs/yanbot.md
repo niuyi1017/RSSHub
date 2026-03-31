@@ -1089,3 +1089,15 @@
 | zsxx-gatzs-tzgg1 | zsxx-gatzs-jzml | zsxx-gjxs-tzgg | zsxx-gjxs-jzml |
 
 </Route>
+
+## 河南理工大学
+
+### 机械与动力工程学院
+
+<Route author="yanbot-team" example="/hpu/smpe/yjsjy-zsgl" path="/hpu/smpe/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告   | 招生管理   | 人才培养   | 资料下载   |
+| ---------- | ---------- | ---------- | ---------- |
+| yjsjy-tzgg | yjsjy-zsgl | yjsjy-rcpy | yjsjy-zlxz |
+
+</Route>
