@@ -1098,6 +1098,18 @@
 
 </Route>
 
+## 中央戏剧学院
+
+### 硕士研究生
+
+<Route author="yanbot-team" example="/chntheatre/recruit/shuoshi" path="/chntheatre/recruit/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士研究生 |              |
+| ------------ | ------------ |
+| shuoshi       | （页码用 `-p-` 表示，如 `shuoshi-p-2` 对应第 2 页） |
+
+</Route>
+
 ## 中央司法警官学院
 
 ### 研究生教育部招生信息
