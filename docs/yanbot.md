@@ -1125,3 +1125,15 @@
 | yjszs      | 12941    | 12942      | 12944        |
 
 </Route>
+
+## 西安交通大学
+
+### 医学部研究生院
+
+<Route author="yanbot-team" example="/xjtu/medgs/zs-sszs" path="/xjtu/medgs/:type" :paramsDesc="['栏目类型']" >
+
+| 硕士招生 | 博士招生 | 同等学力硕士 | 同等学力博士 | 非全日制 |
+| -------- | -------- | ------------ | ------------ | -------- |
+| zs-sszs  | zs-bszs  | zs-tdxlss    | zs-tdxlbs    | zs-fqrz  |
+
+</Route>
