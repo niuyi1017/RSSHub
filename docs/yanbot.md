@@ -10,6 +10,18 @@
 
 </Route>
 
+## 中国刑事警察学院
+
+### 研究生招生
+
+<Route author="yanbot-team" example="/cipuc/zsjy/yjszs2-zsxx" path="/cipuc/zsjy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息   |
+| ---------- |
+| yjszs2-zsxx |
+
+</Route>
+
 ## 陕西科技大学
 
 ### 研究生招生信息网
