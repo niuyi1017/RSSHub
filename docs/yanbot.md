@@ -142,3 +142,15 @@
 | sszs     | bszs     |
 
 </Route>
+
+## 洛阳师范学院
+
+### 研究生与学科建设处招生工作
+
+<Route author="yanbot-team" example="/lynu/yjs_xk/zsgz" path="/lynu/yjs_xk/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 新闻动态 | 学位工作 | 培养工作 | 导师工作 | 重点学科 | 党建工作 | 常用下载 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| zsgz     | xwdt     | xwgz     | pygz     | dsgz     | zdxk     | djgz     | cyxz     |
+
+</Route>
