@@ -178,3 +178,15 @@
 | zsjy       | zsjy-zsgz     | zsjy-jygz     |
 
 </Route>
+
+## 山西医科大学
+
+### 研究生学院招生信息
+
+<Route author="yanbot-team" example="/sxmu/yjs/zsxx" path="/sxmu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 硕士招生   | 博士招生   | 其他招生   | 招生政策   | 网上报名   | 联系我们   |
+| -------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| zsxx     | zsxx-sszs  | zsxx-bszs  | zsxx-qtzs  | zsxx-zszc  | zsxx-wsbm  | zsxx-lxwm  |
+
+</Route>
