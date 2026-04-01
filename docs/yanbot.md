@@ -1,4 +1,4 @@
-## 山东大学
+﻿## 山东大学
 
 ### 材料科学与工程学院通知
 
@@ -572,18 +572,19 @@
 
 </Route>
 
+
+
 ## 北方民族大学
 
-### 研究生院招生信息
+### 研究生院
 
-<Route author="yanbot-team" example="/nmu/yjsc/zsgz-sszs" path="/nmu/yjsc/:type" :paramsDesc="['栏目类型']" >
+<Route author="yanbot-team" example="/nmu/yjsc/tzgg" path="/nmu/yjsc/:type?" :paramsDesc="['栏目类型，默认为 `tzgg`']" >
 
-| 硕士招生  | 博士招生  |
-| --------- | --------- |
-| zsgz-sszs | zsgz-bszs |
+| 通知公告 | 硕士招生  | 博士招生  |
+| -------- | --------- | --------- |
+| tzgg     | zsgz-sszs | zsgz-bszs |
 
 </Route>
-
 
 ## 新疆医科大学
 
