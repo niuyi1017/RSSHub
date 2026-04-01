@@ -190,3 +190,15 @@
 | zsxx     | zsxx-sszs  | zsxx-bszs  | zsxx-qtzs  | zsxx-zszc  | zsxx-wsbm  | zsxx-lxwm  |
 
 </Route>
+
+## 蚌埠医科大学
+
+### 研究生院招生就业
+
+<Route author="yanbot-team" example="/bbmu/zsjy/zsxx" path="/bbmu/zsjy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 就业政策 | 就业招聘信息 |
+| -------- | -------- | ------------ |
+| zsxx     | jyzc     | jyzpxx       |
+
+</Route>
