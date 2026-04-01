@@ -106,3 +106,15 @@
 | yjszs      |
 
 </Route>
+
+## 河北北方学院
+
+### 研究生学院通知公告
+
+<Route author="yanbot-team" example="/hebeinu/yjs/11" path="/hebeinu/yjs/:type" :paramsDesc="['栏目 ID']" >
+
+| 通知公告 |
+| -------- |
+| 11       |
+
+</Route>
