@@ -10,3 +10,15 @@
 | zsgz-sszs  | zsgz-bszs  | zsgz-fslq  | zsgz-kdgg  | yjsh       | yjsh-xwsd  | yjsh-jlhd  | yjsh-wyzy  | yjsh-nbjs  | pygz-pygg  | pygz-xqkb  | pygz-xsky  | pygz-gzbg  | xwgz-xwgg  | xwgz-dslx  | xwgz-xggd  | xwgz-xgxz  | xsgz-xsgg  | xsgz-jzxj  | xsgz-glgd  | xsgz-xgxz1 |
 
 </Route>
+
+## 大连工业大学
+
+### 研究生学院
+
+<Route author="yanbot-team" example="/dlpu/yjs/4" path="/dlpu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 | 硕士研究生招生 | 博士招生 | 港澳台招生 |
+| -------- | -------------- | -------- | ---------- |
+| 4        | 70             | 49       | 46         |
+
+</Route>
