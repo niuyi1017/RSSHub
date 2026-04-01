@@ -1,3 +1,15 @@
+## 北京农学院
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/bua/yz/tzgg" path="/bua/yz/:type?" :paramsDesc="['栏目类型，默认为 `tzgg`']" >
+
+| 通知公告 | 友情链接 | 招生动态 | 考试大纲 | 导师风采 | 院系速递 | 招生简章 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| tzgg     | yqlj     | zsdt     | ksdg     | dsfc     | yxsd     | zsjz     |
+
+</Route>
+
 ## 北京大学医学部
 
 ### 研究生院
