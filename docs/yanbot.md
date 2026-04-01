@@ -166,3 +166,15 @@
 | qrzzs      | tdxlzs       | yzks     | gzzd     |
 
 </Route>
+
+## 内蒙古财经大学
+
+### 学科建设处（研究生院）招生就业
+
+<Route author="yanbot-team" example="/imufe/yjs/zsjy" path="/imufe/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生就业   | 招生工作      | 就业工作      |
+| ---------- | ------------- | ------------- |
+| zsjy       | zsjy-zsgz     | zsjy-jygz     |
+
+</Route>
