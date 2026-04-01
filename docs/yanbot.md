@@ -46,3 +46,15 @@
 | zsgz-xue_wxk | zsgz-sszs | zsgz-bszs |
 
 </Route>
+
+## 广州医科大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/gzhmu/yjs/zsgz" path="/gzhmu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
