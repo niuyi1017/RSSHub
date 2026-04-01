@@ -58,3 +58,15 @@
 | zsgz     |
 
 </Route>
+
+## 贵州财经大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/gufe/yjsy/zsgz" path="/gufe/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 |
+| -------- |
+| zsgz     |
+
+</Route>
