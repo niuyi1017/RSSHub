@@ -214,3 +214,15 @@
 | zsxx-tkbs  | zsxx-tkss  | zsxx-sstjms   | zsxx-tdxl  | zsxx-yxyds |
 
 </Route>
+
+## 黑龙江八一农垦大学
+
+### 研究生与学科建设处招生工作
+
+<Route author="yanbot-team" example="/byau/yanjiu/1415" path="/byau/yanjiu/:type" :paramsDesc="['栏目类型 ID']" >
+
+| 硕士招生 | 博士招生 |
+| -------- | -------- |
+| 1415     | 1416     |
+
+</Route>
