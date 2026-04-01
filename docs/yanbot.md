@@ -94,3 +94,15 @@
 | 1779       | 1797     | 1798 | 1830           | 1831      | 1832      | 1833      | 1799 | 1834           | 1835     | 1836          | 1837      | 1800 | 1801     |
 
 </Route>
+
+## 合肥师范学院
+
+### 研究生院招生
+
+<Route author="yanbot-team" example="/hfnu/yjsc/yjszs" path="/hfnu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 研究生招生 |
+| ---------- |
+| yjszs      |
+
+</Route>
