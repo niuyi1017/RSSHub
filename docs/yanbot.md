@@ -70,3 +70,15 @@
 | zsgz     |
 
 </Route>
+
+## 哈尔滨理工大学
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/hrbust/graduate/3907" path="/hrbust/graduate/:type" :paramsDesc="['栏目 ID']" >
+
+| 工作职能 | 工作动态 | 规章制度 | 文件下载 |
+| -------- | -------- | -------- | -------- |
+| 3906     | 3907     | 3908     | 3909     |
+
+</Route>
