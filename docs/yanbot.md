@@ -1,4 +1,16 @@
-﻿## 山东大学
+## 北京大学医学部
+
+### 研究生院
+
+<Route author="yanbot-team" example="/bjmu/yjsy/zslq-zsdt" path="/bjmu/yjsy/:type?" :paramsDesc="['栏目类型，默认为 `zslq-zsdt`']" >
+
+| 招生动态 | 招生简章及目录 | 考试大纲 | 招生报名 | 录取信息 | 教学培养-课程管理 | 教学培养-国际交流 |
+| -------- | -------------- | -------- | -------- | -------- | ----------------- | ----------------- |
+| zslq-zsdt | zslq-zsjzjml   | zslq-ksdg | zslq-zsbm | zslq-lqxx | jxpy-kcgl         | jxpy-gjjl         |
+
+</Route>
+
+## 山东大学
 
 ### 材料科学与工程学院通知
 
