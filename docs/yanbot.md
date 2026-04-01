@@ -202,3 +202,15 @@
 | zsxx     | jyzc     | jyzpxx       |
 
 </Route>
+
+## 中国医科大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/cmu/cmuyjs/zsxx-tkss" path="/cmu/cmuyjs/:type" :paramsDesc="['栏目类型']" >
+
+| 统招博士   | 统考硕士   | 推荐免试      | 同等学力   | 导师风采   |
+| ---------- | ---------- | ------------- | ---------- | ---------- |
+| zsxx-tkbs  | zsxx-tkss  | zsxx-sstjms   | zsxx-tdxl  | zsxx-yxyds |
+
+</Route>
