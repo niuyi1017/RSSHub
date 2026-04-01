@@ -118,3 +118,15 @@
 | 11       |
 
 </Route>
+
+## 河北地质大学
+
+### 研招网通知公告
+
+<Route author="yanbot-team" example="/hgu/yzw/tzgg" path="/hgu/yzw/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 |
+| -------- |
+| tzgg     |
+
+</Route>
