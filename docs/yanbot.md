@@ -34,3 +34,15 @@
 | 427      | 443      | 444        | 445        |
 
 </Route>
+
+## 甘肃政法大学
+
+### 研究生工作处招生工作
+
+<Route author="yanbot-team" example="/gsupl/yjsc/zsgz-sszs" path="/gsupl/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 学位学科     | 硕士招生 | 博士招生 |
+| ------------ | -------- | -------- |
+| zsgz-xue_wxk | zsgz-sszs | zsgz-bszs |
+
+</Route>
