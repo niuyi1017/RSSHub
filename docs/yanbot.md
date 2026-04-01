@@ -154,3 +154,15 @@
 | zsgz     | xwdt     | xwgz     | pygz     | dsgz     | zdxk     | djgz     | cyxz     |
 
 </Route>
+
+## 牡丹江医科大学
+
+### 研究生处研究生招生考试
+
+<Route author="yanbot-team" example="/mdjmu/yjsc/qrzzs" path="/mdjmu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 全日制招生 | 同等学力招生 | 研招考试 | 规章制度 |
+| ---------- | ------------ | -------- | -------- |
+| qrzzs      | tdxlzs       | yzks     | gzzd     |
+
+</Route>
