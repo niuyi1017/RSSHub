@@ -286,3 +286,15 @@
 | zsgo-ggtz | zsgo-sszs | zsgo-bszs | zsgo-zyxwzs | zsgo-kcjxbzs |
 
 </Route>
+
+## 临沂大学
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/lyu/yjsc/5046-list" path="/lyu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 最新通知 | 专业介绍 | 招生简章 | 联合培养 | 考试大纲 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| 5046-list | zxtz-list | 5047-list | 5048-list | lhpy-list | ksdg-list |
+
+</Route>
