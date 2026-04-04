@@ -310,3 +310,15 @@
 | zsxx     |
 
 </Route>
+
+## 山西农业大学
+
+### 研究生院招生通知
+
+<Route author="yanbot-team" example="/sxau/grs/zsgz-zstz" path="/sxau/grs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生通知 |
+| -------- |
+| zsgz-zstz |
+
+</Route>
