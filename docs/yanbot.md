@@ -238,3 +238,15 @@
 | xwzx-tongzhi |
 
 </Route>
+
+## 吉林外国语大学
+
+### 研究生院通知公告
+
+<Route author="yanbot-team" example="/jisu/yjsy/index-tzgg" path="/jisu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 新闻动态 | 办事大厅 | 公开公示 | 师生风采 |
+| -------- | -------- | -------- | -------- | -------- |
+| index-tzgg | index-xwdt | index-bsdt | index-gkgs | index-ssfc |
+
+</Route>
