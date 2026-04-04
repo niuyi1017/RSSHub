@@ -322,3 +322,15 @@
 | zsgz-zstz |
 
 </Route>
+
+## 上海应用技术大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/sit/gs/zsxx-tzgg" path="/sit/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 招生政策 | 导师管理 | 招生资讯 |
+| -------- | -------- | -------- | -------- |
+| zsxx-tzgg | zsxx-zszc | zsxx-dsgl | zsxx-zszx |
+
+</Route>
