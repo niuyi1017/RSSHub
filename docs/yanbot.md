@@ -298,3 +298,15 @@
 | 5046-list | zxtz-list | 5047-list | 5048-list | lhpy-list | ksdg-list |
 
 </Route>
+
+## 青海民族大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/qhmu/yjsy/zsxx" path="/qhmu/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生信息 |
+| -------- |
+| zsxx     |
+
+</Route>
