@@ -226,3 +226,15 @@
 | 1415     | 1416     |
 
 </Route>
+
+## 陕西科技大学
+
+### 材料科学与工程学院通知公告
+
+<Route author="yanbot-team" example="/sust/cl/xwzx-tongzhi" path="/sust/cl/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告   |
+| ---------- |
+| xwzx-tongzhi |
+
+</Route>
