@@ -250,3 +250,15 @@
 | index-tzgg | index-xwdt | index-bsdt | index-gkgs | index-ssfc |
 
 </Route>
+
+## 辽宁工业大学
+
+### 研究生处招生动态
+
+<Route author="yanbot-team" example="/lnut/yjsxy/yjszsw-zsdt" path="/lnut/yjsxy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生动态 |
+| -------- |
+| yjszsw-zsdt |
+
+</Route>
