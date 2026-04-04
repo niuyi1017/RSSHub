@@ -274,3 +274,15 @@
 | zsgz     |
 
 </Route>
+
+## 兰州交通大学
+
+### 研究生院招生工作公告通知
+
+<Route author="yanbot-team" example="/lzjtu/yjsc/zsgo-ggtz" path="/lzjtu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 公告通知 | 硕士招生 | 博士招生 | 专业学位招生 | 课程进修班招生 |
+| -------- | -------- | -------- | ------------ | -------------- |
+| zsgo-ggtz | zsgo-sszs | zsgo-bszs | zsgo-zyxwzs | zsgo-kcjxbzs |
+
+</Route>
