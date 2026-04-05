@@ -683,6 +683,18 @@
 
 </Route>
 
+## 天津城建大学
+
+### 研究生院（master.tcu.edu.cn）
+
+<Route author="yanbot-team" example="/tcu/master/zsgz" path="/tcu/master/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz 对应 https://master.tcu.edu.cn/zsgz.htm']" >
+
+| 机构设置 | 党建工作 | 招生工作 | 培养工作 | 学位工作 | 学科建设 | 建园书院 | 下载专区 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| jgsz | djgz | zsgz | pygz | xwgz | xkjs | jysy | xzzq |
+
+</Route>
+
 ## 湖南工商大学
 
 ### 研究生院（gra.hutb.edu.cn）
