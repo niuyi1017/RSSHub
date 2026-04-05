@@ -430,3 +430,15 @@
 | zhaoshenggongzuo | zszx     | zsjz     | zhuanyemulu        | lnfsfsx         |
 
 </Route>
+
+## 广东海洋大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/gdou/grs/zsgz-ssszsxx" path="/gdou/grs/:type" :paramsDesc="['栏目类型']" >
+
+| 博士生招生信息 | 硕士生招生信息 | 留学生招生信息 |
+| -------------- | -------------- | -------------- |
+| zsgz-bsszsxx   | zsgz-ssszsxx   | zsgz-lxszsxx   |
+
+</Route>
