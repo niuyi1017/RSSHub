@@ -535,3 +535,15 @@
 
 </Route>
 
+## 沈阳体育学院
+
+### 研究生院通知公告
+
+<Route author="yanbot-team" example="/syty/yjs/tzgg" path="/syty/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 tzgg 对应 /tzgg.htm']" >
+
+| 通知公告（汇总） | 通知公告（招生工作） | 通知公告（培养工作） | 通知公告（学位管理） | 通知公告（学科建设） | 招生工作通知公告 | 培养工作通知公告 | 学位管理通知公告 | 学科建设通知公告 |
+| ---------------- | -------------------- | -------------------- | -------------------- | -------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| tzgg | tzgg-tzgg_zsgz_ | tzgg-tzgg_pygz_ | tzgg-tzgg_xwgl_ | tzgg-tzgg_xkjs_ | zsgong_z-tzgg | pygz-tzgg | xwgl1-tzgg | xkjs1-tzgg |
+
+</Route>
+
