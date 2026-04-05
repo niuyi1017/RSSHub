@@ -695,6 +695,28 @@
 
 </Route>
 
+## 西藏民族大学
+
+### 研究生院（www1.xzmu.edu.cn）
+
+列表为 GBK 编码，参数与官网 `contentlist` 一致。`type` 支持：**仅栏目数字**（默认 `dept_id=25`、`column_type=1`、`per=30`、`url=list_zs`，适用于硕士招生等）或 **完整五段** `dept_id-column_id-column_type-per-url`（如与 [硕士招生列表](https://www1.xzmu.edu.cn/yjsc/contentlist?dept_id=25&column_id=630&column_type=1&per=15&url=list_zs) 一致的 `25-630-1-15-list_zs`）。使用 `url=list` 的培养、学位等栏目须用五段形式。
+
+<Route author="yanbot-team" example="/xzmu/yjsc/630" path="/xzmu/yjsc/:type" :paramsDesc="['栏目参数：纯数字 column_id（默认 list_zs 模板），或 dept_id-column_id-column_type-per-url，如 25-630-1-15-list_zs']" >
+
+| 招生信息-硕士招生 | 博士招生 | 调剂服务 | 培养管理 | 思政教育 | 学籍管理 | 奖助工作 | 学术实践 | 管理规定 |
+| ----------------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 630 | 1545 | 1546 | 25-639-1-15-list | 25-1547-1-15-list | 25-1548-1-15-list | 25-1549-1-15-list | 25-1550-1-15-list | 25-628-1-15-list |
+
+| 管理制度 | 教学动态 | 课程建设 |
+| -------- | -------- | -------- |
+| 25-1551-1-15-list | 25-631-1-15-list | 25-1552-1-15-list |
+
+| 学位管理 | 导师管理 | 学科概况 | 学科队伍 | 学科动态 | 资料下载（栏目） |
+| -------- | -------- | -------- | -------- | -------- | ---------------- |
+| 25-1553-1-15-list | 25-1554-1-15-list | 25-1556-1-15-list | 25-1557-1-15-list | 25-638-1-15-list | 25-635-1-15-list_zl |
+
+</Route>
+
 ## 湖南工商大学
 
 ### 研究生院（gra.hutb.edu.cn）
