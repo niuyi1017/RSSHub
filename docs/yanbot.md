@@ -346,3 +346,15 @@
 | ty_zsgz-xwdt | ty_zsgz-tzgg | ty_zsgz-dsjj |
 
 </Route>
+
+## 天津农学院
+
+### 党委研究生工作部（研究生院）招生工作信息查询
+
+<Route author="yanbot-team" example="/tjau/yjs/xxcx" path="/tjau/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 信息查询 | 招生简章 | 政策文件 |
+| -------- | -------- | -------- |
+| xxcx     | zsjz     | zcwj     |
+
+</Route>
