@@ -547,3 +547,15 @@
 
 </Route>
 
+## 台州学院
+
+### 研究生招生网通知公告
+
+<Route author="yanbot-team" example="/tzc/yzw/tzgg1" path="/tzc/yzw/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 tzgg1 对应 /tzgg1.htm']" >
+
+| 通知公告 |
+| -------- |
+| tzgg1 |
+
+</Route>
+
