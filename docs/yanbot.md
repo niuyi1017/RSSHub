@@ -615,3 +615,27 @@
 
 </Route>
 
+## 安徽科技学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/ahstu/yjs/zsgz" path="/ahstu/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz-tzgg 对应 https://www.ahstu.edu.cn/yjs/zsgz/tzgg.htm']" >
+
+| 机构设置 | 部门概况 | 工作职责 | 联系方式 | 招生工作 | 招生简章 | 招生目录 | 通知公告 | 资料下载 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| jgsz | jgsz-bmgk | jgsz-gzzz | jgsz-lxfs | zsgz | zsgz-zsjz1 | zsgz-zsml | zsgz-tzgg | zsgz-zlxz |
+
+| 培养工作 | 规章制度 | 培养方案 | 学籍管理 | 教学管理 | 科研管理 | 实践管理 | 导师管理 | 资料下载 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| pygz | pygz-gzzd | pygz-pyfa | pygz-xjgl | pygz-jxgl | pygz-kygl | pygz-sjgl | pygz-dsgl | pygz-zlxz |
+
+| 学位工作 | 规章制度 | 学位申请 | 学位点建设 | 资料下载 | 就业工作 | 就业信息 | 就业政策 | 资料下载 |
+| -------- | -------- | -------- | ---------- | -------- | -------- | -------- | -------- | -------- |
+| xwgz | xwgz-gzzd | xwgz-xwsq | xwgz-xwdjs | xwgz-zlxz | jygz | jygz-jyxx | jygz-jyzc | jygz-zlxz |
+
+| 学生工作 | 规章制度 | 党团建设 | 思想教育 | 日常管理 | 奖助工作 | 学术活动 | 研究生会 | 资料下载 | 下载专区 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| xsgz | xsgz-gzzd | xsgz-dtjs | xsgz-sxjy | xsgz-rcgl | xsgz-jzgz | xsgz-xshd | xsgz-yjsh | xsgz-zlxz | xzzq |
+
+</Route>
+
