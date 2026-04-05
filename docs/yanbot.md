@@ -523,3 +523,15 @@
 
 </Route>
 
+## 中国青年政治学院
+
+### 研究生教育招生公告
+
+<Route author="yanbot-team" example="/cyu/yjsj/yjsj-zsgg" path="/cyu/yjsj/:type" :paramsDesc="['栏目路径，短横线代替多级目录，如 yjsj-zsgg 对应 /yjsj/zsgg/']" >
+
+| 招生公告 |
+| -------- |
+| yjsj-zsgg |
+
+</Route>
+
