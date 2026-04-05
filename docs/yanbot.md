@@ -478,3 +478,15 @@
 | 21   | 22         |
 
 </Route>
+
+## 中国科学院西安光学精密机械研究所
+
+### 人事教育处（研究生招生）
+
+<Route author="yanbot-team" example="/cas/opt/rsjyc-zsdt" path="/cas/opt/:type" :paramsDesc="['栏目路径，短横线代替多级目录，如 rsjyc-zsdt 对应 /rsjyc/zsdt/']" >
+
+| 招生动态 |
+| -------- |
+| rsjyc-zsdt |
+
+</Route>
