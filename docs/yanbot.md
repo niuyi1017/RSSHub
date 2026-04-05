@@ -514,3 +514,12 @@
 | xwgg-zsxx-bkszs | xwgg-zsxx-yjszs | xwgg-zsxx-lxszs |
 
 </Route>
+
+## 国家体育总局体育科学研究所
+
+### 研究生教育网招生信息
+
+<Route author="yanbot-team" example="/ciss/yjssszs" path="/ciss/yjssszs" >
+
+</Route>
+
