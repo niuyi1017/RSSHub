@@ -215,6 +215,18 @@
 
 </Route>
 
+## 中国疾病预防控制中心
+
+### 研究生院招生资讯
+
+<Route author="yanbot-team" example="/chinacdc/yjsy/zszx-sszs" path="/chinacdc/yjsy/:type" :paramsDesc="['栏目类型']" >
+
+| 博士招生 | 硕士招生 | 推免生招生 |
+| -------- | -------- | ---------- |
+| zszx-bszs | zszx-sszs | zszx-tmzs |
+
+</Route>
+
 ## 黑龙江八一农垦大学
 
 ### 研究生与学科建设处招生工作
