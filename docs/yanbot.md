@@ -559,3 +559,15 @@
 
 </Route>
 
+## 武汉体育学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/whsu/yjsy/zsxx-zsxx" path="/whsu/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsxx-zsxx 对应 /zsxx/zsxx.htm']" >
+
+| 招生信息 | 招生目录 | 招生政策 | 同等学力 |
+| -------- | -------- | -------- | -------- |
+| zsxx-zsxx | zsxx-zsml | zsxx-zszc | zsxx-tdxl |
+
+</Route>
+
