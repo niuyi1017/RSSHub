@@ -442,3 +442,15 @@
 | zsgz-bsszsxx   | zsgz-ssszsxx   | zsgz-lxszsxx   |
 
 </Route>
+
+## 广州美术学院
+
+### 招生考试中心研究生招生
+
+<Route author="yanbot-team" example="/gzarts/zs/zsdl1-yjszs" path="/gzarts/zs/:type" :paramsDesc="['栏目类型']" >
+
+| 研究生招生 |
+| ---------- |
+| zsdl1-yjszs |
+
+</Route>
