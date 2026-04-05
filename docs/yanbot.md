@@ -418,3 +418,15 @@
 | NotificationAnnouncement-list | Regulations-list | GraduateEnrollment-list | GraduateEnrollment0999-list | Mentor-list | Graduate-list | EmploymentManagement-list | yjsgl-list | InternationalExchanges-list | Preach-list |
 
 </Route>
+
+## 山东体育学院
+
+### 研究生教育学院招生工作
+
+<Route author="yanbot-team" example="/sdpei/yjsxy/zhaoshenggongzuo" path="/sdpei/yjsxy/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作         | 招生公告 | 招生简章 | 专业目录及参考用书 | 历年复试分数线 |
+| ---------------- | -------- | -------- | ------------------ | -------------- |
+| zhaoshenggongzuo | zszx     | zsjz     | zhuanyemulu        | lnfsfsx         |
+
+</Route>
