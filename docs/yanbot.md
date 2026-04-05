@@ -131,6 +131,18 @@
 
 </Route>
 
+## 哈尔滨商业大学
+
+### 研究生学院招生信息
+
+<Route author="yanbot-team" example="/hrbcu/yjsc/zsxx-ssyjs" path="/hrbcu/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 博士研究生 | 硕士研究生 | 在职攻读硕士学位 |
+| ---------- | ---------- | ---------------- |
+| zsxx-bsyjs | zsxx-ssyjs | zsxx-zzgdssxw   |
+
+</Route>
+
 ## 兰州财经大学
 
 ### 研究生院招生工作
@@ -380,6 +392,18 @@
 | 动态信息     | 招生简章     | 考试大纲     |
 | ------------ | ------------ | ------------ |
 | ssyjszs-dtxx | ssyjszs-zsjz | ssyjszs-ksdg |
+
+</Route>
+
+## 郑州轻工业大学
+
+### 党委研究生工作部（研究生院）招生工作
+
+<Route author="yanbot-team" example="/zzuli/yjsc/2878" path="/zzuli/yjsc/:type" :paramsDesc="['栏目类型']" >
+
+| 招生工作 | 工作动态 | 招生简章 | 硕士招生 | 博士招生 |
+| -------- | -------- | -------- | -------- | -------- |
+| 2878     | 2879     | 2880     | 2881     | bszs     |
 
 </Route>
 
