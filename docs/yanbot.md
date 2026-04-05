@@ -358,3 +358,15 @@
 | xxcx     | zsjz     | zcwj     |
 
 </Route>
+
+## 武汉音乐学院
+
+### 招生信息网硕士研究生招生
+
+<Route author="yanbot-team" example="/whcm/zsks/ssyjszs-dtxx" path="/whcm/zsks/:type" :paramsDesc="['栏目类型']" >
+
+| 动态信息     | 招生简章     | 考试大纲     |
+| ------------ | ------------ | ------------ |
+| ssyjszs-dtxx | ssyjszs-zsjz | ssyjszs-ksdg |
+
+</Route>
