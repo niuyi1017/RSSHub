@@ -454,3 +454,15 @@
 | zsdl1-yjszs |
 
 </Route>
+
+## 首都体育学院
+
+### 研究生部招生工作
+
+<Route author="yanbot-team" example="/cupes/gs/zsgz-zstz" path="/cupes/gs/:type" :paramsDesc="['栏目类型']" >
+
+| 招生简章 | 招生通知 | 成绩查询 |
+| -------- | -------- | -------- |
+| zsgz-zsjz | zsgz-zstz | zsgz-cjcx |
+
+</Route>
