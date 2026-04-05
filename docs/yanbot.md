@@ -466,3 +466,15 @@
 | zsgz-zsjz | zsgz-zstz | zsgz-cjcx |
 
 </Route>
+
+## 四川音乐学院
+
+### 研究生招生
+
+<Route author="yanbot-team" example="/sccm/yzw/21" path="/sccm/yzw/:type" :paramsDesc="['栏目 ID']" >
+
+| 公告 | 政策及信息 |
+| ---- | ---------- |
+| 21   | 22         |
+
+</Route>
