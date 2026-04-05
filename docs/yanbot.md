@@ -1,4 +1,4 @@
-
+﻿
 ## 成都中医药大学
 
 ### 研究生院
@@ -332,5 +332,17 @@
 | 通知公告 | 招生政策 | 导师管理 | 招生资讯 |
 | -------- | -------- | -------- | -------- |
 | zsxx-tzgg | zsxx-zszc | zsxx-dsgl | zsxx-zszx |
+
+</Route>
+
+## 塔里木大学
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/taru/yjsb/ty_zsgz-tzgg" path="/taru/yjsb/:type" :paramsDesc="['栏目类型']" >
+
+| 新闻动态   | 通知公告   | 导师简介   |
+| ---------- | ---------- | ---------- |
+| ty_zsgz-xwdt | ty_zsgz-tzgg | ty_zsgz-dsjj |
 
 </Route>
