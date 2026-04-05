@@ -583,3 +583,15 @@
 
 </Route>
 
+## 中原工学院
+
+### 研究生处招生工作
+
+<Route author="yanbot-team" example="/zut/yjsc/zsgz" path="/zut/yjsc/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz-tzgg 对应 /zsgz/tzgg.htm']" >
+
+| 招生工作 | 通知公告 | 招生简章 | 招生简介 | 相关政策 | 招生学院导航 | 常用资料下载 | 联系我们 |
+| -------- | -------- | -------- | -------- | -------- | ------------ | ------------ | -------- |
+| zsgz | zsgz-tzgg | zsgz-zsjz | zsgz-zsjj | zsgz-xgzc | zsgz-zsxydh | zsgz-cyzlxz | zsgz-lxwm |
+
+</Route>
+
