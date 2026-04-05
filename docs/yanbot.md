@@ -502,3 +502,15 @@
 | yjsjy-yjszsxx-sszs | yjsjy-yjszsxx-bszs | yjsjy-yjszsxx-gjzs | yjsjy-yjszsxx-xly | yjsjy-yjszsxx-kcjh |
 
 </Route>
+
+## 中国戏曲学院
+
+### 新闻公告招生信息
+
+<Route author="yanbot-team" example="/nacta/zsxx/xwgg-zsxx-yjszs" path="/nacta/zsxx/:type" :paramsDesc="['栏目路径，短横线代替多级目录，如 xwgg-zsxx-yjszs 对应 /xwgg/zsxx/yjszs/']" >
+
+| 本科生招生 | 研究生招生 | 留学生招生 |
+| ---------- | ---------- | ---------- |
+| xwgg-zsxx-bkszs | xwgg-zsxx-yjszs | xwgg-zsxx-lxszs |
+
+</Route>
