@@ -490,3 +490,15 @@
 | rsjyc-zsdt |
 
 </Route>
+
+## 中国科学院西双版纳热带植物园
+
+### 研究生教育招生信息
+
+<Route author="yanbot-team" example="/cas/xtbg/yjsjy-yjszsxx-sszs" path="/cas/xtbg/:type" :paramsDesc="['栏目路径，短横线代替多级目录；站点版本目录 2022 已写在路由内，例如 yjsjy-yjszsxx-sszs']" >
+
+| 硕士招生 | 博士招生 | 国际招生 | 夏令营 | 科创计划 |
+| -------- | -------- | -------- | ------ | -------- |
+| yjsjy-yjszsxx-sszs | yjsjy-yjszsxx-bszs | yjsjy-yjszsxx-gjzs | yjsjy-yjszsxx-xly | yjsjy-yjszsxx-kcjh |
+
+</Route>
