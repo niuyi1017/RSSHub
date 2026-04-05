@@ -639,6 +639,50 @@
 
 </Route>
 
+## 黑龙江中医药大学
+
+### 研究生院（招生工作等栏目）
+
+<Route author="yanbot-team" example="/hljucm/zsgz/zsgz-sszs" path="/hljucm/zsgz/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz-sszs 对应 https://yjsy.hljucm.net/zsgz/sszs.htm']" >
+
+| 学位与研究生教育简介 | 机构设置 |
+| -------------------- | -------- |
+| yjsygk-xwyyjsjyjj | yjsygk-jgsz |
+
+| 博士招生 | 硕士招生 | 同等学力 | 研究生导师 | 成绩查询 |
+| -------- | -------- | -------- | ---------- | -------- |
+| zsgz-bszs1 | zsgz-sszs | zsgz-tdxl | zsgz-yjsds | zsgz-cjcx |
+
+| 培养制度 | 教学与课程管理 | 同等学历管理 | 学籍管理 |
+| -------- | -------------- | ------------ | -------- |
+| pygz-pyzd | pygz-jxykcgl | pygz-tdxlgl | pygz-xjgl |
+
+| 校学位评定委员会 | 学位制度 | 学位授权点 | 学位授予 | 导师风采 |
+| ---------------- | -------- | ---------- | -------- | -------- |
+| xwgz-xxwpdwyh | xwgz-xwzd | xwgz-xwsqd | xwgz-xwsy | xwgz-dsfc |
+
+| 规章制度 | 党团工作 | 日常管理 | 奖助体系 | 校园文化 |
+| -------- | -------- | -------- | -------- | -------- |
+| djyxsgz-gzzd | djyxsgz-dtgz | djyxsgz-rcgl | djyxsgz-jztx | djyxsgz-xywh |
+
+| 台港澳培养规定 | 台港澳学位授予 | 台港澳招生简章 |
+| -------------- | -------------- | -------------- |
+| tgajlxs-pygd | tgajlxs-xwsy | tgajlxs-zsjz |
+
+| 就业政策法规 | 就业指导 | 招聘信息 |
+| ------------ | -------- | -------- |
+| jygz-zcfg | jygz-jyzd | jygz-zpxx |
+
+| 博士后招生简章 | 博士后管理工作实施细则 |
+| -------------- | ------------------------ |
+| bshgz-bshzsjz | bshgz-bshglgzssxz |
+
+| 下载专区-招生 | 培养 | 学位 | 导师 | 综合管理 |
+| ------------- | ---- | ---- | ---- | -------- |
+| xzzq-zs | xzzq-py | xzzq-xw | xzzq-ds | xzzq-zhgl |
+
+</Route>
+
 ## 河北金融学院
 
 ### 研究生部（招生就业）
