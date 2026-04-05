@@ -651,6 +651,18 @@
 
 </Route>
 
+## 海南热带海洋学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/hntou/yjs/zsxx" path="/hntou/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /，列表与默认页 URL 为 https://yjs.hntou.edu.cn/{path}/']" >
+
+| 招生信息 | 部门简介 | 教学管理 | 学位点建设 | 思想教育 | 奖助工作 | 下载专区 |
+| -------- | -------- | -------- | ---------- | -------- | -------- | -------- |
+| zsxx | bmgk-bmjj | pygz-jxgl | xwgz-xwdjs | sxjy | jzgz | xzzq |
+
+</Route>
+
 ## 佛山大学
 
 ### 研究生招生网（WordPress）
