@@ -651,3 +651,19 @@
 
 </Route>
 
+## 佛山大学
+
+### 研究生招生网（WordPress）
+
+<Route author="yanbot-team" example="/fosu/yjszs/category-sszs" path="/fosu/yjszs/:type" :paramsDesc="['分类路径，短横线代替 /，如 category-sszs 对应 https://www.fosu.edu.cn/yjszs/category/sszs；含二级分类时用连续短横线，如 category-sszs-sszs_tzgg；列表与正文抓取依赖无头浏览器（较慢）']" >
+
+| 硕士招生 | 通知公告 | 简章目录 | 考试大纲 | 报名初试 | 文件规定 | 表格下载 | 联系我们 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| category-sszs | category-sszs-sszs_tzgg | category-sszs-sszs_jzml | category-sszs-sszs_ksdg | category-sszs-sszs_bmcs | category-sszs-sszs_wjgd | category-sszs-sszs_bgxz | category-sszs-sszs_lxwm |
+
+| 博士招生 | 通知公告 | 简章目录 | 申请考核 | 硕博连读 | 直接攻博 | 表格下载 | 联系我们 | 研招宣传 | 研究生成果 | 卓越工程师 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ---------- | ---------- |
+| category-bszs | category-bszs-bszs_tzgg | category-bszs-bszs_jzml | category-bszs-bszs_sqkh | category-bszs-bszs_sbld | category-bszs-bszs_zjgb | category-bszs-bszs_bgxz | category-bszs-bszs_lxwm | category-yzxc | category-yjscg | category-zygcs |
+
+</Route>
+
