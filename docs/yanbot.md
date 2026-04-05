@@ -382,3 +382,15 @@
 | ssyjszs-dtxx | ssyjszs-zsjz | ssyjszs-ksdg |
 
 </Route>
+
+## 广东省心血管病研究所
+
+### 研究生管理研究生招生
+
+<Route author="yanbot-team" example="/gdghospital/graduate/GraduateEnrollment-list" path="/gdghospital/graduate/:type" :paramsDesc="['栏目类型']" >
+
+| 通知公告 | 规章制度 | 研究生招生 | 培养管理 | 导师风采 | 研究生风采 | 学风建设 | 国际交流与合作 | 表格下载 | 招生宣讲 |
+| -------- | -------- | ---------- | -------- | -------- | ---------- | -------- | -------------- | -------- | -------- |
+| NotificationAnnouncement-list | Regulations-list | GraduateEnrollment-list | GraduateEnrollment0999-list | Mentor-list | Graduate-list | EmploymentManagement-list | yjsgl-list | InternationalExchanges-list | Preach-list |
+
+</Route>
