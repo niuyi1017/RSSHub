@@ -707,6 +707,16 @@
 
 </Route>
 
+## 沈阳化工大学
+
+### 研究生院（grszs.syuct.edu.cn）
+
+列表页为前端渲染，路由通过站点公开接口拉取数据（与浏览器中 `list2.html?source=` 一致）。`source` 为栏目 ID，与官网列表 URL 查询参数相同（示例页面 [list2.html?source=12](https://grszs.syuct.edu.cn/list2.html?source=12)）。
+
+<Route author="yanbot-team" example="/syuct/grszs/12" path="/syuct/grszs/:source" :paramsDesc="['栏目 source，与 https://grszs.syuct.edu.cn/list2.html?source= 后的数字一致，其他栏目请从站点导航链接中查看 source 值']" >
+
+</Route>
+
 ## 淮阴工学院
 
 ### 研究生院（gd.hyit.edu.cn）
