@@ -707,6 +707,38 @@
 
 </Route>
 
+## 淮阴工学院
+
+### 研究生院（gd.hyit.edu.cn）
+
+<Route author="yanbot-team" example="/hyit/gd/zsgz" path="/hyit/gd/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz 对应 https://gd.hyit.edu.cn/zsgz.htm，zsgz-tzgg 对应 https://gd.hyit.edu.cn/zsgz/tzgg.htm']" >
+
+| 部门概况 | 工作职责 | 服务流程 | 人员及联系方式 |
+| -------- | -------- | -------- | -------------- |
+| bmgk1 | bmgk1-gzzz | bmgk1-fwlc | bmgk1-ryjlxfs |
+
+| 招生工作 | 通知公告 | 招生文件 | 下载专区 |
+| -------- | -------- | -------- | -------- |
+| zsgz | zsgz-tzgg | zsgz-zswj | zsgz-xzzq |
+
+| 培养工作 | 通知公告 | 培养文件 | 下载专区 |
+| -------- | -------- | -------- | -------- |
+| pygz | pygz-tzgg | wjzd-py | xzzq-py |
+
+| 学位工作 | 通知公告 | 学位点建设 | 导师队伍 | 下载专区 |
+| -------- | -------- | ---------- | -------- | -------- |
+| xwgz | xwgz-tzgg | xwgz-xwdjs | xwgz-dsdw | xwgz-xzzq |
+
+| 支部建设 | 文件制度 | 招生 | 培养 | 学位 | 导师 | 综合管理 |
+| -------- | -------- | ---- | ---- | ---- | ---- | -------- |
+| zbjs | wjzd | wjzd-zs | wjzd-py | wjzd-xw | wjzd-ds | wjzd-zhgl |
+
+| 下载专区 | 招生 | 培养 | 学位 | 导师 | 综合管理 |
+| -------- | ---- | ---- | ---- | ---- | -------- |
+| xzzq | xzzq-zs | xzzq-py | xzzq-xw | xzzq-ds | xzzq-zhgl |
+
+</Route>
+
 ## 湖南理工学院
 
 ### 研究生工作部（xk.hnist.cn）
