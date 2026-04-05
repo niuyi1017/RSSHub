@@ -639,3 +639,15 @@
 
 </Route>
 
+## 重庆三峡学院
+
+### 研究生院
+
+<Route author="yanbot-team" example="/sanxiau/yjsy/index-zsxx" path="/sanxiau/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 index-zsxx 对应 https://yjsy.sanxiau.edu.cn/index/zsxx.htm；机构设置下静态介绍页无新闻列表，订阅可能为空']" >
+
+| 招生信息 | 学科学位 | 培养工作 | 学生工作 | 就业信息 | 一周安排 | 下载中心-招生 | 培养 | 学位 | 就业 | 学生 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------------- | ---- | ---- | ---- | ---- |
+| index-zsxx | index-xkxw | index-pygz | index-xsgz | index-jyxx | yzap | xzzx-zsgz | xzzx-pygz | xzzx-xwgz | xzzx-jygz | xzzx-xsgz |
+
+</Route>
+
