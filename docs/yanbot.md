@@ -707,6 +707,42 @@
 
 </Route>
 
+## 湖南理工学院
+
+### 研究生工作部（xk.hnist.cn）
+
+<Route author="yanbot-team" example="/hnist/xk/zsgz-zkdt" path="/hnist/xk/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz-zkdt 对应 https://xk.hnist.cn/zsgz/zkdt.htm']" >
+
+| 招生工作 | 招生简章 | 招考动态 | 专业目录 | 专业介绍 | 报考指南 | 优惠政策 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| zsgz | zsgz-zsjz | zsgz-zkdt | zsgz-zyml | zsgz-zyjs | zsgz-bkzn | zsgz-yhzc |
+
+| 培养管理 | 培养方案 | 专业硕士 | 学术硕士 | 学籍管理 | 报到注册 | 学籍异动 | 毕业管理 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| pygl | pygl-pyfa | pygl-pyfa-zyss | pygl-pyfa-xsss | pygl-xjgl | pygl-xjgl-bdzc | pygl-xjgl-xjyd | pygl-xjgl-bygl |
+
+| 教学管理 | 教学安排 | 课程管理 | 教学督导 | 专业实践 | 学术科研 | 学术论文 | 科研项目 | 专利 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ---- |
+| pygl-jxgl | pygl-jxgl-jxap | pygl-jxgl-kcgl | pygl-jxgl-jxdd | pygl-jxgl-zysj | pygl-xsky | pygl-xsky-xslw | pygl-xsky-kyxm | pygl-xsky-zl |
+
+| 培养相关文件 | 上级文件 | 学校文件 | 学位管理 | 学位授予 | 学位评定委员会 | 学位论文管理 |
+| ------------ | -------- | -------- | -------- | -------- | -------------- | -------------- |
+| pygl-xgwj | pygl-xgwj-sjwj | pygl-xgwj-xxwj | xwgl | xwgl-xwsygz | xwgl-xwpdwyh | xwgl-xwlwgl |
+
+| 导师信息与动态 | 导师风采 | 学科建设 | 双一流建设 | 重点学科 | 学位建设与评估 |
+| -------------- | -------- | -------- | ---------- | -------- | ---------------- |
+| dsxx1-dtxx | dsxx1-dsfc | xkjs | xkjs-syljs | xkjs-zdxk | xkjs-xwjsypg |
+
+| 学科相关文件 | 党建专栏 | 党建工作 | 支部动态 | 规章制度 | 导师制度 | 招生制度 | 培养制度 | 学位制度 | 研工制度 |
+| ------------ | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| xkjs-xgwj | djzl | djzl-djgz | djzl-djgz-zbdt | gzzd | gzzd-dszd | gzzd-zszd | gzzd-pyzd | gzzd-xwzd | gzzd-ygzd |
+
+| 下载专区 | 导师信息 | 招生工作 | 培养管理 | 学位管理 | 学科建设 | 研工工作 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| xzzq | xzzq-dsxx | xzzq-zsgz | xzzq-pygl | xzzq-xwgl | xzzq-xkjs | xzzq-yggz |
+
+</Route>
+
 ## 佛山大学
 
 ### 研究生招生网（WordPress）
