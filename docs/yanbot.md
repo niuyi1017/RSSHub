@@ -683,6 +683,44 @@
 
 </Route>
 
+## 湖南工商大学
+
+### 研究生院（gra.hutb.edu.cn）
+
+站点栏目为 **路径型 URL**（无 `.htm` 后缀），`type` 为路径中 `/` 换成 `-`。
+
+<Route author="yanbot-team" example="/hutb/gra/tzgg" path="/hutb/gra/:type" :paramsDesc="['栏目路径，短横线代替 /，无扩展名，如 tzgg 对应 https://gra.hutb.edu.cn/tzgg，zsgz-sszs-zkdt 对应 https://gra.hutb.edu.cn/zsgz/sszs/zkdt']" >
+
+| 通知公告 | 机构概况 | 机构设置 | 管理职能 | 学位评定委员会 |
+| -------- | -------- | -------- | -------- | ---------------- |
+| tzgg | jgjj-jggk | jgjj-jgsz | jgjj-glzn1 | jgjj-xwpdwyh |
+
+| 教育法规 | 导师制度 | 招生制度 | 培养制度 | 学位制度 | 研工制度 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| gzzd-jyfg | gzzd-dszd | gzzd-zszd | gzzd-pyzd | gzzd-xwzd | gzzd-ygzd |
+
+| 硕士招生动态 | 博士招生动态 | 硕士研究生导师 | 博士研究生导师 |
+| ------------ | ------------ | -------------- | ---------------- |
+| zsgz-sszs-zkdt | zsgz-bszs-zkdt1 | dsxx1-ssyjsds-rkzyyhjjjx | dsxx1-bsyjsds-glkxygc1 |
+
+| 学籍管理 | 培养过程 | 教学管理 | 学术科研 | 课程建设 |
+| -------- | -------- | -------- | -------- | -------- |
+| pygl-xjgl | pygl-pygc | pygl-jxgl | pygl-xsky | pygl-kcjs-sjkc |
+
+| 学位管理 | 导师管理 | 学位点建设 | 学位论文管理 | 学位申请及授予 | 优秀论文评选 |
+| -------- | -------- | ---------- | ------------ | ---------------- | ------------ |
+| xwgl | xwgl-dsgl | xwgl-xwdjs | xwgl-xwlwgl | xwgl-xwsqjsy | xwgl-yxlwpx |
+
+| 研工动态 | 思政教育 | 奖助贷险 | 学科竞赛 | 学术交流 | 创新计划项目 | 创新创业实践 |
+| -------- | -------- | -------- | -------- | -------- | ------------ | ------------ |
+| jygl-ygdt | jygl-szjy | jygl-jzdx | cxcy-xkjs | cxcy-xsjl | cxcy-cxjhxm | cxcy-cxcysj |
+
+| 下载-导师信息 | 下载-招生工作 | 下载-培养管理 | 下载-学位管理 | 下载-教育管理 | 其他 | 下载专区 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ---- | -------- |
+| xzzq-dsxx | xzzq-zsgz1 | xzzq-pygl1 | xzzq-xwgl1 | xzzq-jygl1 | xzzq-qt | xzzq-xzzq1 |
+
+</Route>
+
 ## 河北金融学院
 
 ### 研究生部（招生就业）
