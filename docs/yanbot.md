@@ -675,6 +675,38 @@
 
 </Route>
 
+## 湖北科技学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/hbust/yjsc/xwgg-tzgg" path="/hbust/yjsc/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 xwgg-tzgg 对应 https://yjsc.hbust.edu.cn/xwgg/tzgg.htm']" >
+
+| 部门概况 | 部门介绍 | 部门职能 | 机构设置 | 新闻公告 | 新闻动态 | 通知公告 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| bmgk | bmgk-bmjs | bmgk-bmzn | bmgk-jgsz | xwgg | xwgg-xwdt | xwgg-tzgg |
+
+| 学科建设 | 学科动态 | 学位点简介 | 重点学科 | 学科制度 | 招生就业 | 招生动态 | 招生简章 | 成绩查询 | 导师信息 | 就业指导 | 招生制度 |
+| -------- | -------- | ---------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| xkjs | xkjs-xkdt | xkjs-xwdjj | xkjs-zdxk | xkjs-xkzd | zsjy | zsjy-zsdt | zsjy-zsjz | zsjy-cjcx | zsjy-dsxx | zsjy-jyzd | zsjy-zszd |
+
+| 培养管理 | 培养动态 | 培养方案 | 研究生课程表 | 课程建设 | 专业实践 | 培养制度 |
+| -------- | -------- | -------- | ------------ | -------- | -------- | -------- |
+| pygl | pygl-pydt | pygl-pyfa | pygl-yjskcb | pygl-kcjs | pygl-zysj | pygl-pyzd |
+
+| 学位管理 | 学位动态 | 学位流程 | 学位授予 | 优秀论文 | 学位制度 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| xwgl | xwgl-xwdt | xwgl-xwlc | xwgl-xwsy | xwgl-yxlw | xwgl-xwzd |
+
+| 研究生管理 | 管理动态 | 学籍管理 | 资助体系 | 思政党建 | 研究生会 | 管理制度 |
+| ---------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| yjsgl | yjsgl-gldt | yjsgl-xjgl | yjsgl-zztx | yjsgl-szdj | yjsgl-yjsh | yjsgl-glzd |
+
+| 下载中心 | 学科下载 | 招生下载 | 培养下载 | 学位下载 | 管理下载 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| xzzx | xzzx-xkxz | xzzx-zsxz | xzzx-pyxz | xzzx-xwxz | xzzx-glxz |
+
+</Route>
+
 ## 佛山大学
 
 ### 研究生招生网（WordPress）
