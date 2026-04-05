@@ -639,6 +639,18 @@
 
 </Route>
 
+## 河北金融学院
+
+### 研究生部（招生就业）
+
+<Route author="yanbot-team" example="/hbfu/yjs/605" path="/hbfu/yjs/:type" :paramsDesc="['栏目 navId（数字），数据来自站点 web/queryContentList；招生就业下子栏目见下表，与 https://news.hbfu.edu.cn/yjs/ListPage?parentId=604&parentName=%E6%8B%9B%E7%94%9F%E5%B0%B1%E4%B8%9A&flag=1 同源']" >
+
+| 招生动态 | 就业服务 |
+| -------- | -------- |
+| 605 | 606 |
+
+</Route>
+
 ## 重庆三峡学院
 
 ### 研究生院
