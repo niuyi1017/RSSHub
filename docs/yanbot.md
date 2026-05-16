@@ -303,6 +303,18 @@
 
 </Route>
 
+## 烟台市人力资源社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/yantai/rshj/col-col117626" path="/yantai/rshj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘   | 事业单位招聘简章   | 事业单位公示公告   |
+| ------------------ | ------------------ | ------------------ |
+| col-col117626      | col-col117627      | col-col117628      |
+
+</Route>
+
 ## 淄博市人力资源和社会保障局
 
 ### 事业单位招聘
