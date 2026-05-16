@@ -303,6 +303,18 @@
 
 </Route>
 
+## 枣庄市人力资源和社会保障局
+
+### 事业单位招聘
+
+<Route author="yanbot-team" example="/zaozhuang/zzhrss/ztzl-sydwgkzpzt-zpxx" path="/zaozhuang/zzhrss/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /']" >
+
+| 招聘信息                      | 通知公告                          | 网上公示             | 政策文件                          |
+| ----------------------------- | --------------------------------- | -------------------- | --------------------------------- |
+| ztzl-sydwgkzpzt-zpxx          | ztzl-sydwgkzpzt-tzgg_29668        | ztzl-sydwgkzpzt-wsgs | ztzl-sydwgkzpzt-zcwj_29671        |
+
+</Route>
+
 ## 烟台市人力资源社会保障局
 
 ### 事业单位公开招聘
