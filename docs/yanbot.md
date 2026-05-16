@@ -302,3 +302,63 @@
 | zs-sszs  | zs-bszs  | zs-tdxlss    | zs-tdxlbs    | zs-fqrz  |
 
 </Route>
+
+## 烟台市人力资源社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/yantai/rshj/col-col117626" path="/yantai/rshj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘   | 事业单位招聘简章   | 事业单位公示公告   |
+| ------------------ | ------------------ | ------------------ |
+| col-col117626      | col-col117627      | col-col117628      |
+
+</Route>
+
+## 淄博市人力资源和社会保障局
+
+### 事业单位招聘
+
+<Route author="yanbot-team" example="/zibo/hrss/col-col2387" path="/zibo/hrss/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位招聘  |
+| ------------- |
+| col-col2387   |
+
+</Route>
+
+## 青岛市人力资源和社会保障局
+
+### 事业单位招聘
+
+<Route author="yanbot-team" example="/qingdao/hrss/ztzl_47-sydwzp_47-zpjz_47" path="/qingdao/hrss/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -']" >
+
+| 招聘简章                       |
+| ------------------------------ |
+| ztzl_47-sydwzp_47-zpjz_47      |
+
+</Route>
+
+## 济南市人力资源和社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/jinan/jnhrss/col-col18625" path="/jinan/jnhrss/:type" :paramsDesc="['栏目类型']" >
+
+| 济南事业单位公开招聘 | 专业技术人员服务 | 调解仲裁    | 优化营商环境  | 社会保险     | 项目强省会    |
+| -------------------- | ---------------- | ----------- | ------------- | ------------ | ------------ |
+| col-col18625         | col-col18361     | col-col18387 | col-col79123 | col-col117942 | col-col119715 |
+
+</Route>
+
+## 山东省人力资源和社会保障厅
+
+### 省属事业单位公开招聘服务平台
+
+<Route author="yanbot-team" example="/shandong/hrss/channels-ch00232" path="/shandong/hrss/:type" :paramsDesc="['栏目类型']" >
+
+| 省属事业单位公开招聘服务平台 |
+| ---------------------------- |
+| channels-ch00232             |
+
+</Route>
