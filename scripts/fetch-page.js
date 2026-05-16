@@ -14,6 +14,7 @@
  *   node scripts/fetch-page.js "https://yzb.btbu.edu.cn/zsxx/zsjz.htm"
  *   node scripts/fetch-page.js "https://example.edu.cn/page.htm" --puppy
  *   node scripts/fetch-page.js "https://example.edu.cn/page.htm" --out _temp_detail.html
+ *   node scripts/fetch-page.js "https://example.edu.cn/page.htm" --ipv4   # 强制 IPv4，规避部分站点 IPv6 不可达
  */
 
 /* eslint-disable no-console */
@@ -31,10 +32,14 @@ function parseArgs(argv) {
     url: null,
     puppy: false,
     out: '_temp_page.html',
+    ipv4: false,
   };
 
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
+      case '--ipv4':
+        opts.ipv4 = true;
+        break;
       case '--puppy':
         opts.puppy = true;
         break;
@@ -61,9 +66,9 @@ function parseArgs(argv) {
   return opts;
 }
 
-async function fetchWithGot(url) {
+async function fetchWithGot(url, gotExtra = {}) {
   const got = require('@/utils/got');
-  const response = await got({ method: 'get', url, https: { rejectUnauthorized: false } });
+  const response = await got({ method: 'get', url, https: { rejectUnauthorized: false }, ...gotExtra });
   return typeof response.data === 'string' ? response.data : response.body;
 }
 
@@ -84,7 +89,8 @@ async function main() {
   console.log(`获取: ${opts.url}`);
   console.log(`方式: ${opts.puppy ? 'puppy (无头浏览器)' : 'got (HTTP)'}`);
 
-  const html = opts.puppy ? await fetchWithPuppy(opts.url) : await fetchWithGot(opts.url);
+  const gotExtra = opts.ipv4 ? { dnsLookupIpVersion: 'ipv4' } : {};
+  const html = opts.puppy ? await fetchWithPuppy(opts.url) : await fetchWithGot(opts.url, gotExtra);
 
   fs.writeFileSync(opts.out, html);
   console.log(`已保存: ${opts.out} (${html.length} bytes)`);
