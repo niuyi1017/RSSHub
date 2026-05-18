@@ -183,11 +183,15 @@ module.exports = {
 ### Step 4: Verify & Cleanup
 
 1. 检查语法错误（使用 error checker）
-2. 模块加载测试:
+2. 模块加载 + HTTP 响应验证:
    ```bash
-   node scripts/verify-route.js <folder>/<route>
+   node scripts/verify-route.js <folder>/<route> <default-type>
    ```
-   应输出 `✓ ... 加载成功 (type: function)`。
+   应依次输出：
+   - `✓ ... 加载成功 (type: function)`
+   - `✓ HTTP 响应验证通过 — 有效的 RSS/Atom 格式 (...)`
+
+   如只验证模块加载（不提供 type），省略第二参数即可。
 3. 清理临时文件（仅当文件存在时）:
    ```powershell
    Remove-Item _temp_page.html -ErrorAction SilentlyContinue
