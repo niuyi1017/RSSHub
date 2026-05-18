@@ -399,6 +399,18 @@
 
 </Route>
 
+## 威海市人民政府
+
+### 事业单位招考
+
+<Route author="yanbot-team" example="/weihai/gov/WHA3303" path="/weihai/gov/:type" :paramsDesc="['信息类型编号，对应 URL 中 number= 参数']" >
+
+| 事业单位招考 |
+| ------------ |
+| WHA3303      |
+
+</Route>
+
 ## 泰安市人力资源和社会保障局
 
 ### 事业单位公开招聘专栏
