@@ -387,6 +387,66 @@
 
 </Route>
 
+## 济宁市人力资源和社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/jining/hrss/col-col71291" path="/jining/hrss/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘 |
+| ---------------- |
+| col-col71291     |
+
+</Route>
+
+## 临沂市人力资源和社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/linyi/rsj/index-kstd-sydwgkzp" path="/linyi/rsj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 .htm']" >
+
+| 事业单位公开招聘       |
+| ---------------------- |
+| index-kstd-sydwgkzp    |
+
+</Route>
+
+## 日照市人力资源和社会保障局
+
+### 事业单位公开招聘专题
+
+<Route author="yanbot-team" example="/rizhao/hrss/col33298" path="/rizhao/hrss/:type" :paramsDesc="['栏目 ID，即 URL 路径中 col/ 后的部分']" >
+
+| 事业单位公开招聘专题 |
+| -------------------- |
+| col33298             |
+
+</Route>
+
+## 威海市人民政府
+
+### 事业单位招考
+
+<Route author="yanbot-team" example="/weihai/gov/WHA3303" path="/weihai/gov/:type" :paramsDesc="['信息类型编号，对应 URL 中 number= 参数']" >
+
+| 事业单位招考 |
+| ------------ |
+| WHA3303      |
+
+</Route>
+
+## 泰安市人力资源和社会保障局
+
+### 事业单位公开招聘专栏
+
+<Route author="yanbot-team" example="/taian/rsj/col-col317827" path="/taian/rsj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘专栏 |
+| -------------------- |
+| col-col317827        |
+
+</Route>
+
 ## 山东省人力资源和社会保障厅
 
 ### 省属事业单位公开招聘服务平台
@@ -1064,3 +1124,67 @@
 
 </Route>
 
+
+## 西南科技大学
+
+### 研究生院招生网
+
+<Route author="yanbot-team" example="/swust/gs/7797" path="/swust/gs/:type" :paramsDesc="['栏目类型（对应菜单 ID）']" >
+
+| 招生政策 | 博士招生 | 硕士招生 | 研招考点 | 下载中心 | 联系方式 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| 7796     | 7798     | 7797     | 7799     | 7800     | rdzx_7914 |
+
+</Route>
+
+## 齐齐哈尔医学院
+
+### 研究生处
+
+<Route author="yanbot-team" example="/qmu/yjs/7525" path="/qmu/yjs/:type" :paramsDesc="['栏目类型']" >
+
+| 机构介绍 | 招生工作 | 培养工作 | 研究生工作 | 学位工作 | 博士后工作 | 导师队伍 | 下载专区 |
+| -------- | -------- | -------- | ---------- | -------- | ---------- | -------- | -------- |
+| 7524     | 7525     | 7526     | 7527       | 7528     | bshgz      | 7529     | xzzq     |
+
+| 研究生院职责 | 人员概况   | 培养过程 | 教学管理 | 学籍管理 | 毕业答辩和学位授予 | 导师队伍(子) | 学位点工作 | 相关文件 |
+| ------------ | ---------- | -------- | -------- | -------- | ------------------ | ------------ | ---------- | -------- |
+| xkglczz      | rygk_7904  | pygc     | jxgl     | xjgl     | bydbhxwsy          | dsdw         | xwdgz      | xgwj     |
+
+</Route>
+
+## 菏泽市人社局
+
+### 人事考试
+
+<Route author="yanbot-team" example="/heze/hzrsj/1605410107364085760" path="/heze/hzrsj/:type" :paramsDesc="['栏目 ID（catas 参数值）']" >
+
+| 考试动态             | 公告公示             | 证书办理             | 表格下载             |
+| -------------------- | -------------------- | -------------------- | -------------------- |
+| 1605409979303596032  | 1605410107364085760  | 1605410239971201024  | 1605410292517441536  |
+
+</Route>
+
+## 聊城市人社局
+
+### 人事考试及人才评价
+
+<Route author="yanbot-team" example="/liaocheng/rsj/666f974390c6f8710d966dc2" path="/liaocheng/rsj/:type" :paramsDesc="['频道 ID（channel_ 后的字符串）']" >
+
+| 人事考试及人才评价         | 最新动态                 | 证书办理                 | 服务指南                 |
+| -------------------------- | ------------------------ | ------------------------ | ------------------------ |
+| 666f974390c6f8710d966dc2   | 666f97f93beffaaf6d793fa7 | 666f9807c29e585539966e14 | 666f9817e37d795fe8793f58 |
+
+</Route>
+
+## 德州市人社局
+
+### 事业单位招聘
+
+<Route author="yanbot-team" example="/dezhou/hrss/n49554914-n49555085" path="/dezhou/hrss/:type" :paramsDesc="['栏目类型']" >
+
+| 招考信息              |
+| --------------------- |
+| n49554914-n49555085   |
+
+</Route>
