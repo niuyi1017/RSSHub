@@ -399,6 +399,18 @@
 
 </Route>
 
+## 日照市人力资源和社会保障局
+
+### 事业单位公开招聘专题
+
+<Route author="yanbot-team" example="/rizhao/hrss/col33298" path="/rizhao/hrss/:type" :paramsDesc="['栏目 ID，即 URL 路径中 col/ 后的部分']" >
+
+| 事业单位公开招聘专题 |
+| -------------------- |
+| col33298             |
+
+</Route>
+
 ## 威海市人民政府
 
 ### 事业单位招考
