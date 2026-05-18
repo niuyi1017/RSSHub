@@ -387,6 +387,18 @@
 
 </Route>
 
+## 济宁市人力资源和社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/jining/hrss/col-col71291" path="/jining/hrss/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘 |
+| ---------------- |
+| col-col71291     |
+
+</Route>
+
 ## 山东省人力资源和社会保障厅
 
 ### 省属事业单位公开招聘服务平台
