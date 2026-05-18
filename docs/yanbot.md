@@ -399,6 +399,18 @@
 
 </Route>
 
+## 泰安市人力资源和社会保障局
+
+### 事业单位公开招聘专栏
+
+<Route author="yanbot-team" example="/taian/rsj/col-col317827" path="/taian/rsj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 /index.html']" >
+
+| 事业单位公开招聘专栏 |
+| -------------------- |
+| col-col317827        |
+
+</Route>
+
 ## 山东省人力资源和社会保障厅
 
 ### 省属事业单位公开招聘服务平台
