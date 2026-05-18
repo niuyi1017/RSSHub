@@ -1152,3 +1152,15 @@
 | xkglczz      | rygk_7904  | pygc     | jxgl     | xjgl     | bydbhxwsy          | dsdw         | xwdgz      | xgwj     |
 
 </Route>
+
+## 德州市人社局
+
+### 事业单位招聘
+
+<Route author="yanbot-team" example="/dezhou/hrss/n49554914-n49555085" path="/dezhou/hrss/:type" :paramsDesc="['栏目类型']" >
+
+| 招考信息              |
+| --------------------- |
+| n49554914-n49555085   |
+
+</Route>
