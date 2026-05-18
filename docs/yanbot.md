@@ -399,6 +399,18 @@
 
 </Route>
 
+## 临沂市人力资源和社会保障局
+
+### 事业单位公开招聘
+
+<Route author="yanbot-team" example="/linyi/rsj/index-kstd-sydwgkzp" path="/linyi/rsj/:type" :paramsDesc="['栏目类型，将 URL 路径中的 / 替换为 -，去掉末尾 .htm']" >
+
+| 事业单位公开招聘       |
+| ---------------------- |
+| index-kstd-sydwgkzp    |
+
+</Route>
+
 ## 日照市人力资源和社会保障局
 
 ### 事业单位公开招聘专题
