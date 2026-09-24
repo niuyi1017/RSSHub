@@ -283,11 +283,11 @@
 
 ### 机械与动力工程学院
 
-<Route author="yanbot-team" example="/hpu/smpe/yjsjy-zsgl" path="/hpu/smpe/:type" :paramsDesc="['栏目类型']" >
+<Route author="yanbot-team" example="/hpu/smpe/zsjy-yjszs-zsgl" path="/hpu/smpe/:type" :paramsDesc="['栏目路径，短横线代替 /；yjsjy-zsgl 兼容 zsjy-yjszs-zsgl']" >
 
 | 通知公告   | 招生管理   | 人才培养   | 资料下载   |
 | ---------- | ---------- | ---------- | ---------- |
-| yjsjy-tzgg | yjsjy-zsgl | yjsjy-rcpy | yjsjy-zlxz |
+| yjsjy-tzgg | zsjy-yjszs-zsgl | yjsjy-rcpy | yjsjy-zlxz |
 
 </Route>
 
@@ -459,6 +459,16 @@
 
 </Route>
 ## 陕西科技大学
+
+### 研究生招生信息网硕士招生
+
+<Route author="yanbot-team" example="/sust/yjszs/sszs-tzgg" path="/sust/yjszs/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士通知公告 | 硕士招生目录 |
+| ------------ | ------------ |
+| sszs-tzgg | sszs-zsml |
+
+</Route>
 
 ### 材料科学与工程学院通知公告
 
@@ -964,13 +974,13 @@
 
 ## 河北金融学院
 
-### 研究生部（招生就业）
+### 研究生招生（现行栏目）
 
-<Route author="yanbot-team" example="/hbfu/yjs/605" path="/hbfu/yjs/:type" :paramsDesc="['栏目 navId（数字），数据来自站点 web/queryContentList；招生就业下子栏目见下表，与 https://news.hbfu.edu.cn/yjs/ListPage?parentId=604&parentName=%E6%8B%9B%E7%94%9F%E5%B0%B1%E4%B8%9A&flag=1 同源']" >
+<Route author="yanbot-team" example="/hbfu/yjs/2886" path="/hbfu/yjs/:type" :paramsDesc="['当前栏目 navId；605 兼容映射到 2886']" >
 
-| 招生动态 | 就业服务 |
-| -------- | -------- |
-| 605 | 606 |
+| 通知公告 | 政策文件 | 信息公开 | 下载专区 | 旧招生动态（兼容） | 旧就业服务 |
+| ---------------- | -------- | -------- | -------- | ------------------ | ---------- |
+| 2886 | 2887 | 2888 | 2889 | 605 | 606 |
 
 </Route>
 
@@ -1042,17 +1052,21 @@
 
 ## 淮阴工学院
 
-### 研究生院（gd.hyit.edu.cn）
+### 淮安大学研究生院招生信息（新站）
 
-<Route author="yanbot-team" example="/hyit/gd/zsgz" path="/hyit/gd/:type" :paramsDesc="['栏目路径，短横线代替 /，扩展名 .htm 已内置，如 zsgz 对应 https://gd.hyit.edu.cn/zsgz.htm，zsgz-tzgg 对应 https://gd.hyit.edu.cn/zsgz/tzgg.htm']" >
+<Route author="yanbot-team" example="/hyit/gd/zsxx-tzgg" path="/hyit/gd/:type" :paramsDesc="['栏目路径；旧 zsgz 和 zsgz-tzgg 映射到 zsxx-tzgg']" >
+
+| 招生通知 | 招生文件 | 导师专区 | 研招资讯 | 旧招生工作（兼容） | 旧招生通知（兼容） | 旧招生文件（兼容） |
+| ---------------- | -------- | -------- | -------- | ------------------ | ------------------ | ------------------ |
+| zsxx-tzgg | zsxx-zswj | zsxx-dszq | zsxx-yzzx1 | zsgz | zsgz-tzgg | zsgz-zswj |
 
 | 部门概况 | 工作职责 | 服务流程 | 人员及联系方式 |
 | -------- | -------- | -------- | -------------- |
 | bmgk1 | bmgk1-gzzz | bmgk1-fwlc | bmgk1-ryjlxfs |
 
-| 招生工作 | 通知公告 | 招生文件 | 下载专区 |
-| -------- | -------- | -------- | -------- |
-| zsgz | zsgz-tzgg | zsgz-zswj | zsgz-xzzq |
+| 招生下载专区 |
+| ------------ |
+| zsgz-xzzq |
 
 | 培养工作 | 通知公告 | 培养文件 | 下载专区 |
 | -------- | -------- | -------- | -------- |
@@ -1112,7 +1126,7 @@
 
 ### 研究生招生网（WordPress）
 
-<Route author="yanbot-team" example="/fosu/yjszs/category-sszs" path="/fosu/yjszs/:type" :paramsDesc="['分类路径，短横线代替 /，如 category-sszs 对应 https://www.fosu.edu.cn/yjszs/category/sszs；含二级分类时用连续短横线，如 category-sszs-sszs_tzgg；列表与正文抓取依赖无头浏览器（较慢）']" >
+<Route author="yanbot-team" example="/fosu/yjszs/category-sszs" path="/fosu/yjszs/:type" :paramsDesc="['分类路径，短横线代替 /，如 category-sszs 对应 https://www.fosu.edu.cn/yjszs/category/sszs；二级分类如 category-sszs-sszs_tzgg']" >
 
 | 硕士招生 | 通知公告 | 简章目录 | 考试大纲 | 报名初试 | 文件规定 | 表格下载 | 联系我们 |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -1124,14 +1138,17 @@
 
 </Route>
 
-
 ## 西南科技大学
 
-### 研究生院招生网
+### 研究生招生网现行栏目
 
-<Route author="yanbot-team" example="/swust/gs/7797" path="/swust/gs/:type" :paramsDesc="['栏目类型（对应菜单 ID）']" >
+<Route author="yanbot-team" example="/swust/gs/13185" path="/swust/gs/:type" :paramsDesc="['栏目 ID；7797、7796、7798 分别兼容 13185、13183、13184']" >
 
-| 招生政策 | 博士招生 | 硕士招生 | 研招考点 | 下载中心 | 联系方式 |
+| 硕士招生 | 招生政策 | 博士招生 | 通知公告汇总 | 招生通知 | 通知下招生政策 |
+| -------- | -------- | -------- | ------------ | -------- | -------------- |
+| 13185 | 13183 | 13184 | 13182 | 13192 | 13193 |
+
+| 旧招生政策（兼容） | 旧博士招生（兼容） | 旧硕士招生（兼容） | 研招考点 | 下载中心 | 联系方式 |
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | 7796     | 7798     | 7797     | 7799     | 7800     | rdzx_7914 |
 
@@ -1141,7 +1158,7 @@
 
 ### 研究生处
 
-<Route author="yanbot-team" example="/qmu/yjs/7525" path="/qmu/yjs/:type" :paramsDesc="['栏目类型']" >
+<Route author="yanbot-team" example="/qmu/yjs/7525" path="/qmu/yjs/:type" :paramsDesc="['栏目类型；旧 /qmu/yzb/734 兼容 /qmu/yjs/7525']" >
 
 | 机构介绍 | 招生工作 | 培养工作 | 研究生工作 | 学位工作 | 博士后工作 | 导师队伍 | 下载专区 |
 | -------- | -------- | -------- | ---------- | -------- | ---------- | -------- | -------- |
@@ -1186,5 +1203,301 @@
 | 招考信息              |
 | --------------------- |
 | n49554914-n49555085   |
+
+</Route>
+
+## 上海交通大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/sjtu/yzb/zkxx-sszs" path="/sjtu/yzb/:type" :paramsDesc="['栏目路径，短横线代替 /，无扩展名']" >
+
+| 硕士招考信息 | 硕士招生简章 | 考点信息 | 招生动态（夏令营） | 博士招考信息 | 港澳台招考信息 | 院系动态 |
+| ------------ | ------------ | -------- | ------------------ | ------------ | -------------- | -------- |
+| zkxx-sszs | zsjz-sszs | zkxx-kdxx | zkxx-zsdt | zkxx-bszs | zkxx-gatzs | zkxx-yxdt |
+
+</Route>
+
+## 天津大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/tju/yzb/master" path="/tju/yzb/:type?" :paramsDesc="['栏目类型，默认 notice']" >
+
+| 统考硕士 | 校级公告 | 统考博士 | 在职学位 |
+| ---------------- | -------- | -------- | -------- |
+| master | notice | doctor | job |
+
+</Route>
+
+## 河北工业大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/hebut/yjs/zsgz/ssyjszszl" path="/hebut/yjs/zsgz/:type" :paramsDesc="['招生工作下的栏目路径，短横线代替 /']" >
+
+| 硕士通知（兼容父栏目） | 硕士通知 | 硕士目录 | 硕士招生文件 | 硕士公示 | 招生总通知 |
+| ---------------------- | -------- | -------- | ------------ | -------- | ---------- |
+| ssyjszszl | ssyjszszl-tzgg3_0 | ssyjszszl-zsmly | ssyjszszl-zswj | ssyjszszl-gszl1 | zsgztzgg |
+
+</Route>
+
+## 吉林大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/jlu/yzb/sszs-zsgg" path="/jlu/yzb/:type" :paramsDesc="['栏目路径，短横线代替 /；旧 /jlu/zsb/18 兼容 sszs-zsgg']" >
+
+| 硕士招生公告 | 硕士招生简章 | 硕士分数线 | 硕士录取公示 | 通知公告 | 录取公示汇总 | 博士公告 | 博士简章 | 博士录取公示 | 港澳台招生 | 直播回放 | 招宣动态 | 招生宣传片 |
+| ------------ | ------------ | ---------- | ------------ | -------- | ------------ | -------- | -------- | ------------ | ---------- | -------- | -------- | ---------- |
+| sszs-zsgg | sszs-zsjz | sszs-fsx | sszs-lqgs | index-tzgg | index-lqgs | bszs-zsgg | bszs-zsjz | bszs-lqgs | gatzs | zsxc-zbhf | zsxc-zxdt | zsxc-zsxcp |
+
+</Route>
+
+## 湖南大学
+
+### 研究生院招生信息汇总
+
+<Route author="yanbot-team" example="/hnu/gra/zsxx" path="/hnu/gra/:type" :paramsDesc="['官网 index 目录下的栏目路径，短横线代替 /']" >
+
+| 招生信息汇总 |
+| -------------------- |
+| zsxx |
+
+</Route>
+
+## 中南财经政法大学
+
+### 研究生招生网
+
+<Route author="yanbot-team" example="/zuel/yzb/4643" path="/zuel/yzb/:type" :paramsDesc="['栏目 ID']" >
+
+| 硕士研究生 | 招生简章 | 公告栏 | 推免生 | 博士研究生 | 港澳台招生 | 非全日制招生 |
+| ---------- | -------- | ------ | ------ | ---------- | ---------- | ------------ |
+| 4643 | 4640 | 4639 | 4644 | 4645 | 4642 | 4647 |
+
+</Route>
+
+## 广州中医药大学
+
+### 研究生院硕士生招生
+
+<Route author="yanbot-team" example="/gzucm/yjsy/zsgz1-ssszs" path="/gzucm/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士生招生 | 招生工作汇总 | 博士生招生 |
+| ---------- | ------------ | ---------- |
+| zsgz1-ssszs | zsgz1 | zsgz1-bsszs |
+
+</Route>
+
+## 北京印刷学院
+
+### 研究生院硕士招生
+
+<Route author="yanbot-team" example="/bigc/gs/yjszs-sszs" path="/bigc/gs/:type" :paramsDesc="['栏目路径，短横线代替 /，index.htm 已内置']" >
+
+| 硕士招生汇总 | 2027 年硕士招生 | 2026 年硕士招生（旧任务） | 2025 年硕士招生 | 博士招生 |
+| -------------------- | --------------- | ------------------------ | --------------- | -------- |
+| yjszs-sszs | yjszs-sszs-2027nzs | yjszs-sszs-2026nzs | yjszs-sszs-2025nzs | yjszs-bszs |
+
+</Route>
+
+## 重庆医科大学
+
+### 研究生招生网现行通知
+
+<Route author="yanbot-team" example="/cqmu/yjszs/index-tzgg" path="/cqmu/yjszs/:type" :paramsDesc="['栏目路径，短横线代替 /；旧 tzgg-75 映射到 index-tzgg']" >
+
+| 通知公告 | 招生简章 | 信息公开（拟录取） | 招生动态 | 新生专栏 | 旧通知参数（兼容） |
+| ---------------- | -------- | ------------------ | -------- | -------- | ------------------ |
+| index-tzgg | index-zsjz | index-xxgk | index-zsdt | index-xszl | tzgg-75 |
+
+</Route>
+
+## 贵州民族大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/gzmu/yjsy/zsgz-ssyjszs" path="/gzmu/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /，无扩展名']" >
+
+| 硕士研究生招生 | 招生工作汇总 | 博士研究生招生 |
+| -------------- | ------------ | -------------- |
+| zsgz-ssyjszs | zsgz | zsgz-bsyjszs |
+
+</Route>
+
+## 山东中医药大学
+
+### 研究生招生信息网
+
+<Route author="yanbot-team" example="/sdutcm/yjs/zsgz-sszs-tz" path="/sdutcm/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /；旧 zsgz 兼容硕士通知']" >
+
+| 硕士通知 | 全日制硕士 | 同等学力硕士 | 推免生招生 | 招生政策 | 博士通知 | 旧招生工作（兼容） |
+| -------- | ---------- | ------------ | ---------- | -------- | -------- | ------------------ |
+| zsgz-sszs-tz | zsgz-sszs-qrzssyjs | zsgz-sszs-tdxlssyjs | zsgz-tmszs | zsgz-zszc | zsgz-bszs-tz | zsgz |
+
+</Route>
+
+## 西安科技大学
+
+### 研究生院招生通知
+
+<Route author="yanbot-team" example="/xust/yjs/tzgg-zsgz" path="/xust/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 招生总通知 | 硕士招生 | 博士招生 |
+| ------------------ | -------- | -------- |
+| tzgg-zsgz | zsgz-sszs | zsgz-bszs |
+
+</Route>
+
+## 湖北工业大学
+
+### 研究生院硕士招生
+
+<Route author="yanbot-team" example="/hbut/yjs/zsgz-sszs" path="/hbut/yjs/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 | 硕士招生简章 | 招生信息查询 |
+| -------- | ------------ | ------------ |
+| zsgz-sszs | zsgz-sszs-zsjz | zsgz-sszs-zsxxcx |
+
+</Route>
+
+## 湖南中医药大学
+
+### 研究生院招生信息
+
+<Route author="yanbot-team" example="/hnucm/yjsy/zsxx-tzgg" path="/hnucm/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 招生通知 | 招生简章 | 硕士生招生 | 博士生招生 | 招生下载 |
+| -------- | -------- | ---------- | ---------- | -------- |
+| zsxx-tzgg | zsxx-zsjz | zsxx-ssszs | zsxx-bsszs | xzzq-zsgz |
+
+</Route>
+
+## 长江大学
+
+### 研究生院招生工作
+
+<Route author="yanbot-team" example="/yangtzeu/gs/zsgz-sszs" path="/yangtzeu/gs/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 | 招生简章及专业目录 | 招生信息汇总 | 博士招生 |
+| -------- | ------------------ | ------------ | -------- |
+| zsgz-sszs | zsgz-zsjzjzyml | index-zsxx | zsgz-bszs |
+
+</Route>
+
+## 闽南师范大学
+
+### 研究生院硕士研究生招生
+
+<Route author="yanbot-team" example="/mnnu/yjsy/zsgz-ssyjszs" path="/mnnu/yjsy/:type" :paramsDesc="['栏目路径，短横线代替 /；旧 yjsc 路径兼容']" >
+
+| 硕士研究生招生 | 博士研究生招生 | 港澳台博士招生 |
+| -------------- | -------------- | -------------- |
+| zsgz-ssyjszs | zsgz-bsyjszs | zsgz-gatbsszs |
+
+</Route>
+
+## 甘肃中医药大学
+
+### 研究生院招生在线
+
+<Route author="yanbot-team" example="/gszy/yjsc/12" path="/gszy/yjsc/:type" :paramsDesc="['栏目 cid；11 兼容到 12']" >
+
+| 招生在线汇总 | 硕士招生 | 博士招生 | 旧招生工作（兼容） |
+| -------------------- | -------- | -------- | ------------------ |
+| 12 | 91 | 92 | 11 |
+
+</Route>
+
+## 安徽中医药大学
+
+### 研究生院硕士招生
+
+<Route author="yanbot-team" example="/ahtcm/yjsb/zsgz-sszs" path="/ahtcm/yjsb/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 | 硕士报考点 | 博士招生 | 港澳台招生 |
+| -------- | ---------- | -------- | ---------- |
+| zsgz-sszs | zsgz-ssbkd | zsgz-bszs | zsgz-gatzs |
+
+</Route>
+
+## 上海大学
+
+### 材料学院研究生通知（兼容）
+
+<Route author="yanbot-team" example="/shu/mat/tzgg-yjs" path="/shu/mat/:type" :paramsDesc="['sycdlm 下栏目路径，短横线代替 /']" >
+
+| 研究生通知 |
+| ------------------------ |
+| tzgg-yjs |
+
+</Route>
+
+### 校级硕士招生
+
+<Route author="yanbot-team" example="/shu/yjszs/zslb-sszs" path="/shu/yjszs/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 |
+| -------- |
+| zslb-sszs |
+
+</Route>
+
+## 同济大学
+
+### 校级研究生招生网
+
+<Route author="yanbot-team" example="/tongji/yz/zsxw-sszs" path="/tongji/yz/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 | 硕士招生简章 | 公告通知 | 博士招生 |
+| -------- | ------------ | -------- | -------- |
+| zsxw-sszs | zsjz-sszsjz | zsxw-ggtz | zsxw-bszs |
+
+</Route>
+
+### 职业技术教育学院（历史栏目）
+
+<Route author="yanbot-team" example="/tongji/cdibb/37896" path="/tongji/cdibb/:type" :paramsDesc="['栏目 ID；17655 官网已空，37896 为历史招生']" >
+
+| 历史研究生招生 | 历史招生父栏目 | 已空教务公告 |
+| -------------- | -------------- | ------------ |
+| 37896 | 37865 | 17655 |
+
+</Route>
+
+## 北京农学院
+
+### 研究生招生网通知公告
+
+<Route author="yanbot-team" example="/bua/yz/tzgg" path="/bua/yz/:type" :paramsDesc="['栏目名；tzgg 使用 index/ 前缀，zsjz、ksdg、zsdt 位于官网根目录']" >
+
+| 通知公告 | 招生简章 | 考试大纲 | 招生动态 |
+| -------- | -------- | -------- | -------- |
+| tzgg | zsjz | ksdg | zsdt |
+
+</Route>
+
+## 北方民族大学
+
+### 研究生院硕士招生
+
+<Route author="yanbot-team" example="/nmu/yjsc/zsgz-sszs" path="/nmu/yjsc/:type" :paramsDesc="['栏目路径，短横线代替 /']" >
+
+| 硕士招生 | 通知公告 |
+| -------- | ------------------------------ |
+| zsgz-sszs | tzgg |
+
+</Route>
+
+## 河南农业大学
+
+### 外国语学院复试调剂补充源
+
+<Route author="yanbot-team" example="/henau/wgyxy/index-tzgg" path="/henau/wgyxy/:type" :paramsDesc="['栏目路径，短横线代替 /；42 兼容 index-tzgg']" >
+
+| 通知公告（专业补充） | 旧通知公告（兼容） | 研究生招生（空栏目） |
+| -------------------- | ------------------ | ---------------------------- |
+| index-tzgg | 42 | zsjy-yjszs |
 
 </Route>

@@ -17,7 +17,7 @@
     "build:maintainer": "node scripts/workflow/build-maintainer.js",
     "lint": "eslint .",
     "format": "eslint \"**/*.{js,yml}\" --fix && node docs/.format/format.js && prettier \"**/*.{js,json}\" --write",
-    "format:staged": "eslint \"**/*.{js,yml}\" --fix && node docs/.format/format.js --staged && pretty-quick --staged --verbose --pattern \"**/*.{js,json}\"",
+    "format:staged": "node scripts/lint-staged.js && node docs/.format/format.js --staged && pretty-quick --staged --verbose --pattern \"**/*.{js,json}\"",
     "format:check": "eslint \"**/*.{js,yml}\" && prettier-check \"**/*.{js,json}\"",
     "jest": "cross-env NODE_ENV=test jest --runInBand --forceExit --detectOpenHandles",
     "jest:coverage": "cross-env NODE_ENV=test jest --coverage --reporters=default --reporters=jest-junit --runInBand --forceExit --detectOpenHandles",
