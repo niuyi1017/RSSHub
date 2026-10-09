@@ -85,8 +85,8 @@ describe('admission feed safeguards', () => {
 });
 
 it.each([
-    ['zuel/yzb', '4643', '<div id="wp_news_w6"><ul class="news_list"><li class="news"><a href="/a">招生公告</a><span class="news_meta">2026-09-01</span></li></ul></div>'],
-    ['gszy/yjsc', '11', '<div class="list_news_li"><a href="/show/id/1.html"><span>2026-09-01</span><h3>招生公告</h3></a></div>'],
+    ['zuel/yzb', '4643', '<div id="wp_news_w6"><ul class="news_list"><li class="news"><div class="news_title"><a href="/a">招生公告</a></div><span class="news_meta">2026-09-01</span></li></ul></div>'],
+    ['gszy/yjsc', '91', '<div class="main_er_right"><div class="list_news_ul"><div class="list_news_li"><a href="/show/id/1.html"><span>2026-09-01</span><h3>招生公告</h3></a></div></div></div>'],
     [
         'cmu/cmuyjs',
         'zsxx-tkss',
@@ -124,10 +124,14 @@ it('uses the current CQMU notice list instead of fetching the whole homepage', a
 });
 
 it.each([
-    ['hebut/yjs/index', 'zsgztzgg', '<ul class="block-list64"><li><a class="gpTextArea" href="notice.htm"><span class="gpArticleDate">2026-07-03</span><p class="gpArticleTitle">硕士招生通知</p></a></li></ul>'],
-    ['bigc/gs', 'yjszs-sszs-2026nzs', '<ul class="list03"><li><span>2026-06-12</span><a href="notice.htm">硕士招生通知</a></li></ul>'],
-    ['hnucm/yjsy', 'zsxx-ssszs', '<div class="list-right"><ul class="list"><li><a href="../info/1095/5924.htm"><div>硕士招生通知</div><p>2026-07-03</p></a></li></ul></div>'],
-    ['yangtzeu/gs', 'zsgz-sszs', '<div class="newlist1"><ul class="list"><li><a href="../info/1009/6091.htm"><h3>硕士招生通知</h3><span>2026-07-03</span></a></li></ul></div>'],
+    [
+        'hebut/yjs/index',
+        'zsgztzgg',
+        '<div class="page-list18"><ul class="block-list64"><li><a class="gpTextArea" href="notice.htm"><span class="gpArticleDate">2026-07-03</span><p class="gpArticleTitle">硕士招生通知</p></a></li></ul></div>',
+    ],
+    ['bigc/gs', 'yjszs-sszs', '<section class="subPage"><ul class="list03"><li><span>2026-06-12</span><a href="notice.htm">硕士招生通知</a></li></ul></section>'],
+    ['hnucm/yjsy', 'zsxx-ssszs', '<div class="list-right"><ul class="list"><li><a href="../info/1095/5924.htm" title="硕士招生通知"><div>硕士招生通知</div><p>2026-07-03</p></a></li></ul></div>'],
+    ['yangtzeu/gs', 'zsgz-sszs', '<div class="inner_right"><div class="newlist1"><ul class="list"><li><a href="../info/1009/6091.htm" title="硕士招生通知"><h3>硕士招生通知</h3><span>2026-07-03</span></a></li></ul></div></div>'],
     ['bua/yz', 'tzgg', '<div class="text-list"><ul><li><span>2026-07-03</span><a href="../info/1231/3391.htm">硕士招生通知</a></li></ul></div>'],
     ['lyu/yjsc', '5046-list', '<ul class="wp_article_list"><li><span class="Article_Title"><a href="/2026/0330/c5046a258152/page.htm">硕士招生通知</a></span><span class="Article_PublishDate">2026-07-03</span></li></ul>'],
     [
