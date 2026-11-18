@@ -19,10 +19,10 @@ jobs:
             - name: Deploy
               uses: appleboy/ssh-action@master
               with:
-                  host: ${{ secrets.HOST_PORD }}
-                  username: ${{ secrets.USER_PORD }}
-                  password: ${{ secrets.PWD_PORD }}
-                  port: ${{ secrets.PORT_PORD }}
+                  host: ${{ secrets.HOST_PROD }}
+                  username: ${{ secrets.USER_PROD || secrets.USER_PORD }}
+                  password: ${{ secrets.PWD_PROD || secrets.PWD_PORD }}
+                  port: ${{ secrets.PORT_PROD || secrets.PORT_PORD || '22' }}
                   script: |
                       pwd
                       cd /www/RSSHub
