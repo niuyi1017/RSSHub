@@ -24,13 +24,16 @@ jobs:
                   password: ${{ secrets.PWD_PROD || secrets.PWD_PORD }}
                   port: ${{ secrets.PORT_PROD || secrets.PORT_PORD || '22' }}
                   script: |
-                      pwd
+                      set -e
                       cd /www/RSSHub
-                      git pull
-                      rm -rf node_modules
+                      if [ ! -d node_modules ]; then
+                          echo "RSSHub dependencies are missing from /www/RSSHub/node_modules" >&2
+                          exit 1
+                      fi
+                      git pull --ff-only
+                      git rev-parse HEAD
                       nvm use 16
                       node -v
-                      yarn install --production
+                      node -e "try { require('re2'); require('./lib/app'); process.exit(0) } catch (error) { console.error(error); process.exit(1) }"
                       pm2 restart rsshub
-                      ls
                       pm2 ls
