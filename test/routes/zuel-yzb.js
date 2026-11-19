@@ -40,8 +40,10 @@ it('通过 puppy 只采集指定招生栏目列表，保留完整标题、HTTPS 
     expect(charter.title).toBe(fullTitle);
     expect(charter.description).toBe(fullTitle);
     expect(charter.link).toBe(`${host}/2026/0930/c4643a456789/page.htm`);
+    expect(charter.guid).toBe('http://yzb.zuel.edu.cn/2026/0930/c4643a456789/page.htm');
     expect(charter.pubDate.toISOString()).toBe('2026-09-29T16:00:00.000Z');
     expect(notice.link).toBe(`${host}/2026/0911/c4643a456700/page.htm`);
+    expect(notice.guid).toBe('http://yzb.zuel.edu.cn/2026/0911/c4643a456700/page.htm');
     expect(notice.pubDate.toISOString()).toBe('2026-09-10T16:00:00.000Z');
     expect(getInstance).toHaveBeenCalledTimes(1);
     expect(scrapeUrl).toHaveBeenCalledTimes(1);
